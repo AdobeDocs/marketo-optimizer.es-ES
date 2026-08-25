@@ -1,7 +1,9 @@
 ---
 title: Formularios
 description: 'Cree y administre formularios reutilizables para la recopilación de datos empresariales: campos de diseño, establezca páginas de agradecimiento, publique y realice un seguimiento del uso en Marketo Optimizer.'
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 2434

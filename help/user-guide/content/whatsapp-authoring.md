@@ -1,7 +1,8 @@
 ---
 title: Creación de WhatsApp
 description: Cree mensajes de WhatsApp para recorridos de personas mediante plantillas de Meta aprobadas, tokens de personalización y ajustes de entrega en Marketo Optimizer.
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 801

@@ -20,7 +20,7 @@ Un nodo de Rutas divididas define una o más rutas segmentadas en función de lo
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**Funcionamiento de un nodo de ruta dividida por personas**_
+_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 * La evaluación de cada ruta es de arriba abajo. Si una persona coincide para la primera y la segunda ruta, solo continúa por la primera ruta.
 * El nodo admite la definición de una ruta de acceso de _Otras personas_, donde puede agregar acciones o eventos para las personas que no coincidan con uno de los segmentos o rutas definidos.

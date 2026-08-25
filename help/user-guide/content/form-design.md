@@ -14,7 +14,7 @@ Después de [crear un formulario](./forms.md#create-forms), el espacio de diseñ
 
 ![Espacio de diseño de formulario](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-El botón _**Enviar**_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
+El botón _&#x200B;**Enviar**&#x200B;_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
 
 ## Campos {#fields}
 

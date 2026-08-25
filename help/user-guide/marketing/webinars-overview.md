@@ -4,7 +4,9 @@ description: Conozca los conceptos subyacentes a los seminarios web interactivos
 keywords: 
 role: User
 feature: Channels
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: 1085
@@ -69,13 +71,13 @@ Los tokens de seminario web están disponibles en cualquier lugar donde personal
 
 Los tokens de nivel de recurso se sientan directamente en la carpeta del seminario web:
 
-- Título
-- Descripción
-- Fecha y hora de inicio y fecha y hora de finalización
-- Duración
-- Zona horaria
-- Presentadores
-- URL de grabación
+&#x200B;- Título
+&#x200B;- Descripción
+&#x200B;- Fecha y hora de inicio y fecha y hora de finalización
+&#x200B;- Duración
+&#x200B;- Zona horaria
+&#x200B;- Presentadores
+&#x200B;- URL de grabación
 
 >[!NOTE]
 >
@@ -83,9 +85,9 @@ Los tokens de nivel de recurso se sientan directamente en la carpeta del seminar
 
 Los tokens de cada destinatario se encuentran en una subcarpeta **Member**:
 
-- **Estado** - El estado actual del seminario web del destinatario (Invitado, Registrado, Asistido, Sin presencia o Asistido bajo demanda). Ver [estado del seminario web](#webinar-status).
-- **Unirse a la dirección URL**: vínculo personal [!DNL Adobe Connect] del destinatario. Esto solo se resuelve después de que el estado del seminario web del destinatario sea Registrado o posterior. Se resuelve en blanco para cualquiera en una etapa anterior.
-- **URL de grabación**: se resuelve después de que se publique la grabación después de la sesión en directo y permanece vacía hasta entonces. Utilícelo de forma condicional en los correos electrónicos posteriores al seminario web para que no aparezca un vínculo antes de que se muestre una grabación.
+&#x200B;- **Estado** - El estado actual del seminario web del destinatario (Invitado, Registrado, Asistido, Sin presencia o Asistido bajo demanda). Ver [estado del seminario web](#webinar-status).
+&#x200B;- **Unirse a la dirección URL**: vínculo personal [!DNL Adobe Connect] del destinatario. Esto solo se resuelve después de que el estado del seminario web del destinatario sea Registrado o posterior. Se resuelve en blanco para cualquiera en una etapa anterior.
+&#x200B;- **URL de grabación**: se resuelve después de que se publique la grabación después de la sesión en directo y permanece vacía hasta entonces. Utilícelo de forma condicional en los correos electrónicos posteriores al seminario web para que no aparezca un vínculo antes de que se muestre una grabación.
 
 >[!NOTE]
 >

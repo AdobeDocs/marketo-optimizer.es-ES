@@ -60,8 +60,8 @@ Para abrir la superficie de diseño [!DNL Adobe Connect], incrustada directament
 
 1. Elija un **modo de envío**:
 
-   - **En vivo**: los moderadores organizan la sesión en tiempo real.
-   - **Simulación en vivo**: el contenido pregrabado se reproduce a la hora programada, junto con el chat en vivo, las encuestas y las preguntas y respuestas.
+   &#x200B;- **En vivo**: los moderadores organizan la sesión en tiempo real.
+   &#x200B;- **Simulación en vivo**: el contenido pregrabado se reproduce a la hora programada, junto con el chat en vivo, las encuestas y las preguntas y respuestas.
 
 1. Elija una **sala de seminarios web**.
 
@@ -111,5 +111,5 @@ Antes de promocionar el seminario web, ejecute una sesión de prueba para confir
 
 Puede editar un seminario web después de iniciar los registros, pero hágalo con cuidado:
 
-- La edición de la programación puede almacenar en déclencheur las notificaciones de actualización para personas ya registradas. Se puede configurar la capacidad de editar seminarios web programados.
-- Los campos a los que hacen referencia los tokens en correos electrónicos activos requieren una confirmación explícita para su eliminación, ya que esto interrumpe el contenido que ya está programado para su envío.
+&#x200B;- La edición de la programación puede almacenar en déclencheur las notificaciones de actualización para personas ya registradas. Se puede configurar la capacidad de editar seminarios web programados.
+&#x200B;- Los campos a los que hacen referencia los tokens en correos electrónicos activos requieren una confirmación explícita para su eliminación, ya que esto interrumpe el contenido que ya está programado para su envío.

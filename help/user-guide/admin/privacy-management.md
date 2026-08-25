@@ -3,7 +3,8 @@ title: Administración de la privacidad
 description: Obtenga información sobre cómo cumplir con el RGPD, la CCPA y otras normas de privacidad en Marketo Optimizer, y enviar solicitudes mediante Adobe Privacy Service.
 feature: Setup
 role: Admin
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: 630
