@@ -31,7 +31,7 @@ Puede crear un seminario web de dos formas:
 
 ## Seminario web como recurso
 
-Un seminario web es un recurso que pertenece a un [programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), del mismo modo que un correo electrónico o una página de aterrizaje. Al agregar un seminario web a un programa, se registra allí y sus tokens, atributos y actividades están disponibles para todos los recorridos y recursos de ese programa.
+Un seminario web es un recurso que pertenece a un [programa](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), del mismo modo que un correo electrónico o una página de aterrizaje. Al agregar un seminario web a un programa, se registra allí y sus tokens, atributos y actividades están disponibles para todos los recorridos y recursos de ese programa.
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ Para cualquier persona que sea miembro de un programa que contenga un seminario 
 
 | Estado | Propietario | Valores |
 |---|---|---|
-| Estado de miembro del programa | Programa | Configurable por [tipo de programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Estado de miembro del programa | Programa | Configurable por [tipo de programa](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Estado del seminario web | Recurso de seminario web | Invitado, Registrado, Asistido, No presentarse, Asistido a petición |
 | estado de recorrido | Recorrido | Estado del nodo actual, en pausa, completado y otros estados de tiempo de ejecución de recorrido |
 

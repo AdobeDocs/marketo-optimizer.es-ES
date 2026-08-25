@@ -79,7 +79,7 @@ Cada tarjeta de destino admitida muestra **[!UICONTROL Configurar nuevo destino]
 
 1. Revise la configuración del control de datos y la acción de marketing y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
-Para ver los pasos completos de la configuración, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en la documentación de [!DNL Experience Platform].
+Para ver los pasos completos de la configuración, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en la documentación de [!DNL Experience Platform].
 
 Cuando está configurado, el destino está disponible para la activación en todas partes donde se puede seleccionar un destino en [!DNL Marketo Optimizer].
 
