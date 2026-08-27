@@ -69,7 +69,7 @@ Complete las siguientes tareas:
    * **[!UICONTROL Token de API]**: introduzca su token de API. Para obtener más información, consulte la [Documentación de Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Id. de cuenta empresarial]** - Escriba el número único relacionado con su portafolio empresarial. Para obtener más información, consulte la [Documentación de Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenciales de la API de configuración de WhatsApp ](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenciales de la API de configuración de WhatsApp &#x200B;](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Continuar]**.
 
