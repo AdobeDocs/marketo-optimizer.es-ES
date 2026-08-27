@@ -18,7 +18,7 @@ Cuando los datos aterrizan en el extremo de flujo continuo, se vinculan con la i
 
 ## Requisitos previos
 
-Para usar formularios web, debes tener una o más _&#x200B;**conexiones de streaming de API HTTP**&#x200B;_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
+Para usar formularios web, debes tener una o más _**conexiones de streaming de API HTTP**_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
 
 * El tipo de datos debe establecerse en XDM (no en datos sin procesar)
 * La autenticación debe estar deshabilitada (conexión no autenticada)

@@ -1,9 +1,7 @@
 ---
 title: Formularios
 description: 'Cree y administre formularios reutilizables para la recopilación de datos empresariales: campos de diseño, establezca páginas de agradecimiento, publique y realice un seguimiento del uso en Marketo Optimizer.'
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 2434
@@ -93,7 +91,7 @@ Hay varias cosas que hay que tener en cuenta antes de empezar a crear formulario
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selección de un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Crear un ajuste preestablecido de un formulario"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Crear un ajuste preestablecido de un formulario"
 
 Puede crear un formulario en [!DNL Marketo Optimizer] haciendo clic en **[!UICONTROL Crear formulario]** en la parte superior derecha de la página de lista de _[!UICONTROL Forms]_.
 
