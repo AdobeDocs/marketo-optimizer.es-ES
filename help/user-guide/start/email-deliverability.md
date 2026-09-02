@@ -1,7 +1,7 @@
 ---
 title: Configuración de envío de correo electrónico
 description: Configure la delegación de subdominios, DMARC, SPF, DKIM y grupos de IP para Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Utiliza los siguientes componentes básicos, configurados por un administrador, 
 1. [Confirme el grupo de IP](#ip-pools) que se utilizó para enviar correo electrónico para su subdominio.
 1. [Cree una o más configuraciones de canal de correo electrónico](../admin/email-channel-configuration.md#create-email-channel-configuration) que enlacen un subdominio, un grupo de IP y la identidad del remitente.
 
-![Configuración de envío de correo electrónico para Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![Configuración de envío de correo electrónico para Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
