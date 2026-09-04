@@ -1,9 +1,9 @@
 ---
 title: Aptitudes de compañeros
 description: 'Revise las habilidades de los compañeros de CX Enterprise en Marketo Optimizer: flujos de trabajo empaquetados para programas, recorridos, audiencias, puntuación, contenido y optimización del tiempo de envío.'
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 7%
 
 ---
@@ -37,7 +37,7 @@ Una _aptitud_ es un flujo de trabajo empaquetado que el Compañero de trabajo sa
 | `journey-stop` | Abortar, cerrar, parar, detener o matar recorridos. | Escritura | [!DNL Marketo Optimizer] | Lee y escribe [!DNL Marketo Optimizer] |
 | `journey-reentry` | Configurar la reentrada: permitir/no permitir, reutilización, máximo de entradas. | Escritura | [!DNL Marketo Optimizer] | Lee y escribe [!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | Ejecute una simulación de control de tráfico que muestre el enrutamiento de perfiles. | Lectura | [!DNL Marketo Optimizer] | Lee [!DNL Marketo Optimizer] (simulación) |
-| `journey-observability` | Depuración/monitorización de la progresión: rutas, tiempo, divisiones, paradas, permanencia. | Lectura | [!DNL Marketo Optimizer] | Lee [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (comprobación de lista estática) |
+| `journey-observability` | Depuración/monitorización de la progresión: rutas, tiempo, divisiones, paradas, permanencia. <p>Ver _[Depurar y supervisar la progresión del recorrido](./journey-observability.md)_. | Lectura | [!DNL Marketo Optimizer] | Lee [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (comprobación de lista estática) |
 
 ## Audiencias y personas {#audiences-people}
 
