@@ -2,8 +2,10 @@
 title: Diseño del formulario
 description: Diseñe formularios con tipos de campo, validación, estilo y atributos de esquema XDM para la recopilación de datos empresariales en Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2177
@@ -17,7 +19,7 @@ Después de [crear un formulario](./forms.md#create-forms), el espacio de diseñ
 
 ![Espacio de diseño de formulario](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-El botón _**Enviar**_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
+El botón _&#x200B;**Enviar**&#x200B;_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
 
 ## Campos {#fields}
 

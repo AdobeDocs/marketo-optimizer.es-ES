@@ -2,9 +2,12 @@
 title: Configuración por intención
 description: Aprenda a configurar las ponderaciones de actividad que impulsan el modelo de puntuación por intención de persona, desde los valores predeterminados sugeridos por IA hasta la activación de un modelo de ponderación personalizado.
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1322

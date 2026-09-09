@@ -2,8 +2,10 @@
 title: Detalles de la persona
 description: Vea el perfil generado por IA, el resumen de participación e intención, el historial de actividades, los atributos de perfil y los detalles de la compañía de una persona, y haga preguntas a sus compañeros sobre el registro en Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 690

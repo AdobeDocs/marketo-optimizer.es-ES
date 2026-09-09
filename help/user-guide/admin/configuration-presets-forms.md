@@ -2,9 +2,13 @@
 title: Configuración de Forms
 description: Marcador de posición
 TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 541
@@ -22,7 +26,7 @@ Cuando los datos aterrizan en el extremo de flujo continuo, se vinculan con la i
 
 ## Requisitos previos
 
-Para usar formularios web, debes tener una o más _**conexiones de streaming de API HTTP**_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
+Para usar formularios web, debes tener una o más _&#x200B;**conexiones de streaming de API HTTP**&#x200B;_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
 
 * El tipo de datos debe establecerse en XDM (no en datos sin procesar)
 * La autenticación debe estar deshabilitada (conexión no autenticada)

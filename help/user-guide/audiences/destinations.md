@@ -2,9 +2,12 @@
 title: Destinos
 description: Obtenga información acerca de los permisos necesarios, los destinos admitidos y cómo conectar un destino en Marketo Optimizer para activar listas de personas estáticas en plataformas publicitarias y sociales.
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 643
