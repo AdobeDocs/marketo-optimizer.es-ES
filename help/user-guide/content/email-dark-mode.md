@@ -1,9 +1,12 @@
 ---
 title: Modo oscuro para el contenido del correo electrónico
 description: Obtenga información acerca del diseño de correo electrónico en modo oscuro en Marketo Optimizer. Vista previa del procesamiento, personalización de la configuración y pruebas entre clientes de correo electrónico.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: 1476
 ht-degree: 7%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 7%
 
 _El modo oscuro_ permite que un cliente de correo electrónico o aplicación compatible muestre correos electrónicos con fondos más oscuros y colores más claros para texto, botones y otros elementos visuales. Este tipo de pantalla puede reducir la fatiga visual, ahorrar batería y mejorar la legibilidad en entornos con poca luz para una experiencia de visualización más cómoda. Como tendencia creciente en los principales sistemas operativos y aplicaciones, ahora es una consideración importante en el diseño moderno del correo electrónico garantizar que el contenido sea legible y visualmente atractivo para todos los usuarios.
 
-A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Marketo Optimizer], puede cambiar a la vista de _&#x200B;**[!UICONTROL modo oscuro]**&#x200B;_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
+A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Marketo Optimizer], puede cambiar a la vista de _**[!UICONTROL modo oscuro]**_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
 
 ## Consideraciones del cliente de correo electrónico {#email-client-considerations}
 

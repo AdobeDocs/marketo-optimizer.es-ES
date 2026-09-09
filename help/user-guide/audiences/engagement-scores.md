@@ -1,9 +1,13 @@
 ---
 title: Puntuaciones de participación de personas
 description: Calcule las puntuaciones de participación de la persona para los posibles clientes mediante actividades ponderadas y una ventana de puntuación de 30 días en Marketo Optimizer.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/I3yy5e-o3lFJh8gHjJ7ZOGakEbD12RhAYenGzR2qZd0'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: 1515
 ht-degree: 8%
 
 ---
@@ -136,7 +140,7 @@ Al configurar la segmentación para un recorrido de persona en un nodo [_Split p
 
 En [!DNL Marketo Optimizer], puede configurar la ponderación de la puntuación de participación directamente desde la [interfaz de chat de Coworker](../agents/chat-interface.md).
 
-Para obtener información general sobre modelos de puntuación de participación, bandas de ponderación y pesos de actividad, consulte [Configurar la ponderación de puntuación de participación personalizada](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Para obtener información general sobre modelos de puntuación de participación, bandas de ponderación y pesos de actividad, consulte [Configurar la ponderación de puntuación de participación personalizada](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Abra el panel de chat **[!UICONTROL Coworker]** desde la parte izquierda de la pantalla (icono de chat).
 

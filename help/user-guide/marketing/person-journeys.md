@@ -1,9 +1,12 @@
 ---
 title: Recorridos de la persona
 description: 'Crear, publicar y administrar recorridos de persona en Marketo Optimizer: Examine la lista de recorrido, diseñe flujos de varios pasos y duplique o elimine recorridos.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: 1418
 ht-degree: 19%
 
 ---
@@ -63,11 +66,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
-| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de _Borrador_ a _Activo_ al publicar un recorrido. En este estado, ya no se puede editar. | [Duplicado](#duplicate-a-journey), [Cerca de nuevas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
-| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en **[!UICONTROL Cerca de nuevas entradas]** en el encabezado del recorrido. | [Duplicado](#duplicate-a-journey), [Anular](#abort-a-journey) |
-| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | [Duplicado](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
-| _&#x200B;**Finalizado**&#x200B;_ | Cuando todos los miembros de la audiencia de una persona en un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | [Duplicado](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
+| _**Activo**_ | El estado del recorrido cambia de _Borrador_ a _Activo_ al publicar un recorrido. En este estado, ya no se puede editar. | [Duplicado](#duplicate-a-journey), [Cerca de nuevas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en **[!UICONTROL Cerca de nuevas entradas]** en el encabezado del recorrido. | [Duplicado](#duplicate-a-journey), [Anular](#abort-a-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | [Duplicado](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
+| _**Finalizado**_ | Cuando todos los miembros de la audiencia de una persona en un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | [Duplicado](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
 
 ## Crear un recorrido de persona {#create-a-person-journey}
 
@@ -98,7 +101,7 @@ El encabezado de cada lienzo de recorrido incluye el nombre, el estado y la prog
 
 ### Diseño de recorrido {#journey-design}
 
-El _lienzo de recorrido_ es la zona central del área de trabajo de recorrido. Es donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir sus propiedades en el panel situado a la derecha del diseño y configúrelas según su diseño. El recorrido de personas siempre comienza con un nodo [_[!UICONTROL Audiencia de personas &#x200B;]_](./person-audience-node.md), donde puede definir la entrada del recorrido.
+El _lienzo de recorrido_ es la zona central del área de trabajo de recorrido. Es donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir sus propiedades en el panel situado a la derecha del diseño y configúrelas según su diseño. El recorrido de personas siempre comienza con un nodo [_[!UICONTROL Audiencia de personas ]_](./person-audience-node.md), donde puede definir la entrada del recorrido.
 
 Después de crear un recorrido de persona y definir la audiencia de persona, genere el recorrido con nodos. El lienzo de recorrido proporciona un espacio de diseño visual en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para construir el recorrido:
 

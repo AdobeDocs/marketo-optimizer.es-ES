@@ -3,9 +3,13 @@ title: Metadatos de C2PA
 description: Descubra cómo Adobe Marketo Optimizer aplica automáticamente los metadatos de C2PA a las imágenes generadas con IA generativa y qué significa esto para su contenido.
 feature: Assets, Content
 role: User
-source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
+TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ Para obtener información completa sobre el historial de recursos, puede usar la
 
 Los metadatos de C2PA persisten con el archivo de imagen. Cuando se carga o exporta una imagen generada o editada con IA generativa desde [!DNL Adobe Marketo Optimizer], se conservan sus metadatos de C2PA.
 
-Para obtener más información sobre cómo adjuntar automáticamente metadatos de C2PA en las aplicaciones empresariales de Adobe CX, consulte [_Transparencia del contenido de inteligencia artificial aplicada generativa_](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} en la guía de IA en CX Enterprise.
+Para obtener más información sobre cómo adjuntar automáticamente metadatos de C2PA en las aplicaciones empresariales de Adobe CX, consulte [_Transparencia del contenido de inteligencia artificial aplicada generativa_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} en la guía de IA en CX Enterprise.
 
 >[!NOTE]
 >

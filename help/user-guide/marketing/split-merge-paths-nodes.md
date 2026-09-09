@@ -1,9 +1,12 @@
 ---
 title: Dividir y combinar nodos de rutas
 description: Aprenda a utilizar nodos de rutas divididas y combinadas en recorridos de persona para segmentar a las personas en rutas distintas en función de condiciones definidas y, a continuación, reunirlas en un punto común aguas abajo.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/XMN7lgb77bFlJkNXrmPf9ZSCV-GgIuybtr-O3AsqT2U'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ Un nodo de Rutas divididas define una o más rutas segmentadas en función de lo
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida por personas**_
 
 * La evaluación de cada ruta es de arriba abajo. Si una persona coincide para la primera y la segunda ruta, solo continúa por la primera ruta.
 * El nodo admite la definición de una ruta de acceso de _Otras personas_, donde puede agregar acciones o eventos para las personas que no coincidan con uno de los segmentos o rutas definidos.

@@ -3,9 +3,11 @@ title: Administración de la privacidad
 description: Obtenga información sobre cómo cumplir con el RGPD, la CCPA y otras normas de privacidad en Marketo Optimizer, y enviar solicitudes mediante Adobe Privacy Service.
 feature: Setup
 role: Admin
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 18a33a66-85a1-58e4-8e50-418b832ade8bid: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 630
 ht-degree: 5%
@@ -46,7 +48,7 @@ Para obtener una lista actualizada de las regulaciones admitidas, consulte [_Res
 * **[!UICONTROL Permisos de Privacy Service]** - `Privacy Read Permission` y `Privacy Write Permission`
 * **[!UICONTROL Control de datos]** - `View Privacy Console`
 
-Consulte [_Administrar permisos para Privacy Service_](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/permissions){target="_blank"} en la guía [!DNL Privacy Service] para obtener información más detallada.
+Consulte [_Administrar permisos para Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} en la guía [!DNL Privacy Service] para obtener información más detallada.
 
 >[!ENDSHADEBOX]
 

@@ -1,9 +1,12 @@
 ---
 title: Nodos de Recorrido de persona
 description: 'Obtenga información sobre los nodos de recorrido de personas en Marketo Optimizer: audiencias, acciones, eventos, esperas, divisiones de rutas y el siguiente mejor enrutamiento de ruta impulsado por IA.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ El nodo _[!UICONTROL Audiencia de persona]_ es automáticamente el primer nodo d
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Nodo de audiencia de persona
 
@@ -27,7 +30,7 @@ El recorrido siempre comienza con un nodo de audiencia de persona. Establezca la
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Nodos de acción
 
@@ -37,7 +40,7 @@ Aplique cambios a cada persona en una ruta, como enviar un correo electrónico o
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Nodos de eventos
 
@@ -47,7 +50,7 @@ Avanzar personas al siguiente paso del recorrido cuando se produzca una activida
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Nodos de espera
 
@@ -57,7 +60,7 @@ Pausar la progresión del recorrido durante un tiempo establecido o hasta una fe
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Dividir y combinar nodos de rutas
 
@@ -67,7 +70,7 @@ Segmente a las personas en rutas independientes según las condiciones, aplique 
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=es) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Siguiente nodo de mejor ruta
 

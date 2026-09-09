@@ -1,9 +1,13 @@
 ---
 title: Creación de un programa a partir de un resumen
 description: Utilice la aptitud Creación de programas en Marketo Optimizer para crear programas, tokens, listas de personas y recorridos a partir de un informe de campaña.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/Bi7ZemHiGpKwxsYZkrfCyT5IzFAJ8ZTyFr8KxwO4z6w'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: 1110
 ht-degree: 4%
 
 ---
@@ -103,7 +107,7 @@ El contenedor de nivel superior. Su vista de detalles expone las siguientes pest
 | **Tokens** | `my.*` tokens con ámbito en este programa |
 | **Recorridos** | Recorridos incluidos en el programa |
 
-### Tókenes
+### Tokens
 
 Valores `my.*` reutilizables con ámbito en el programa (p. ej. `my.eventDate`). Cada uno tiene un tipo (uno de `text`, `date`, `rich text`, `score` o `number`) y un valor. Se resuelven dentro de los correos electrónicos y el contenido dentro del ámbito del programa.
 

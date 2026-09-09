@@ -1,10 +1,14 @@
 ---
 title: Destinos
 description: Obtenga información acerca de los permisos necesarios, los destinos admitidos y cómo conectar un destino en Marketo Optimizer para activar listas de personas estáticas en plataformas publicitarias y sociales.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 6%
+source-wordcount: 643
+ht-degree: 7%
 
 ---
 
@@ -23,7 +27,7 @@ Existen dos formas de activar personas en un destino conectado:
 
 La funcionalidad de destino completa requiere que se habiliten los siguientes [!DNL Adobe Experience Platform] permisos.
 
-| Categoría | Permiso | Obligatorio |
+| Categoría | Permiso | Requerido |
 |--- |--- |--- |
 | Zonas protegidas | Acceso a zona protegida _(habilitado de forma predeterminada)_ | Sí |
 | Paneles de control | Ver paneles estándar | Sí |
@@ -57,7 +61,7 @@ Para poder activar una lista estática, debe existir un destino en el catálogo 
 >
 >Este catálogo no es el catálogo de destinos completo de [!DNL Adobe Experience Platform]. Si accede a destinos directamente desde [!DNL Experience Platform], verá un catálogo más grande, pero solo estos destinos están disponibles actualmente para su activación en [!DNL Marketo Optimizer]. Hay destinos adicionales planificados para futuras versiones.
 
-## Configuración de un destino {#set-up-destination}
+## Configurar un destino {#set-up-destination}
 
 Cada tarjeta de destino admitida muestra **[!UICONTROL Configurar nuevo destino]**. La configuración de un destino es un requisito previo para la activación.
 
@@ -79,7 +83,7 @@ Cada tarjeta de destino admitida muestra **[!UICONTROL Configurar nuevo destino]
 
 1. Revise la configuración del control de datos y la acción de marketing y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
-Para ver los pasos completos de la configuración, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en la documentación de [!DNL Experience Platform].
+Para ver los pasos completos de la configuración, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en la documentación de [!DNL Experience Platform].
 
 Cuando está configurado, el destino está disponible para la activación en todas partes donde se puede seleccionar un destino en [!DNL Marketo Optimizer].
 

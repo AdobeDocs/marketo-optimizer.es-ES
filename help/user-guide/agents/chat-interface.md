@@ -1,9 +1,13 @@
 ---
 title: Interfaz de chat
 description: Utilice el panel de chat Compañero de trabajo en Marketo Optimizer para crear programas, recorridos y listas con lenguaje natural o el menú de barra (/).
-source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
+TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -32,7 +36,7 @@ En la parte inferior del panel se encuentra el cuadro de mensaje, donde puede:
 
 [!DNL Adobe Sales Qualifier] es una aplicación controlada por IA que puede usar con [!DNL Marketo Optimizer]. Implementa Account Qualification Agent y está diseñado para optimizar los flujos de trabajo para los representantes de desarrollo empresarial (BDR). [!DNL Sales Qualifier] automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. Reduce la carga manual de BDR y acelera la velocidad de la canalización para las empresas B2B empresariales.
 
-Para obtener más información, consulte la [documentación de Sales Qualifier](https://experienceleague.adobe.com/es/docs/sales-qualifier/using/home){target="_blank"}.
+Para obtener más información, consulte la [documentación de Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
