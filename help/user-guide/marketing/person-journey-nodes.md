@@ -22,7 +22,7 @@ El nodo _[!UICONTROL Audiencia de persona]_ es automáticamente el primer nodo d
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es) -->
 
 Nodo de audiencia de persona
 
@@ -32,7 +32,7 @@ El recorrido siempre comienza con un nodo de audiencia de persona. Establezca la
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es) -->
 
 Nodos de acción
 
@@ -42,7 +42,7 @@ Aplique cambios a cada persona en una ruta, como enviar un correo electrónico o
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es) -->
 
 Nodos de eventos
 
@@ -52,7 +52,7 @@ Avanzar personas al siguiente paso del recorrido cuando se produzca una activida
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es) -->
 
 Nodos de espera
 
@@ -62,7 +62,7 @@ Pausar la progresión del recorrido durante un tiempo establecido o hasta una fe
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es) -->
 
 Dividir y combinar nodos de rutas
 
@@ -72,7 +72,7 @@ Segmente a las personas en rutas independientes según las condiciones, aplique 
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=es) -->
 
 Siguiente nodo de mejor ruta
 
