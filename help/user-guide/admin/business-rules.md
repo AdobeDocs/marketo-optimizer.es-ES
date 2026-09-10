@@ -1,10 +1,21 @@
 ---
 title: Reglas empresariales
 description: Cree y administre conjuntos de reglas para aplicar reglas de límite de frecuencia y horas de inactividad que controlen la frecuencia con la que los clientes reciben mensajes de marketing y el momento en que lo hacen.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/uLuI4cGbmaY4O0AEtf5tCT-czPl0AsY-44t2lU2xbrQ'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 10%
+source-wordcount: 2965
+ht-degree: 13%
 
 ---
 
@@ -65,7 +76,7 @@ Para desactivar una regla, haz clic en el icono _Desactivar_ ( ![Desactivar icon
 >
 >La desactivación de una regla o un conjunto de reglas no afecta ni restablece ningún recuento de perfiles individuales.
 
-## Creación y activación de conjuntos de reglas personalizadas {#create}
+## Creación y activación de conjuntos de reglas personalizados {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -80,12 +91,12 @@ Para desactivar una regla, haz clic en el icono _Desactivar_ ( ![Desactivar icon
 >[!CONTEXTUALHELP]
 >id="ajob2b-prime_rule_type"
 >title="Tipo de regla"
->abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de una comunicación por correo electrónico o SMS al día. Seleccione **Horas tranquilas** para definir las exclusiones basadas en el tiempo a fin de asegurarse de que no se envíen mensajes durante períodos de tiempo específicos."
+>abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de un correo electrónico o una comunicación SMS al día. Seleccione **Horas tranquilas** para definir las exclusiones basadas en el tiempo a fin de asegurarse de que no se envíen mensajes durante períodos de tiempo específicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Restablecer frecuencia de límite"
->abstract="Seleccione el periodo del calendario utilizado para restablecer el contador de límite: cada hora, cada día, semanalmente o mensualmente. El contador se restablece automáticamente a 0 al comienzo de cada nuevo período."
+>title="Restablecer la frecuencia de límite"
+>abstract="Seleccione el periodo del calendario utilizado para restablecer el contador de límite: cada hora, cada día, semanalmente o mensualmente. El contador se restablece de forma automática a 0 al comienzo de cada nuevo período."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_rule_capping"
@@ -174,7 +185,7 @@ Puede aplicar el conjunto de reglas activo a un mensaje o a un recorrido, según
 
 ## Límite de frecuencia por canal {#frequency-capping}
 
-Establezca límites de frecuencia por canal y tipo de comunicación para limitar la cantidad de mensajes que recibe un perfil y evitar saturar a los clientes con comunicaciones similares. Los conjuntos de reglas de canal aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de una comunicación por correo electrónico o SMS al día.
+Establezca límites de frecuencia por canal y tipo de comunicación para limitar la cantidad de mensajes que recibe un perfil y evitar saturar a los clientes con comunicaciones similares. Los conjuntos de reglas de canal aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de un correo electrónico o una comunicación SMS al día.
 
 El uso de conjuntos de reglas de canal le permite establecer límites de frecuencia por tipo de comunicación para evitar sobrecargar a los clientes con mensajes similares. Por ejemplo, puede crear un conjunto de reglas para limitar el número de _comunicaciones promocionales_ enviadas a sus clientes y otro conjunto de reglas para limitar el número de _boletines_ enviados a ellos. Puede optar por aplicar la comunicación promocional o el conjunto de reglas de los boletines informativos.
 
@@ -182,11 +193,11 @@ El uso de conjuntos de reglas de canal le permite establecer límites de frecuen
 >
 >Para garantizar que el límite de nivel de canal funciona correctamente, asegúrese de elegir el área de nombres de mayor prioridad al crear un recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-### Crear una regla de límite de recorrido {#create-capping-rule}
+### Crear una regla de límite de canal {#create-capping-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Defina los canales a los que se aplica la regla"
+>title="Definir los canales a los que se aplica la regla"
 >abstract="Seleccione al menos un canal. El límite se aplica a todos los canales como un recuento total."
 
 1. Seleccione el conjunto de reglas de canal en el que desea agregar la regla de límite o cree un nuevo conjunto de reglas de canal.
