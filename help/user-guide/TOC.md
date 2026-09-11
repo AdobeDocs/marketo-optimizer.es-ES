@@ -3,9 +3,9 @@ user-guide-title: Documentación de Marketo Optimizer
 user-guide-description: Obtenga información sobre Adobe Marketo Optimizer y cómo puede utilizarlo para ejecutar una participación coordinada de marketing y ventas con contenido personalizado con tecnología de IA para posibles clientes y cuentas B2B.
 hide: true
 nudge: red
-source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 43%
 
 ---
@@ -90,6 +90,7 @@ ht-degree: 43%
     + [Componentes de estructura](./content/structure-components.md)
     + [Componentes de contenido](./content/content-components.md)
     + [CSS personalizado](./content/design-custom-css.md)
++ [Puntuación de Studio](./labs/scoring-studio.md)
 + [Administración de la privacidad](./admin/privacy-management.md)
 + Administración {#admin}
   + Canales {#channels}

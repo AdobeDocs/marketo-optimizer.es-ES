@@ -6,7 +6,7 @@ product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
 source-wordcount: 468
 ht-degree: 1%
@@ -60,7 +60,7 @@ Puede crear y configurar modelos completamente mediante Coworker con lenguaje na
 Cuando finalice el modelo, indique a su compañero que lo publique. El proceso de publicación gestiona automáticamente lo siguiente:
 
 | Paso | ¿Qué sucede? |
-|---|---|
+| --- | --- |
 | **Compilación de reglas** | Todas las reglas de puntuación se compilan y validan |
 | **Creación de tarea de puntuación** | Se crea una tarea de puntuación programada y se configura para ejecutarse diariamente |
 
