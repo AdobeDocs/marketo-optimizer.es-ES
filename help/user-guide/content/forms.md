@@ -4,20 +4,24 @@ description: 'Cree y administre formularios reutilizables para la recopilación 
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: 2434
+source-wordcount: '2434'
 ht-degree: 2%
-
 ---
-
 # Formularios
 
 Para capturar información de los visitantes de una página web, cree formularios y agréguelos a las páginas de aterrizaje. Un formulario es un conjunto de campos que los visitantes de la página completan y envían para obtener algún tipo de contenido u oferta, como un documento técnico, un seminario web bajo demanda o una prueba gratuita.
