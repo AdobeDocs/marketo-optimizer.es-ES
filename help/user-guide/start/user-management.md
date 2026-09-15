@@ -4,39 +4,38 @@ description: 'Administre el acceso de los usuarios en Adobe Admin Console: cree 
 TQID: 'https://experienceleague.adobe.com/IY7Fvbk8GG2Xudh6vC4N9Bwk-sejvh-MMRIHHxvS-nc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-  - id: a659ad61-de21-559d-a901-02e2fb329ff5
-  - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Administration
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
 workflow-type: tm+mt
-source-wordcount: 2279
-ht-degree: 43%
-
+source-wordcount: '2474'
+ht-degree: 36%
 ---
-
 # Acceso y permisos de usuario
 
 Una vez completado el aprovisionamiento y enlazados los entornos limitados, complete los siguientes pasos para proporcionar acceso de [!DNL Marketo Optimizer] a su equipo y a los usuarios.
 
-1. [Crear un [!DNL Journey Optimizer B2B Edition] perfil de producto](#create-profile) en Admin Console (solo configuración inicial/única).
+1. [Crear un [!DNL Marketo Optimizer] perfil de producto](#create-profile) en Admin Console (solo configuración inicial/única).
 1. [Agregar un grupo de usuarios](#add-user-group) en Admin Console.
 1. [Asigne el perfil de producto](#assign-profile) al grupo de usuarios en Admin Console.
 1. [Agregar usuarios al nuevo grupo](#add-users) en Admin Console.
-1. [Editar funciones integradas](#edit-role-permissions) o [crear una función personalizada](#create-a-custom-role) con [!DNL Journey Optimizer B2B Edition] permisos en Adobe Experience Platform.
+1. [Edite las funciones integradas](#edit-role-permissions) o [cree una función personalizada](#create-a-custom-role) con permisos de producto y la zona protegida [!DNL Marketo Optimizer] requerida en Experience Platform.
 1. [Agregar usuarios](#add-users-to-a-role) o [grupos](#add-user-groups-to-a-role) a los roles de Adobe Experience Platform.
 
 ## Configuración del perfil del producto {#config-profile}
 
-Como administrador, puede completar estas tareas en [!DNL Adobe Admin Console], que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Para obtener más información sobre sus funciones y capacidades, consulte la página [Información general de Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+Como administrador, puede completar estas tareas en [!DNL Adobe Admin Console], que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Para obtener más información sobre sus funciones y capacidades, consulte la página [Información general de Admin Console](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
 
 ### Acceso a Admin Console {#admin-console}
 
@@ -60,7 +59,7 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
 1. Seleccione **[!UICONTROL Administradores]** de la tarjeta _[!UICONTROL Usuarios]_ para comprobar que es administrador del sistema.
 
-   ![Información general de Admin Console: haga clic en Administradores](./assets/admin-console-overview-administrators.png){width="800" zoomable="yes"}
+   ![Página de información general de Admin Console con administradores seleccionados de la tarjeta Usuarios.](./assets/admin-console-overview-administrators.png){width="800" zoomable="yes"}
 
 1. Busque introduciendo su correo electrónico, nombre de usuario, nombre o apellidos de Adobe ID.
 
@@ -68,21 +67,19 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
    * Si el valor de la columna **[!UICONTROL ROL DE ADMINISTRADOR]** muestra `System`, sabrá que usted (o el usuario mostrado) es administrador del sistema.
 
-### Crear el perfil de producto [!DNL Journey Optimizer B2B Edition] {#create-profile}
+### Crear el perfil de producto [!DNL Marketo Optimizer] {#create-profile}
 
 Al conceder a los usuarios acceso a una solución de Adobe, no necesariamente desea darles acceso completo. Los perfiles de producto permiten que cada solución tenga su propio conjunto de permisos de usuario. Utilice Admin Console para asignar perfiles de producto.
 
-Para obtener más información sobre el uso de perfiles de producto para las autorizaciones de usuario, consulte [_Administrar perfiles de producto para usuarios empresariales_](https://helpx.adobe.com/es/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} en la documentación de Admin Console.
+Para obtener más información sobre el uso de perfiles de producto para las autorizaciones de usuario, consulte [_Administrar perfiles de producto para usuarios empresariales_](https://helpx.adobe.com/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"} en la documentación de Admin Console.
 
-![Requisitos de función de administrador](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o [!DNL Experience Platform] administrador de productos puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o [!DNL Experience Platform] administrador de productos puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Seleccione la ficha **[!UICONTROL Productos]**.
 
-1. Abra la instancia [!DNL Journey Optimizer B2B Edition] en la que desee agregar el perfil y haga clic en **[!UICONTROL Nuevo perfil]**.
+1. Abra la instancia [!DNL Marketo Optimizer] en la que desee agregar el perfil y haga clic en **[!UICONTROL Nuevo perfil]**.
 
-   ![Experience Platform - perfiles de producto para el grupo de usuarios](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
-
-1. Escriba un nombre de perfil de producto, como _Usuarios B2B_.
+1. Escriba un nombre de perfil de producto, como _Acceso_.
 
 1. Haz clic en **[!UICONTROL Siguiente]** y luego en **[!UICONTROL Guardar]**.
 
@@ -90,9 +87,9 @@ Para obtener más información sobre el uso de perfiles de producto para las aut
 
 Un grupo de usuarios es una colección de usuarios a los que se concede un conjunto compartido de permisos. Puede agregar o quitar usuarios de su grupo de usuarios. Los permisos del grupo siguen siendo los mismos mientras cambian los usuarios dentro del grupo.
 
-Para obtener más información sobre cómo se usan los grupos de usuarios para administrar permisos, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/es/business/enterprise/manage-users/user-groups.html){target="_blank"} en la documentación de Admin Console.
+Para obtener más información sobre cómo se usan los grupos de usuarios para administrar permisos, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} en la documentación de Admin Console.
 
-![Requisitos de función de administrador](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Seleccione la ficha **[!UICONTROL Usuarios]**.
 
@@ -100,13 +97,13 @@ Para obtener más información sobre cómo se usan los grupos de usuarios para a
 
 1. Haga clic en **[!UICONTROL Nuevo grupo de usuarios]** en la parte superior derecha.
 
-1. Escriba un nombre para el grupo de usuarios, como _usuarios B2B_ y haga clic en **[!UICONTROL Guardar]**.
+1. Escriba un nombre para el grupo de usuarios, como _usuarios de Optimizer_ y haga clic en **[!UICONTROL Guardar]**.
 
-   ![Admin Console - agregar grupo de usuarios](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
+   ![Cuadro de diálogo de nuevo grupo de usuarios en Admin Console con un nombre de grupo especificado.](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
 
 ### Asignar el perfil de producto {#assign-profile}
 
-![Requisitos de función de administrador](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador de producto puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador de productos puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Haga clic en el grupo de usuarios que ha creado.
 
@@ -114,20 +111,20 @@ Para obtener más información sobre cómo se usan los grupos de usuarios para a
 
 1. Haga clic en **+** y agregue cada instancia de los siguientes productos:
 
-   * [!UICONTROL Adobe Journey Optimizer B2B edition - Perfil de usuarios]
+   * [!UICONTROL Adobe Marketo Optimizer - Acceso]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
    * [!UICONTROL Recopilación de datos de Adobe Experience Platform - Acceso a todos los datos de recopilación predeterminada]
    * [!UICONTROL Adobe Experience Platform - Acceso a todos los equipos de producción predeterminado]
 
-   ![Admin Console: perfiles de producto para el grupo de usuarios](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
+   ![Se ha asignado la pestaña Perfiles de producto en Admin Console que muestra los perfiles agregados a un grupo de usuarios.](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ### Agregar usuarios al nuevo grupo {#add-users}
 
-Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/es/business/enterprise/manage-users/users.html){target="_blank"} en la documentación de Admin Console.
+Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} en la documentación de Admin Console.
 
-![Requisitos de función de administrador](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de producto puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com). Un administrador de productos solo puede agregar usuarios que ya existen en su organización.
+![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de producto puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com). Un administrador de productos solo puede agregar usuarios que ya existen en su organización.
 
 1. Si los usuarios aún no son miembros de su organización, agregue cada usuario:
 
@@ -135,7 +132,7 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
    * Escriba la dirección de correo electrónico del usuario y haga clic en **[!UICONTROL Agregar como nuevo usuario]**.
 
-     ![Admin Console: agregar perfil de usuario para el nuevo grupo](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
+     ![Cuadro de diálogo Agregar nuevo usuario en Admin Console con una dirección de correo electrónico ingresada.](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
 
    * Escriba el nombre y los apellidos y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
@@ -149,7 +146,7 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
    * Haga clic en el icono _Agregar_ ( **+** ) debajo de **[!UICONTROL Grupos de usuarios]**.
 
-     ![Admin Console: seleccione un grupo de usuarios para el usuario](./assets/admin-console-user-edit-user-groups.png){width="600" zoomable="yes"}
+     ![Cuadro de diálogo Editar grupos de usuarios en Admin Console con un grupo de usuarios seleccionado para un usuario.](./assets/admin-console-user-edit-user-groups.png){width="600" zoomable="yes"}
 
    * Seleccione el grupo de usuarios que creó anteriormente y haga clic en **[!UICONTROL Aplicar]**.
 
@@ -161,7 +158,7 @@ Los permisos son derechos unitarios que le permiten definir las autorizaciones a
 
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
-Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
+Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com/).
 
@@ -171,11 +168,15 @@ Para obtener más información sobre los permisos de funciones en Experience Pla
    >
    >Si no ve _[!UICONTROL Permisos]_, es posible que tenga que hacer clic en **[!UICONTROL Ver todos]** y seleccionarlo entre las aplicaciones disponibles.
 
-   ![Experience Platform - Permisos de acceso](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Aplicación de permisos seleccionada en el panel Acceso rápido de Experience Platform.](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-### Permisos {#permissions}
+### Recursos de permisos {#permissions}
 
-Los siguientes permisos controlan el acceso a las características de configuración de canal, administración de contenido y recorrido personal de [!DNL Marketo Optimizer]:
+Los siguientes recursos de permiso controlan el acceso a las características de configuración de canal, administración de contenido y recorrido personal de [!DNL Marketo Optimizer]:
+
+>[!IMPORTANT]
+>
+>El acceso a [!DNL Marketo Optimizer] requiere que habilite una zona protegida específica que esté aprovisionada con la siguiente convención de nombres: `Mktoaep` + prefijo de suscripción de [!DNL Marketo Engage]. Por ejemplo, si el prefijo de suscripción [!DNL Marketo Engage] vinculado es _AcmeAssoc_, la zona protegida necesaria para el acceso de [!DNL Marketo Optimizer] es _MktoaepAcmeAssoc_.
 
 | Categoría | Permiso | Descripción |
 | -------- | ----------- | ---------- |
@@ -221,14 +222,13 @@ Para proporcionar compatibilidad con destinos externos en [!DNL Marketo Optimize
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
-When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+When your organization has [!DNL Marketo Optimizer] provisioned, Experience Platform includes a set of built-in (default, read-only) roles that you can use to manage access to the product capabilities:
 
 | Role | Permissions |
 | ---- | ----------- |
 | B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
 | B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
 | B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-| B2B Sales User | <li>View B2B Engagement Dashboard <li>View B2B Buying Groups <li>Access In-CRM Insights |
 
 -->
 
@@ -238,31 +238,31 @@ Para las funciones integradas o personalizadas, puede decidir en cualquier momen
 
 >[!IMPORTANT]
 >
->El acceso a [!DNL Marketo Optimizer] requiere que habilite una zona protegida específica que se aprovisione con la siguiente convención de nombres: Prefijo de suscripción de Marketo Engage + Prime. Por ejemplo, si el prefijo de suscripción a Marketo Engage vinculado es _AcmeAssoc_, la zona protegida necesaria para el acceso a [!DNL Marketo Optimizer] es _AcmeAssocPrime_.
+>El acceso a [!DNL Marketo Optimizer] requiere que habilite una zona protegida específica que esté aprovisionada con la siguiente convención de nombres: `Mktoaep` + prefijo de suscripción de [!DNL Marketo Engage]. Por ejemplo, si el prefijo de suscripción [!DNL Marketo Engage] vinculado es _AcmeAssoc_, la zona protegida necesaria para el acceso de [!DNL Marketo Optimizer] es _MktoaepAcmeAssoc_.
 
 >[!NOTE]
 >
->Un administrador del sistema de Admin Console puede realizar estos pasos.
+>Un administrador de productos con acceso a Permisos de Experience Platform puede realizar estos pasos.
 
 _Para cambiar los permisos de un rol :_
 
 1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo.
 
-1. Haga clic en el nombre de rol de **_Administrador de canales B2B_**.
+1. Haga clic en el nombre de rol de **_Usuarios del optimizador_**.
 
 1. En la página de detalles, haga clic en **[!UICONTROL Editar]** en la parte superior derecha.
 
-   ![Experience Platform - editar el rol](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
+   ![Página de detalles de la función en Permisos de Experience Platform con la opción Editar seleccionada.](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
 
    En el editor de funciones, el menú _[!UICONTROL Recursos]_ muestra la lista de recursos que se aplican a las aplicaciones de Experience Cloud con tecnología de plataforma.
 
-1. Seleccione la zona protegida aprovisionada para el acceso de [!DNL Marketo Optimizer] (`<Marketo subscription prefix>Prime`).
+1. Seleccione la zona protegida aprovisionada para el acceso de [!DNL Marketo Optimizer] (`Mktoaep<Marketo subscription prefix>`).
 
-   ![Experience Platform - agregar zonas protegidas para el nuevo rol](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+   ![Lista de selección de zona protegida en el editor de funciones que muestra la zona protegida de Marketo Optimizer disponible para agregar.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
-1. Haga clic en el icono _Agregar_ (**+**) para cada uno de los recursos B2B.
+1. Haga clic en el icono _Agregar_ (**+**) para cada uno de los recursos funcionales.
 
-   ![Experience Platform - Recurso de Recorridos B2B agregado a la función Administrador de canal](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
+   ![Editor de funciones en Experience Platform que muestra el recurso de Recorridos B2B agregado con los permisos enumerados.](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
 1. Agregue los permisos específicos para cada uno de los recursos o seleccione **[!UICONTROL Agregar todos]**.
 
@@ -274,7 +274,7 @@ _Para cambiar los permisos de un rol :_
 
 ### Adición de usuarios a una función {#add-users-to-a-role}
 
-![Requisitos de función de administrador](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
+![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
 
 1. Abra los detalles de la función y seleccione la ficha **[!UICONTROL Usuarios]**.
 
@@ -282,7 +282,7 @@ _Para cambiar los permisos de un rol :_
 
 1. Haga clic en **[!UICONTROL Agregar usuarios]**.
 
-   ![Experience Platform - agregar usuarios al rol](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
+   ![Ficha Usuarios en la página de detalles de rol de Experience Platform con la opción Agregar usuarios seleccionada.](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. En el cuadro de diálogo _[!UICONTROL Agregar usuarios]_, busque y seleccione los usuarios que desee agregar al rol.
 
@@ -290,15 +290,15 @@ _Para cambiar los permisos de un rol :_
 
    * Seleccione la casilla de verificación de cada usuario.
 
-   ![Experience Platform - Cuadro de diálogo Agregar usuarios](assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
+   ![Cuadro de diálogo Agregar usuarios en Experience Platform con casillas de verificación de usuario seleccionadas para agregarlas a un rol.](assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Guardar]** cuando haya seleccionado todos los usuarios que desea agregar.
 
 ### Agregar grupos de usuarios a un rol {#add-user-groups-to-a-role}
 
-Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/es/business/enterprise/manage-users/users.html){target="_blank"} en la documentación de Admin Console.
+Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} en la documentación de Admin Console.
 
-![Requisitos de función de administrador](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
+![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
 
 1. Abra los detalles de la función y seleccione la ficha **[!UICONTROL Grupos de usuarios]**.
 
@@ -306,7 +306,7 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
 1. Haga clic en **[!UICONTROL Agregar grupos]**.
 
-   ![Experience Platform - agregar grupos al rol](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
+   ![Pestaña Grupos de usuarios en la página de detalles de rol en Experience Platform con la opción Agregar grupos seleccionada.](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
 1. En el cuadro de diálogo _[!UICONTROL Agregar grupos]_, busque y seleccione los grupos que desee agregar al rol.
 
@@ -314,13 +314,13 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
    * Seleccione la casilla de verificación de cada grupo de usuarios.
 
-   ![Experience Platform - Cuadro de diálogo Agregar grupos](assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+   ![Cuadro de diálogo Agregar grupos en Experience Platform con casillas de verificación de grupo de usuarios seleccionadas para agregarlas a un rol.](assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Guardar]** cuando haya seleccionado todos los grupos que desee agregar.
 
 ### Crear una función personalizada {#create-a-custom-role}
 
-![Requisitos de función de administrador](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
+![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
 
 1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo y seleccione **[!UICONTROL Crear rol]**.
 
@@ -328,19 +328,19 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
 1. Haga clic en **[!UICONTROL Confirmar]**.
 
-1. Seleccione la zona protegida aprovisionada para el acceso de [!DNL Marketo Optimizer] (`<Marketo subscription prefix>Prime`).
+1. Seleccione la zona protegida aprovisionada para el acceso de [!DNL Marketo Optimizer] (`Mktoaep<Marketo subscription prefix>`).
 
-   ![Experience Platform - agregar zonas protegidas para el nuevo rol](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+   ![Lista de selección de zona protegida en el editor de funciones con la zona protegida de Marketo Optimizer seleccionada.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
-1. Añadir permisos de productos B2B:
+1. Añadir permisos del producto:
 
    Para determinar qué capacidades de producto desea para la función, consulte la lista de [permisos de productos](#permissions).
 
    En la lista _[!UICONTROL Recursos]_ de la izquierda, busque los elementos B2B y haga clic en el icono _Agregar_ (**+**) para agregar cada atributo que desee habilitar para el rol.
 
-   Puede escribir _B2B_ en la herramienta de búsqueda para filtrar la lista de muchos de los permisos de productos B2B.
+   Puede escribir _B2B_ en la herramienta de búsqueda para filtrar la lista de muchos de los permisos de productos relacionados con B2B que se aplican a [!DNL Marketo Optimizer].
 
-   ![Experience Platform - Permisos B2B](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
+   ![Editor de funciones en Experience Platform con recursos B2B filtrados en el campo de búsqueda.](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Guardar]** en la parte superior derecha.
 

@@ -3,15 +3,15 @@ title: Puntuación de Studio
 description: Obtenga información sobre Scoring Studio en Adobe Marketo Optimizer, incluida la lista de modelos, lienzo, columnas de dimensión, tarjetas de señal, segmentos de posibles clientes y publicación.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+    internal-label: Chat Interface
+source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
 workflow-type: tm+mt
-source-wordcount: 897
+source-wordcount: '897'
 ht-degree: 2%
-
 ---
-
 
 # Puntuación de Studio
 
@@ -20,6 +20,8 @@ Scoring Studio incluye una lista de modelos, un lienzo editable para cada modelo
 ## Lista de modelos {#model-list}
 
 La lista de modelos es la vista de aterrizaje de Scoring Studio. Muestra todos los modelos de puntuación de la instancia [!DNL Marketo Optimizer] como filas de una tabla o como tarjetas si cambia a la vista de cuadrícula.
+
+![La lista de modelos de Scoring Studio muestra los modelos de puntuación activos con sus dimensiones, señales y detalles modificados por última vez.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 | Columna | Descripción |
 | --- | --- |
@@ -31,8 +33,6 @@ La lista de modelos es la vista de aterrizaje de Scoring Studio. Muestra todos l
 | Última modificación de | La última persona que cambió el modelo. |
 | Creado el | La fecha de creación del modelo. |
 | Creado por | La persona que creó el modelo. |
-
-![La lista de modelos de Scoring Studio muestra los modelos de puntuación activos con sus dimensiones, señales y detalles modificados por última vez.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 Utilice el campo de búsqueda para buscar un modelo por nombre o filtre la lista por estado. Seleccione el **[!UICONTROL menú Más]** de una fila para **[!UICONTROL editar]**, **[!UICONTROL duplicar]**, **[!UICONTROL archivar]** o **[!UICONTROL eliminar]** un modelo.
 
