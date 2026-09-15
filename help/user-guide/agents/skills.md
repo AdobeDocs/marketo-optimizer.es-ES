@@ -1,28 +1,37 @@
 ---
 title: Aptitudes de compañeros
-description: 'Revise las habilidades de los compañeros de CX Enterprise en Marketo Optimizer: flujos de trabajo empaquetados para programas, recorridos, audiencias, puntuación, contenido y optimización del tiempo de envío.'
+description: 'Revise las habilidades de CX Enterprise Coworker en Marketo Optimizer: flujos de trabajo empaquetados para programas, recorridos, audiencias, puntuación, contenido y optimización del tiempo de envío.'
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: '568'
 ht-degree: 7%
-
 ---
-
 # Aptitudes de compañero
 
 Una _aptitud_ es un flujo de trabajo empaquetado que el Compañero de trabajo sabe cómo ejecutar: los componentes básicos detrás del menú `/` y de las solicitudes en lenguaje natural. Cada aptitud agrupa instrucciones paso a paso y las herramientas específicas necesarias para un trabajo (por ejemplo, &quot;publicar un recorrido&quot;, &quot;comparar dos listas de personas&quot;, &quot;crear un modelo de puntuación&quot;).
@@ -35,10 +44,9 @@ Una _aptitud_ es un flujo de trabajo empaquetado que el Compañero de trabajo sa
 
 | Habilidad | Qué hace | Acceso | Superficie del producto | Impacto / Flujo de datos |
 |---|---|---|---|---|
-| `falco-program-creation` | Creación de programas de [!DNL Marketo Optimizer] de extremo a extremo: programas, subcarpetas, tokens, listas y recorridos. <p>Ver _[Crear un programa a partir de una breve](./program-from-brief.md)_. | Escritura | [!DNL Marketo Optimizer] | Lee y escribe [!DNL Marketo Optimizer]. |
 | `adapt-program` | Generar historias de migración de [!DNL Marketo Engage] programas para la adaptación [!DNL Marketo Optimizer]. | Lectura | [!DNL Marketo Optimizer] | Lee [!DNL Marketo Engage], escribe [!DNL Marketo Optimizer] |
 | `folder-creation` | Cree carpetas organizativas en el árbol de recursos. | Escritura | [!DNL Marketo Optimizer] | Lee y escribe [!DNL Marketo Optimizer] |
-| `program-creation` *(Programas de compilación)* | Cree programas de Marketo a partir de una información de campaña. | Escritura | [!DNL Marketo Engage] | Lee y escribe [!DNL Marketo Engage] |
+| `program-creation` *(Programas de compilación)* | Cree programas de Marketo a partir de una información de campaña.  <p>Ver _[Crear un programa a partir de una breve](./program-from-brief.md)_. | Escritura | [!DNL Marketo Engage] | Lee y escribe [!DNL Marketo Engage] |
 | `program-planning` *(Planificar campañas)* | Transforme informes en documentos de configuración/implementación. | Lectura | [!DNL Marketo Engage] | Lee [!DNL Marketo Engage] |
 | `program-qa` *(Validar programas)* | Validar/auditar programas (solo reglas, plan de prueba o resumen). | Lectura | [!DNL Marketo Engage] | Lee [!DNL Marketo Engage] |
 
