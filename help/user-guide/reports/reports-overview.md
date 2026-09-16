@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
@@ -57,7 +57,7 @@ Seleccione **[!UICONTROL Compartir]** en la parte superior de la página del inf
 >
 >Su organización puede tener un máximo de 10 exportaciones programadas en todos los informes, con frecuencia semanal o mensual. Si no es administrador, solo puede administrar sus propias exportaciones programadas. Los administradores pueden ver y administrar todas las exportaciones programadas en la organización.
 
-## Análisis de un informe en CJA {#analyze-a-report-in-cja}
+## Analizar un informe en [!DNL Customer Journey Analytics] {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
