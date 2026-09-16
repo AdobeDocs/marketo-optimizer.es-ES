@@ -4,24 +4,32 @@ description: Configure la delegación de subdominios, DMARC, SPF, DKIM y grupos 
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 0%
-
 ---
-
 # Entregabilidad del correo electrónico
 
 La siguiente información está destinada a los administradores que configuran la infraestructura de envío para apoyar a los especialistas en marketing y a los creadores de contenido de correo electrónico. Describe las funciones de envío y cómo configurar subdominios, autenticación y grupos de IP.
@@ -34,6 +42,7 @@ Utiliza los siguientes componentes básicos, configurados por un administrador, 
 1. [Configure registros de DMARC, SPF y DKIM](#dmarc-spf-dkim) en cada subdominio.
 1. [Confirme el grupo de IP](#ip-pools) que se utilizó para enviar correo electrónico para su subdominio.
 1. [Cree una o más configuraciones de canal de correo electrónico](../admin/email-channel-configuration.md#create-email-channel-configuration) que enlacen un subdominio, un grupo de IP y la identidad del remitente.
+1. [Lista de permitidos las direcciones IP de envío](#allowlist-ip-addresses) con su departamento de TI para que los correos electrónicos de prueba lleguen a su bandeja de entrada.
 
 ![Configuración de envío de correo electrónico para Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ En esta versión, los grupos de IP están aprovisionados previamente para su org
 >[!IMPORTANT]
 >
 >No mezcle tráfico transaccional y de marketing en el mismo grupo de IP, incluso cuando el grupo compartido esté disponible. La configuración Tipo de correo electrónico del canal (marketing frente a transaccional) rige el comportamiento de supresión, pero las configuraciones de canal deben seguir utilizando grupos distintos siempre que sea posible.
+
+## Lista de permitidos de direcciones IP {#allowlist-ip-addresses}
+
+Los sistemas antispam corporativos a veces bloquean los correos electrónicos de prueba que envía desde [!DNL Marketo Optimizer]. Estos sistemas dependen de las direcciones IP del remitente para verificar que un correo electrónico es válido. Para asegurarse de que llegan los correos electrónicos de prueba, agregue [!DNL Marketo Optimizer] a la lista de permitidos corporativa.
+
+Solicite a su departamento de TI que añada estas direcciones IP a su lista de permitidos corporativa:
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>El departamento de TI suele administrar la lista de permitidos de correo electrónico de la empresa. Comparta esta lista de direcciones IP con ellos durante la configuración inicial.
 
 <!--
 
