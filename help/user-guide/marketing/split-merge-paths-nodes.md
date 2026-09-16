@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
-source-git-commit: 9d9f2ae1aafc5ffdc2bcc6546c7eb2ddcbaa4ab2
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 6%
+source-wordcount: '1083'
+ht-degree: 2%
 ---
 # Dividir y combinar nodos de rutas
 
@@ -25,7 +25,7 @@ Un nodo de Rutas divididas define una o más rutas segmentadas en función de lo
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida**_
 
 * La evaluación de cada ruta es de arriba abajo. Si una persona coincide con la primera y la segunda ruta, solo seguirá la primera ruta.
 * El nodo admite la definición de una ruta de acceso de _Otras personas_, donde puede agregar acciones o eventos para las personas que no coincidan con uno de los segmentos o rutas definidos.
@@ -38,10 +38,10 @@ Para cada ruta que defina para el nodo, utilice los siguientes tipos de filtro p
 | ------- | ----------- |
 | Historial de actividad | Actividades basadas en condiciones que se evalúan utilizando uno o más elementos seleccionados |
 | Brand Concierge | Actividades para posibles clientes que interactúan con [!DNL Brand Concierge]. |
-| Atributos de la compañía | Atributos del perfil de empresa/cuenta, incluidos: <li>Ingresos anuales <li>Nombre de la compañía <li>País de facturación <li>Industria <li>Cantidad de empleados <li>Código SIC <li>Estado |
+| Atributos de la compañía | Atributos del perfil de empresa/cuenta, incluidos: <li>[!UICONTROL Ingresos anuales] <li>[!UICONTROL Nombre de la compañía] <li>[!UICONTROL País de facturación] <li>[!UICONTROL Sector] <li>[!UICONTROL Número de empleados] <li>[!UICONTROL Código SIC] <li>[!UICONTROL Estado] |
 | Datos de intención | Atributos basados en datos de intención asociados al perfil de la persona. |
-| Oportunidades | Atributos basados en las oportunidades asociadas con el perfil de la persona. |
-| Atributos de la persona | Atributos del perfil de persona B2B, incluidos: <li>Ciudad <li>País <li>Fecha de nacimiento <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida<li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de personas <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
+| Oportunidades | Estado y atributos basados en las oportunidades asociadas con el perfil de la persona, incluidos: <li>[!UICONTROL Tiene oportunidad] <li>[!UICONTROL Número de oportunidades] <li>[!UICONTROL Importe total de la oportunidad] <li>[!UICONTROL Se agregó a la oportunidad] <li>[!UICONTROL Se eliminó de la oportunidad] |
+| Atributos de la persona | Atributos del perfil de persona B2B, incluidos: <li>[!UICONTROL Ciudad] <li>[!UICONTROL País] <li>[!UICONTROL Fecha de nacimiento] <li>[!UICONTROL Dirección de correo electrónico] <li>[!UICONTROL Correo electrónico no válido] <li>[!UICONTROL Correo electrónico suspendido] <li>[!UICONTROL Nombre] <li>[!UICONTROL Región de estado deducido] <li>[!UICONTROL Título de trabajo] <li>[!UICONTROL Apellido] <li>[!UICONTROL Número de teléfono móvil] <li>[!UICONTROL Puntuación de participación de personas] <li>[!UICONTROL Número de teléfono] <li>[!UICONTROL Código postal] <li>[!UICONTROL Estado] <li>[!UICONTROL Canceló la suscripción] <li>[!UICONTROL Motivo de cancelación de suscripción] |
 | Aplicaciones de ventas | Actividades de posibles clientes relacionadas con [!DNL Sales Qualifier] o [!DNL Marketo Sales Insights]. |
 | Filtros especiales | Filtrado de atributos que no se incluyen en las categorías predefinidas, lo que proporciona flexibilidad para criterios de filtro personalizados o diversos. |
 
@@ -57,16 +57,16 @@ Para las condiciones de ruta de acceso, [!DNL Marketo Optimizer] admite activida
 
 Puede generar condiciones en torno a las siguientes [!DNL Marketo Engage] actividades:
 
-* [!UICONTROL Se ha completado el formulario de Marketo Engage]. Coincide con los posibles clientes que han completado un formulario [!DNL Marketo Engage] específico en cualquier momento de su registro de actividades que no hayan caducado.
-* [!UICONTROL Visitó la página web de Marketo Engage]. Coincide con los posibles clientes que vieron una dirección URL específica en su sitio web o en [!DNL Marketo Engage] páginas de aterrizaje. Funciona directamente mediante el código de seguimiento de Munchkin instalado en el sitio.
-* [!UICONTROL Se hizo clic en un vínculo en la página web de Marketo Engage]. Coincide con los posibles clientes que han hecho clic en un vínculo o recurso específico de una página rastreada.
-* [!UICONTROL Se envió el correo electrónico de Marketo Engage]. Coincide con los posibles clientes a los que [!DNL Marketo Engage] intentó enviar un correo electrónico específico, teniendo en cuenta las acciones de implementación anteriores a las devoluciones graves o las aceptaciones del servidor.
-* [!UICONTROL Se entregó el correo electrónico de Marketo Engage]. Coincide con un posible cliente cuyo servidor de correo (MX) devolvió una respuesta correcta (un mensaje 250 OK) al servidor emisor [!DNL Marketo Engage].
-* [!UICONTROL Correo electrónico de Marketo Engage rechazado] - Coincide con posibles clientes que experimentaron un rechazo grave (error de envío permanente) en un envío de correo electrónico específico o dentro de un intervalo de tiempo.
-* [!UICONTROL El correo electrónico de Marketo Engage rebotó de forma suave]. Coincide con los posibles clientes cuyos correos electrónicos experimentaron un error de entrega temporal (como una bandeja de entrada completa o un servidor sin conexión) en lugar de un rebote duro permanente.
-* [!UICONTROL Se canceló la suscripción al correo electrónico de Marketo Engage]. Coincide con los posibles clientes que se excluyeron de los correos electrónicos de marketing no operativos. Cuando esto sucede, [!DNL Marketo Engage] actualiza automáticamente el valor de campo `Unsubscribed` del posible cliente a `true`, lo que los suprime de futuros envíos de correo electrónico estándar.
-* [!UICONTROL Correo electrónico de Marketo Engage abierto] - Coincide con los posibles clientes que abrieron un correo electrónico de [!DNL Marketo Engage] rastreado.
-* [!UICONTROL Se hizo clic en un vínculo en el correo electrónico de Marketo Engage]. Coincide con los posibles clientes que hicieron clic en un vínculo (o en un vínculo específico) incluido en un correo electrónico de [!DNL Marketo Engage].
+* **[!UICONTROL Se ha completado el formulario de Marketo Engage]**. Coincide con los posibles clientes que han completado un formulario [!DNL Marketo Engage] específico en cualquier momento de su registro de actividades que no hayan caducado.
+* **[!UICONTROL Visitó la página web de Marketo Engage]**. Coincide con los posibles clientes que vieron una dirección URL específica en su sitio web o en [!DNL Marketo Engage] páginas de aterrizaje. Funciona directamente mediante el código de seguimiento de Munchkin instalado en el sitio.
+* **[!UICONTROL Se hizo clic en un vínculo en la página web de Marketo Engage]**. Coincide con los posibles clientes que han hecho clic en un vínculo o recurso específico de una página rastreada.
+* **[!UICONTROL Se envió el correo electrónico de Marketo Engage]**. Coincide con los posibles clientes a los que [!DNL Marketo Engage] intentó enviar un correo electrónico específico, teniendo en cuenta las acciones de implementación anteriores a las devoluciones graves o las aceptaciones del servidor.
+* **[!UICONTROL Se entregó el correo electrónico de Marketo Engage]**. Coincide con un posible cliente cuyo servidor de correo (MX) devolvió una respuesta correcta (un mensaje 250 OK) al servidor emisor [!DNL Marketo Engage].
+* **[!UICONTROL Correo electrónico de Marketo Engage rechazado]** - Coincide con posibles clientes que experimentaron un rechazo grave (error de envío permanente) en un envío de correo electrónico específico o dentro de un intervalo de tiempo.
+* **[!UICONTROL El correo electrónico de Marketo Engage rebotó de forma suave]**. Coincide con los posibles clientes cuyos correos electrónicos experimentaron un error de entrega temporal (como una bandeja de entrada completa o un servidor sin conexión) en lugar de un rebote duro permanente.
+* **[!UICONTROL Se canceló la suscripción al correo electrónico de Marketo Engage]**. Coincide con los posibles clientes que se excluyeron de los correos electrónicos de marketing no operativos. Cuando esto sucede, [!DNL Marketo Engage] actualiza automáticamente el valor de campo `Unsubscribed` del posible cliente a `true`, lo que los suprime de futuros envíos de correo electrónico estándar.
+* **[!UICONTROL Correo electrónico de Marketo Engage abierto]** - Coincide con los posibles clientes que abrieron un correo electrónico de [!DNL Marketo Engage] rastreado.
+* **[!UICONTROL Se hizo clic en un vínculo en el correo electrónico de Marketo Engage]**. Coincide con los posibles clientes que hicieron clic en un vínculo (o en un vínculo específico) incluido en un correo electrónico de [!DNL Marketo Engage].
 
 >[!ENDSHADEBOX]
 
