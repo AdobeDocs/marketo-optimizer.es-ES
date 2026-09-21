@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 2%
 ---
 
@@ -37,7 +37,7 @@ La ficha [!UICONTROL Informes] organiza los informes generados previamente en cu
 Algunos informes se centran en un único registro en lugar de en una vista de toda la sección y se accede a ellos desde un área diferente de la aplicación.
 
 * Para obtener rendimiento de optimización del tiempo de envío de correo electrónico, abra el informe desde la interfaz de chat de [!UICONTROL Coworker]. Para ver los pasos, consulte [Optimización del tiempo de envío de correo electrónico](../marketing/email-send-time-optimization.md#reporting).
-* Para el progreso de una persona a través de un solo recorrido, abra el informe desde ese recorrido.
+* Para el progreso de una persona a través de un solo recorrido, abra el [informe individual de Recorrido de persona](./person-journey-individual-report.md) desde ese recorrido.
 
 ## Exportación de informes {#export-a-report}
 
