@@ -1,6 +1,6 @@
 ---
 title: Siguiente nodo de mejor ruta
-description: Utilice el nodo Siguiente mejor ruta en Marketo Optimizer para el enrutamiento de recorrido impulsado por IA con indicadores de lenguaje natural, simulación de ruta, puntuaciones de confianza y resultados de ruta dividida en directo.
+description: Obtenga información acerca del nodo de la siguiente mejor ruta de acceso de [!DNL Marketo Optimizer], que usa instrucciones de IA y de lenguaje natural para enrutar los recorridos. Simular rutas antes de publicar.
 TQID: 'https://experienceleague.adobe.com/F-pxiABk7vHAktfmBUjZ8BYnxYIwQp--WutG6mvxiY0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -13,14 +13,14 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1556'
 ht-degree: 0%
 ---
 # Siguiente nodo de mejor ruta
 
-En Marketo Optimizer, el nodo *Siguiente mejor ruta* incorpora la toma de decisiones de ruta dividida impulsada por IA directamente en el lienzo de recorrido. En lugar de configurar las condiciones de filtro en un nodo [rutas divididas](./split-merge-paths-nodes.md), describirá la intención en lenguaje natural y permitirá que el sistema determine la ruta más relevante para cada persona.
+En [!DNL Marketo Optimizer], el nodo *Siguiente mejor ruta* incorpora la toma de decisiones de ruta dividida impulsada por IA directamente en el lienzo de recorrido. En lugar de configurar las condiciones de filtro en un nodo [rutas divididas](./split-merge-paths-nodes.md), describirá la intención en lenguaje natural y permitirá que el sistema determine la ruta más relevante para cada persona.
 
 En las compras B2B, un perfil puede parecer un tipo de comprador, pero su comportamiento, los datos firmográficos y el contexto de participación revelan una historia con más matices. El siguiente nodo de mejor ruta evalúa ese contexto para tomar una decisión de enrutamiento inteligente, al tiempo que le permite revisar, modificar o anular cualquier recomendación de IA antes de activar el recorrido.
 
@@ -36,7 +36,7 @@ Hay tres pasos para pasar de la intención a la activación.
   >
   >La simulación se ejecuta únicamente con datos de muestra y nunca afecta a la ejecución del recorrido en directo.
 
-* **Paso 3: Activar** — Publica el recorrido en tu audiencia real. La IA evalúa a cada persona en tiempo de ejecución, asigna la ruta más adecuada en tiempo real y una alternativa predeterminada garantiza que nadie llegue a un callejón sin salida.
+* **Paso 3: Activar** — Publica el recorrido en tu audiencia real. La IA evalúa a cada persona en tiempo de ejecución, asigna la ruta que mejor se ajusta en tiempo real y una reserva predeterminada garantiza que nadie se excluya de una ruta.
 
 ### Entradas de decisiones de IA {#ai-decisioning-inputs}
 
@@ -49,7 +49,7 @@ Cuando una persona llega al nodo, el sistema obtiene el contexto de perfil, apli
 
 ### Creación de contexto de IA {#ai-context-building}
 
-Tras la decisión de enrutamiento, la IA crea una capa deducida para cada perfil. Combina datos demográficos y firmográficos, detalles de la cuenta y señales de comportamiento (como detalles personales, intención del problema e intención del producto) en un resumen contextual para esa persona. Con este contexto enriquecido, la IA puede dirigir a cada persona hacia el camino óptimo y proporcionar una puntuación de confianza y el razonamiento en lenguaje natural detrás de cada decisión.
+Como apoyo a la decisión de enrutamiento, la IA crea una capa deducida para cada perfil. Combina datos demográficos y firmográficos, detalles de la cuenta y señales de comportamiento (como detalles personales, intención del problema e intención del producto) en un resumen contextual para esa persona. Con este contexto enriquecido, la IA puede dirigir a cada persona hacia el camino óptimo y proporcionar una puntuación de confianza y el razonamiento en lenguaje natural detrás de cada decisión.
 
 Cada decisión se registra con una puntuación de confianza y un razonamiento en lenguaje natural para la transparencia y la observabilidad.
 
@@ -59,7 +59,9 @@ Si ninguna ruta es una coincidencia sólida o si el mensaje hace referencia a da
 
 1. Abra el recorrido de la persona y vaya al lienzo de recorrido.
 
-1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **Siguiente mejor ruta**.
+1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Siguiente mejor ruta]**.
+
+   ![Menú de opciones de nodo después de hacer clic en el icono de agregar en una ruta de recorrido, con la siguiente mejor ruta de acceso en la lista.](./assets/person-journey-canvas-add-node.png){width="200"}
 
    El nodo se añade al lienzo y el panel de configuración de la división AI se abre a la derecha. Comienza con una ruta y una ruta predeterminada *Otras personas* para dirigir a las personas que no cumplen los requisitos para ninguna de las rutas definidas.
 
@@ -67,27 +69,33 @@ Si ninguna ruta es una coincidencia sólida o si el mensaje hace referencia a da
 
 Para cada ruta, defina un nombre y una petición de datos en lenguaje natural que describa a quién se debe dirigir allí. La entrada del mensaje reemplaza por completo la interfaz de usuario de la condición de filtro; no hay condiciones de atributo que configurar.
 
-1. Haga clic en **Agregar ruta** para cada ruta adicional que desee incluir.
+1. Para la primera ruta, introduzca las propiedades en la tarjeta de ruta del panel derecho:
 
-   Para quitar una ruta, haga clic en el icono *Eliminar* de la tarjeta de ruta.
+   * Escriba una **[!UICONTROL Etiqueta]** que refleje la audiencia o la intención de ese segmento.
 
-1. Para cada tarjeta de ruta del panel derecho:
+   * Escriba un **[!UICONTROL indicador]** en lenguaje natural que describa quién pertenece a esta ruta. Céntrese en la intención y el resultado, no en los valores de atributo específicos.
 
-   * Escriba una **Etiqueta** que refleje la audiencia o la intención de ese segmento.
+   ![Tarjeta de ruta de acceso con un campo Etiqueta y un campo Preguntar que describe la audiencia para esa ruta de acceso.](./assets/next-best-path-label-prompt.png){width="500"}
 
-   * Escriba un **indicador** en lenguaje natural que describa quién pertenece a esta ruta. Céntrese en la intención y el resultado, no en los valores de atributo específicos.
+1. Haga clic en **[!UICONTROL Agregar ruta]** para cada ruta adicional que desee incluir.
 
-     **El ejemplo solicita una división de tres rutas:**
+   Para quitar una ruta, haga clic en el icono *Eliminar* ( ![Eliminar icono](../assets/do-not-localize/icon-delete-2.svg) ) de la tarjeta de ruta.
 
-     * *Ruta 1 - Líderes de RRHH:* Identifique a las personas en roles de liderazgo de RRHH que tienen más probabilidades de involucrarse con la administración de talentos y el contenido de experiencia de los empleados.
-     * *Ruta 2 - Evaluadores técnicos:* Identifique a las partes interesadas técnicas que tienen más probabilidades de interactuar con la arquitectura del producto, las integraciones y el contenido de implementación.
-     * *Ruta 3 - Responsables de la toma de decisiones empresariales:* Identifique a las partes interesadas empresariales que tienen más probabilidades de interactuar con el retorno de la inversión, los resultados empresariales y el contenido de los estudios de casos.
+   Añada la etiqueta y pida confirmación para cada ruta.
+
+   **El ejemplo solicita una división de tres rutas:**
+
+   * *Ruta 1 - Líderes de RRHH:* Identifique a las personas en roles de liderazgo de RRHH que tienen más probabilidades de involucrarse con la administración de talentos y el contenido de experiencia de los empleados.
+   * *Ruta 2 - Evaluadores técnicos:* Identifique a las partes interesadas técnicas que tienen más probabilidades de interactuar con la arquitectura del producto, las integraciones y el contenido de implementación.
+   * *Ruta 3 - Responsables de la toma de decisiones empresariales:* Identifique a las partes interesadas empresariales que tienen más probabilidades de interactuar con el retorno de la inversión, los resultados empresariales y el contenido de los estudios de casos.
+
+   ![Tres rutas de acceso definidas con indicadores y la ruta de acceso predeterminada Otras personas en el lienzo de recorrido.](./assets/next-best-path-three-defined-paths.png){width="600"}
 
 1. Si es necesario, reordene las rutas para establecer el orden de prioridad de las coincidencias.
 
    El filtrado de rutas se evalúa en orden descendente. Cada persona continúa por el primer camino que coincida. Haga clic en las flechas arriba y abajo en la parte superior derecha de cada tarjeta de ruta para moverla hacia arriba o hacia abajo en la lista.
 
-1. Revise la ruta predeterminada (la última de la lista de rutas) y cambie la etiqueta si es necesario.
+1. Revise la ruta predeterminada **[!UICONTROL Otras personas]** (la última de la lista de rutas) y cambie la etiqueta si es necesario.
 
    La ruta predeterminada se utiliza cuando la IA no puede asignar una persona con seguridad a ninguna ruta definida o cuando los datos relevantes no están disponibles. Cuando una solicitud hace referencia a datos que no existen en el conjunto de datos para un perfil determinado, el sistema enruta ese perfil a la ruta predeterminada e indica el intervalo de datos.
 
@@ -97,7 +105,7 @@ Para cada ruta, defina un nombre y una petición de datos en lenguaje natural qu
 
 Las recomendaciones de IA no son vinculantes. Antes de activar el recorrido, puede:
 
-* Edite cualquier petición de ruta para restringir la lógica de enrutamiento.
+* Para restringir la lógica de enrutamiento, edite cualquier solicitud de ruta.
 * Agregar, quitar o reordenar rutas.
 * Anule las sugerencias de IA con condiciones personalizadas según sea necesario.
 
@@ -109,11 +117,11 @@ Las asignaciones de rutas controladas por IA no surtirán efecto hasta que publi
 
 Los siguientes ejemplos muestran cómo escribir indicadores de ruta efectivos en casos de uso comunes de marketing B2B. Utilícelos como punto de partida y adapte el idioma para que coincida con el contexto de recorrido y los datos de audiencia.
 
-* &quot;Identifique a las personas que han participado en sitios de RRHH (shrm.org, hbr.org/topic/human-resource-management) interesados en Journey Optimizer durante los últimos 30 días y que probablemente asistan a un seminario web sobre IA en operaciones de RRHH. También deberían haber mostrado cierto interés en los productos de IA&quot;.
+* &quot;Identifique a las personas que han participado en los sitios de RRHH (shrm.org, hbr.org/topic/human-resource-management) y [!DNL Journey Optimizer] durante los últimos 30 días, probablemente para asistir a un seminario web sobre IA en operaciones de RRHH e interesadas en productos de IA&quot;.
 
-* Identifique a las personas que tienen participación en sitios de Finanzas (wsj.com/finance,investopedia.com), interesadas en Marketo en los últimos 30 días y que probablemente asistan a un seminario web sobre IA en Financial Planning. También deberían haber mostrado cierto interés en los productos de IA&quot;.
+* &quot;Identifique a las personas que han participado en sitios de finanzas (wsj.com/finance,investopedia.com), interesadas en [!DNL Marketo Engage] en los últimos 30 días y que probablemente asistan a un seminario web sobre IA en Financial Planning. También deberían haber mostrado cierto interés en los productos de IA&quot;.
 
-* &quot;Identifique a las personas que han participado en los sitios de Riesgo/Investigación (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interesadas en GenStudio en los últimos 30 días y que probablemente asistan a un seminario web sobre IA en la gestión de riesgos. También deberían haber mostrado cierto interés en los productos de IA&quot;.
+* &quot;Identifique a las personas que participaron en los sitios de Riesgo/Investigación (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research) y [!DNL GenStudio] en los últimos 30 días, probablemente para asistir a un seminario web sobre IA en Gestión de Riesgos e interesadas en los productos de IA&quot;.
 
 ## Simular la toma de decisiones antes de publicar {#simulate}
 
@@ -121,18 +129,22 @@ Utilice la simulación para probar cómo la IA evalúa los indicadores con respe
 
 ### Ejecución de una simulación {#run-simulation}
 
-1. Seleccione el siguiente nodo de mejor ruta y haga clic en el icono *Simular* en la parte superior del panel derecho.
+1. Seleccione el siguiente nodo de mejor ruta y haga clic en el icono *Simular* ( ![Icono Simular](../assets/do-not-localize/icon-simulate.svg) ) en la parte superior del panel derecho.
 
-1. En el cuadro de diálogo, elija la audiencia que desea utilizar para la simulación:
+1. En el cuadro de diálogo, elija una lista dinámica para utilizarla en la audiencia de simulación.
 
-   * **[!UICONTROL Listas de personas originales]**: use la audiencia del nodo de audiencia. Especifique un tamaño de muestra cuando la audiencia completa supere el umbral de simulación.
-   * **[!UICONTROL Listas dinámicas y estáticas]**: use una lista estática o dinámica de Marketo Engage.
-   * **[!UICONTROL Registros de pruebas]** - Usar perfiles de prueba sugeridos por IA.
+<!-- 
+   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
-   >[!NOTE]
-   >
-   >* Si la audiencia seleccionada supera el umbral de simulación, el sistema ejecuta la simulación en una muestra de 100 perfiles. Un indicador en la IU muestra que los resultados se basan en muestras.
-   >* Si la audiencia seleccionada aún no se ha materializado, la simulación se bloquea. Una advertencia en línea le indica que primero debe materializar la audiencia.
+![Simular diálogo de rutas de acceso con una lista dinámica seleccionada y los botones Cancelar y Simular.](./assets/next-best-path-simulate-paths.png){width="250"}
+
+>[!NOTE]
+>
+>* Si la audiencia seleccionada supera el umbral de simulación, el sistema ejecuta la simulación en una muestra de 100 perfiles. Un indicador en la IU muestra que los resultados se basan en muestras.
+>* Si la audiencia seleccionada aún no se ha materializado, la simulación se bloquea. Una advertencia en línea le indica que primero debe materializar la audiencia.
 
 1. Haga clic en **[!UICONTROL Simular]**.
 
@@ -148,6 +160,8 @@ Después de ejecutar la simulación, el panel derecho muestra la distribución d
 | **Mensaje** | El indicador que se evaluó para la ruta. |
 | **Razonamiento de IA** | Una explicación en lenguaje natural de por qué los perfiles se asignaron colectivamente a esta ruta. |
 
+![Resultados de simulación que muestran el recuento de perfiles, el porcentaje dividido, la puntuación de confianza y el razonamiento de IA por ruta.](./assets/next-best-path-simulated-details.png){width="600"}
+
 >[!NOTE]
 >
 >Cuando los datos disponibles o el alcance limitan una decisión, los resultados incluyen información sobre la limitación. Por ejemplo, cuando un atributo requerido no está presente en el conjunto de datos, los resultados incluyen un indicador explícito que explica cómo los datos que faltan afectaron a los resultados.
@@ -160,14 +174,16 @@ Después de validar los resultados de la simulación:
 
 1. Conecte la audiencia de personas al nodo de entrada de recorrido.
 
-2. [Publicación del recorrido](./person-journeys.md#publish).
+1. [Publicación del recorrido](./person-journeys.md#publish).
 
 Una vez que el recorrido está activo, el siguiente nodo de mejor ruta se ejecuta en el momento de la ejecución. A medida que cada persona llega al nodo, la IA los evalúa en tiempo real utilizando las señales más recientes y los enruta hacia la ruta más relevante.
 
-Para un recorrido publicado, abra el lienzo de recorrido y seleccione el siguiente nodo de mejor ruta para ver la sección **_[!UICONTROL Resultados en directo]_** en el panel derecho. Los resultados en directo muestran:
+Para un recorrido publicado, abra el lienzo de recorrido y seleccione el siguiente nodo de mejor ruta para ver la sección **_[!UICONTROL Resultados finales]_** en el panel derecho. Los resultados finales muestran:
 
 * La distribución porcentual de perfiles en cada ruta
 * La puntuación de confianza para cada asignación de ruta
 * Razonamiento a nivel de ruta y de perfil, con detalles ampliables para perfiles individuales
 
-Los resultados en directo también están disponibles en la consola de Recorrido y a través de la habilidad de observación de Recorrido en el centro de IA.
+![Pestaña de informe final que muestra la distribución del perfil en directo, las puntuaciones de confianza y el razonamiento de IA por ruta.](./assets/next-best-path-final-report.png){width="600"}
+
+Los resultados en vivo también están disponibles a través de la habilidad Observabilidad del Recorrido en la [interfaz de chat de Coworker](../agents/chat-interface.md).
