@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # Puntuación de Studio
@@ -105,6 +105,84 @@ Debajo del segmento de posibles clientes, la tarjeta **[!UICONTROL Nombre del ca
 
 ## Publicación y programación {#publish-schedule}
 
-Cuando el modelo esté listo, seleccione **[!UICONTROL Publicar]**. Elija la frecuencia con la que el modelo puntúa su audiencia: diaria, semanal o mensual.
+Cuando el modelo esté listo, haga clic en **[!UICONTROL Publicar]**.
 
-Para ver el proceso de publicación completo, incluido cómo [!DNL Marketo Optimizer] aprovisiona automáticamente un campo de puntuación, consulte [_Publicar un modelo de puntuación_](../agents/lead-scoring-model.md#publish-model).
+![Se muestra el botón Publicar para un modelo de puntuación de borrador.](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+Elija la frecuencia con la que el modelo puntúa su audiencia: diaria, semanal o mensual. También puede elegir una opción manual para ejecutar el modelo.
+
+![Las opciones de programación muestran opciones de periodicidad diarias, semanales, mensuales y manuales para ejecutar el modelo de puntuación.](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+Para ver el proceso de publicación completo mediante la [interfaz de chat de Coworker](../agents/chat-interface.md), incluido cómo [!DNL Marketo Optimizer] aprovisiona un campo de puntuación automáticamente, consulte [_Publicar un modelo de puntuación_](../agents/lead-scoring-model.md#publish-model).
+
+Las puntuaciones más recientes se almacenan en un campo aprovisionado que se sincroniza con la instancia de [!DNL Marketo Engage].
+
+![El campo de puntuación aprovisionado se muestra en la administración de campos de Marketo Engage](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## Uso de puntuaciones en filtros {#filter-score}
+
+Después de [publicar un modelo](#publish-schedule), puede usar su puntuación resultante como filtro al crear audiencias basadas en eventos y _Escuchar un evento_ nodos, como una condición de ruta de acceso dividida o para la pertenencia a listas de personas.
+
+La puntuación aparece en el panel de filtro bajo la categoría **[!UICONTROL Atributos de persona]**, etiquetada con el nombre del modelo o el nombre del campo de puntuación [_personalizado_](#lead-segment) que le asignó. Introduzca ese nombre en el campo de búsqueda del panel de filtro para localizar la puntuación, arrástrela al lienzo y defina los criterios.
+
+### Audiencias y nodos basados en eventos {#scoring-model-event-audience}
+
+Para usar un resultado de modelo de puntuación para filtrar por una [audiencia basada en eventos](../audiences/event-based-audiences.md) o [_Escuchar un evento_ nodo](../marketing/listen-for-event-nodes.md):
+
+1. Haga clic en **[!UICONTROL Agregar criterios de evento]**.
+
+1. En el cuadro de diálogo _[!UICONTROL Editar criterios del evento]_, seleccione la pestaña **[!UICONTROL Filtros]**.
+
+1. Introduzca el nombre del modelo en el campo de búsqueda y arrastre la puntuación al lienzo.
+
+   ![La ficha Filtros muestra un nombre de modelo introducido en el campo de búsqueda y la puntuación coincidente arrastrada al lienzo.](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. Establezca el operador y el valor para que coincidan con las puntuaciones que desee establecer como objetivo.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+### Condiciones de ruta dividida {#split-path-conditions}
+
+Para usar un resultado de modelo de puntuación para definir las condiciones de ruta para un nodo [_Split paths_](../marketing/split-merge-paths-nodes.md):
+
+1. Haga clic en **[!UICONTROL Editar condición]** para la ruta del nodo.
+
+1. En el cuadro de diálogo _[!UICONTROL Condiciones]_, escriba el nombre del modelo en el campo de búsqueda y, a continuación, arrastre la puntuación coincidente al lienzo.
+
+   ![El cuadro de diálogo Condiciones muestra un nombre de modelo introducido en el campo de búsqueda y la puntuación coincidente arrastrada al lienzo.](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. Establezca el operador y el valor para que coincidan con las puntuaciones que desee establecer como objetivo.
+
+1. Haga clic en **[!UICONTROL Listo]** para guardar la condición de la ruta.
+
+### Abono a lista de personas {#scoring-model-people-lists}
+
+Para administrar la pertenencia a [listas de personas](../audiences/people-lists.md) mediante un resultado de modelo de puntuación:
+
+**Lista estática — Agregar miembros**
+
+1. Abra la lista estática y haga clic en **[!UICONTROL Agregar personas]**.
+
+1. En el cuadro de diálogo _[!UICONTROL Agregar personas]_, escriba el nombre del modelo en el campo de búsqueda y, a continuación, arrastre la puntuación coincidente al lienzo.
+
+   ![El cuadro de diálogo Agregar personas muestra un nombre de modelo introducido en el campo de búsqueda y la puntuación coincidente arrastrada al lienzo.](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. Establezca el operador y el valor para que coincidan con las puntuaciones que desee establecer como objetivo.
+
+1. Haga clic en **[!UICONTROL Listo]** para aplicar el filtro y calificar a las personas coincidentes en la lista.
+
+**Lista dinámica — Establecer reglas de pertenencia**
+
+1. Abra la lista dinámica y seleccione la ficha **[!UICONTROL Reglas]**.
+
+1. Haga clic en **[!UICONTROL Editar reglas]**.
+
+1. En el cuadro de diálogo _[!UICONTROL Editar reglas]_, escriba el nombre del modelo en el campo de búsqueda y, a continuación, arrastre el elemento de puntuación al lienzo.
+
+   ![El cuadro de diálogo Editar reglas muestra un nombre de modelo introducido en el campo de búsqueda y la puntuación coincidente arrastrada al lienzo.](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. Establezca el operador y el valor para que coincidan con las puntuaciones que desee establecer como objetivo.
+
+1. Haga clic en **[!UICONTROL Listo]** para guardar la regla.
+
+   La pertenencia se actualiza automáticamente a medida que se evalúan los registros de persona según la regla.
