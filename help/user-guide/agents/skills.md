@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
+source-git-commit: abbd342b8191ddebd7e155ad2c5944e4695a05b3
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '967'
 ht-degree: 4%
 ---
 
@@ -82,7 +82,6 @@ Estas habilidades crean y administran correos electrónicos, formularios y pági
 | --- | --- | --- |
 | **Lista de Forms** | Enumerar formularios y ver sus detalles y campos. | Buscar |
 | **Páginas de aterrizaje de lista** | Enumere las páginas de aterrizaje, vea sus detalles y administre su estado de borrador o publicado. | Buscar |
-| **Auditoría de correo electrónico** | Auditar un correo electrónico en relación con su grupo de destino, incluida la inferencia personal y una breve revisión sección por sección. | Analizar |
 | **Creación de correo electrónico** | Cree o actualice un nodo de correo electrónico de recorrido, incluyendo la composición a partir de un informe o PDF, su vinculación a un nodo y la escritura de contenido. | Editar |
 | **Creación de formularios** | Cree o actualice un formulario independiente de captura de posibles clientes, publíquelo y, opcionalmente, incrústelo en una página de aterrizaje. | Crear |
 | **Creación de páginas de aterrizaje** | Cree o actualice una página de aterrizaje a partir de un informe, incluida la planificación de contenido, la selección de plantillas, el rellenado de espacios y la adición de un formulario; a continuación, publíquelo. Adjunte también una página de aterrizaje publicada como vínculo de call-to-action en un correo electrónico. | Crear |
