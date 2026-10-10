@@ -4,29 +4,39 @@ description: 'Documentación completa para Marketo Optimizer: explore los recurs
 TQID: 'https://experienceleague.adobe.com/UefS41mK-pwG-bqv2d-6Qj6qH9ZPBf4AYK2uoKzzk6E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: 7a4e898b64751d5b912e6468d318083c571eff1b
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '429'
 ht-degree: 3%
-
 ---
-
 # Documentación de Adobe Marketo Optimizer
 
-[!DNL Adobe Marketo Optimizer] es una solución de automatización de marketing con prioridad de IA que permite a los especialistas en marketing y a los representantes de desarrollo empresarial planificar programas, organizar recorridos personalizados de personas y calificar clientes potenciales. Utilice la IA conversacional para crear y ejecutar una participación coordinada de marketing y ventas con contenido personalizado con tecnología de IA para clientes potenciales y cuentas B2B.
+[!DNL Adobe Marketo Optimizer] es una solución de automatización de marketing con prioridad de IA que permite a los especialistas en marketing y a los representantes de desarrollo empresarial (BDR) unir sus recorridos de cliente potencial, cuenta y grupo de compra con un potente razonamiento de IA que enriquece el contexto del cliente con historias semánticas continuamente actualizadas y escala la participación con las mejores acciones de próxima generación en los canales de marketing, medios de pago y BDR.
 
 ## Empiece con lo básico {#basics}
 
