@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 36%
@@ -35,7 +35,7 @@ Una vez completado el aprovisionamiento y enlazados los entornos limitados, comp
 
 ## Configuración del perfil del producto {#config-profile}
 
-Como administrador, puede completar estas tareas en [!DNL Adobe Admin Console], que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Para obtener más información sobre sus funciones y capacidades, consulte la página [Información general de Admin Console](https://helpx.adobe.com/es/business/enterprise/deploy-apps-updates.html).
+Como administrador, puede completar estas tareas en [!DNL Adobe Admin Console], que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Para obtener más información sobre sus funciones y capacidades, consulte la página [Información general de Admin Console](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
 
 ### Acceso a Admin Console {#admin-console}
 
@@ -65,13 +65,13 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
    * Si el acceso está configurado correctamente, la búsqueda devolverá el registro.
 
-   * Si el valor de la columna **[!UICONTROL ROL DE ADMINISTRADOR]** muestra `System`, sabrá que usted (o el usuario mostrado) es administrador del sistema.
+   * Si el valor de la columna **[!UICONTROL FUNCIÓN DE ADMINISTRADOR]** muestra `System`, sabrá que usted (o el usuario mostrado) es administrador del sistema.
 
 ### Crear el perfil de producto [!DNL Marketo Optimizer] {#create-profile}
 
 Al conceder a los usuarios acceso a una solución de Adobe, no necesariamente desea darles acceso completo. Los perfiles de producto permiten que cada solución tenga su propio conjunto de permisos de usuario. Utilice Admin Console para asignar perfiles de producto.
 
-Para obtener más información sobre el uso de perfiles de producto para las autorizaciones de usuario, consulte [_Administrar perfiles de producto para usuarios empresariales_](https://helpx.adobe.com/es/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"} en la documentación de Admin Console.
+Para obtener más información sobre el uso de perfiles de producto para las autorizaciones de usuario, consulte [_Administrar perfiles de producto para usuarios empresariales_](https://helpx.adobe.com/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"} en la documentación de Admin Console.
 
 ![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o [!DNL Experience Platform] administrador de productos puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -87,7 +87,7 @@ Para obtener más información sobre el uso de perfiles de producto para las aut
 
 Un grupo de usuarios es una colección de usuarios a los que se concede un conjunto compartido de permisos. Puede agregar o quitar usuarios de su grupo de usuarios. Los permisos del grupo siguen siendo los mismos mientras cambian los usuarios dentro del grupo.
 
-Para obtener más información sobre cómo se usan los grupos de usuarios para administrar permisos, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/es/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} en la documentación de Admin Console.
+Para obtener más información sobre cómo se usan los grupos de usuarios para administrar permisos, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} en la documentación de Admin Console.
 
 ![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -122,7 +122,7 @@ Para obtener más información sobre cómo se usan los grupos de usuarios para a
 
 ### Agregar usuarios al nuevo grupo {#add-users}
 
-Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/es/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} en la documentación de Admin Console.
+Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} en la documentación de Admin Console.
 
 ![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de producto puede realizar los siguientes pasos desde [https://adminconsole.adobe.com](https://adminconsole.adobe.com). Un administrador de productos solo puede agregar usuarios que ya existen en su organización.
 
@@ -158,7 +158,7 @@ Los permisos son derechos unitarios que le permiten definir las autorizaciones a
 
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
-Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
+Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com/).
 
@@ -244,7 +244,7 @@ Para las funciones integradas o personalizadas, puede decidir en cualquier momen
 >
 >Un administrador de productos con acceso a Permisos de Experience Platform puede realizar estos pasos.
 
-_Para cambiar los permisos de un rol :_
+_Para cambiar los permisos de una función :_
 
 1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo.
 
@@ -284,7 +284,7 @@ _Para cambiar los permisos de un rol :_
 
    ![Ficha Usuarios en la página de detalles de rol de Experience Platform con la opción Agregar usuarios seleccionada.](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
-1. En el cuadro de diálogo _[!UICONTROL Agregar usuarios]_, busque y seleccione los usuarios que desee agregar al rol.
+1. En el cuadro de diálogo _[!UICONTROL Agregar usuarios]_, busque y seleccione los usuarios que desee agregar a la función.
 
    * Puede utilizar la herramienta Buscar para filtrar la lista de usuarios.
 
@@ -294,9 +294,9 @@ _Para cambiar los permisos de un rol :_
 
 1. Haga clic en **[!UICONTROL Guardar]** cuando haya seleccionado todos los usuarios que desea agregar.
 
-### Agregar grupos de usuarios a un rol {#add-user-groups-to-a-role}
+### Agregar grupos de usuarios a una función {#add-user-groups-to-a-role}
 
-Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/es/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} en la documentación de Admin Console.
+Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} en la documentación de Admin Console.
 
 ![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
 
@@ -308,7 +308,7 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
    ![Pestaña Grupos de usuarios en la página de detalles de rol en Experience Platform con la opción Agregar grupos seleccionada.](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
-1. En el cuadro de diálogo _[!UICONTROL Agregar grupos]_, busque y seleccione los grupos que desee agregar al rol.
+1. En el cuadro de diálogo _[!UICONTROL Agregar grupos]_, busque y seleccione los grupos que desee agregar a la función.
 
    * Puede utilizar la herramienta Buscar para filtrar la lista de grupos de usuarios.
 
@@ -322,9 +322,9 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
 ![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
 
-1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo y seleccione **[!UICONTROL Crear rol]**.
+1. Seleccione **[!UICONTROL Funciones]** en el panel de navegación izquierdo y seleccione **[!UICONTROL Crear función]**.
 
-1. En el cuadro de diálogo _[!UICONTROL Crear nuevo rol]_, escriba un nombre para el rol, como _Especialistas en marketing B2B_, y una descripción (opcional).
+1. En el cuadro de diálogo _[!UICONTROL Crear nueva función]_, escriba un nombre para la función, como _Especialistas en marketing B2B_, y una descripción (opcional).
 
 1. Haga clic en **[!UICONTROL Confirmar]**.
 
