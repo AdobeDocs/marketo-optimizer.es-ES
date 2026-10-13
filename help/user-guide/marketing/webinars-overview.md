@@ -1,29 +1,39 @@
 ---
 title: Seminarios web interactivos
-description: Conozca los conceptos subyacentes a los seminarios web interactivos en Marketo Optimizer, incluido el modelo de recursos de seminarios web, los estados miembros, los tokens y las actividades.
-keywords: 
+description: Aprenda los conceptos subyacentes a los seminarios web interactivos en Marketo Optimizer, incluido el modelo de recursos de seminarios web, los estados miembros, los tokens y las actividades.
+keywords:
 role: User
 feature: Channels
 TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 1085
+source-wordcount: '1085'
 ht-degree: 2%
-
 ---
-
 
 # Seminarios web interactivos
 
@@ -81,13 +91,13 @@ Los tokens de seminario web están disponibles en cualquier lugar donde personal
 
 Los tokens de nivel de recurso se sientan directamente en la carpeta del seminario web:
 
-&#x200B;- Título
-&#x200B;- Descripción
-&#x200B;- Fecha y hora de inicio y fecha y hora de finalización
-&#x200B;- Duración
-&#x200B;- Zona horaria
-&#x200B;- Presentadores
-&#x200B;- URL de grabación
+- Título
+- Descripción
+- Fecha y hora de inicio y fecha y hora de finalización
+- Duración
+- Zona horaria
+- Presentadores
+- URL de grabación
 
 >[!NOTE]
 >
@@ -95,9 +105,9 @@ Los tokens de nivel de recurso se sientan directamente en la carpeta del seminar
 
 Los tokens de cada destinatario se encuentran en una subcarpeta **Member**:
 
-&#x200B;- **Estado** - El estado actual del seminario web del destinatario (Invitado, Registrado, Asistido, Sin presencia o Asistido bajo demanda). Ver [estado del seminario web](#webinar-status).
-&#x200B;- **Unirse a la dirección URL**: vínculo personal [!DNL Adobe Connect] del destinatario. Esto solo se resuelve después de que el estado del seminario web del destinatario sea Registrado o posterior. Se resuelve en blanco para cualquiera en una etapa anterior.
-&#x200B;- **URL de grabación**: se resuelve después de que se publique la grabación después de la sesión en directo y permanece vacía hasta entonces. Utilícelo de forma condicional en los correos electrónicos posteriores al seminario web para que no aparezca un vínculo antes de que se muestre una grabación.
+- **Estado** - El estado actual del seminario web del destinatario (Invitado, Registrado, Asistido, Sin presencia o Asistido bajo demanda). Ver [estado del seminario web](#webinar-status).
+- **Unirse a la dirección URL**: vínculo personal [!DNL Adobe Connect] del destinatario. Esto solo se resuelve después de que el estado del seminario web del destinatario sea Registrado o posterior. Se resuelve en blanco para cualquiera en una etapa anterior.
+- **URL de grabación**: se resuelve después de que se publique la grabación después de la sesión en directo y permanece vacía hasta entonces. Utilícelo de forma condicional en los correos electrónicos posteriores al seminario web para que no aparezca un vínculo antes de que se muestre una grabación.
 
 >[!NOTE]
 >
@@ -121,7 +131,7 @@ Cada seminario web informa automáticamente de las actividades que puede usar co
 
 La participación de las personas que ven la grabación después del evento en directo se ingiere como las mismas actividades, etiquetadas con un modo de On-Demand. A diferencia de las actividades, la participación a petición crea un estado de seminario web independiente: una persona que no asistió en directo y luego ve el movimiento de grabación de **No se presentó** a **Asistió a petición**.
 
-## Requisitos previos
+## Prerrequisitos
 
 Antes de empezar a crear un seminario web, asegúrese de que lo siguiente esté listo.
 

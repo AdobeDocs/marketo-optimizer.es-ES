@@ -1,22 +1,26 @@
 ---
 title: Creación y diseño de un seminario web
-description: Agregar un recurso de seminario web a un programa, diseñarlo en  [!DNL Adobe Connect], agregar co-hosts y presentadores, ejecutar una sesión de prueba y editar un seminario web en directo en  [!DNL Marketo Optimizer].
-keywords: 
+description: Agregue un recurso de seminario web a un programa, diseñe el programa en [!DNL Adobe Connect], agregue coanfitriones y moderadores, ejecute una sesión de prueba y edite un seminario web en directo en [!DNL Marketo Optimizer].
+keywords:
 role: User
 feature: Channels
 TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: '680'
 ht-degree: 0%
-
 ---
-
 
 # Creación y diseño de un seminario web
 
@@ -66,8 +70,8 @@ Para abrir la superficie de diseño [!DNL Adobe Connect], incrustada directament
 
 1. Elija un **modo de envío**:
 
-   &#x200B;- **En vivo**: los moderadores organizan la sesión en tiempo real.
-   &#x200B;- **Simulación en vivo**: el contenido pregrabado se reproduce a la hora programada, junto con el chat en vivo, las encuestas y las preguntas y respuestas.
+   - **En vivo**: los moderadores organizan la sesión en tiempo real.
+   - **Simulación en vivo**: el contenido pregrabado se reproduce a la hora programada, junto con el chat en vivo, las encuestas y las preguntas y respuestas.
 
 1. Elija una **sala de seminarios web**.
 
@@ -117,5 +121,5 @@ Antes de promocionar el seminario web, ejecute una sesión de prueba para confir
 
 Puede editar un seminario web después de iniciar los registros, pero hágalo con cuidado:
 
-&#x200B;- La edición de la programación puede almacenar en déclencheur las notificaciones de actualización para personas ya registradas. Se puede configurar la capacidad de editar seminarios web programados.
-&#x200B;- Los campos a los que hacen referencia los tokens en correos electrónicos activos requieren una confirmación explícita para su eliminación, ya que esto interrumpe el contenido que ya está programado para su envío.
+- La edición de la programación puede almacenar en déclencheur las notificaciones de actualización para personas ya registradas. Se puede configurar la capacidad de editar seminarios web programados.
+- Los campos a los que hacen referencia los tokens en correos electrónicos activos requieren una confirmación explícita para su eliminación, ya que esto interrumpe el contenido que ya está programado para su envío.

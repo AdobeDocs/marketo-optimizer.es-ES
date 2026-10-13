@@ -1,23 +1,28 @@
 ---
 title: Adición de correos electrónicos a Recorrido
-description: Añada nodos de acción de correo electrónico a recorridos de persona y cree nuevos correos electrónicos para las comunicaciones segmentadas en Marketo Optimizer.
+description: Añada nodos de acción de correo electrónico a recorridos de personas y cree nuevos correos electrónicos para las comunicaciones segmentadas en Marketo Optimizer.
 feature: Email Authoring, Person Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/tCJStmR66eVoB8cvzcQWc5UO-klwTjnNfK-4K5Nz-S0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 1048
+source-wordcount: '1048'
 ht-degree: 7%
-
 ---
-
 # Adición de correos electrónicos a recorrido
 
 [!DNL Adobe Marketo Optimizer] ofrece a los especialistas en marketing B2B una experiencia moderna de creación y envío de correo electrónico de nivel empresarial.

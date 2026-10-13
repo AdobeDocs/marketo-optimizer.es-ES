@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 36%
@@ -65,7 +65,7 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
    * Si el acceso está configurado correctamente, la búsqueda devolverá el registro.
 
-   * Si el valor de la columna **[!UICONTROL ROL DE ADMINISTRADOR]** muestra `System`, sabrá que usted (o el usuario mostrado) es administrador del sistema.
+   * Si el valor de la columna **[!UICONTROL FUNCIÓN DE ADMINISTRADOR]** muestra `System`, sabrá que usted (o el usuario mostrado) es administrador del sistema.
 
 ### Crear el perfil de producto [!DNL Marketo Optimizer] {#create-profile}
 
@@ -244,7 +244,7 @@ Para las funciones integradas o personalizadas, puede decidir en cualquier momen
 >
 >Un administrador de productos con acceso a Permisos de Experience Platform puede realizar estos pasos.
 
-_Para cambiar los permisos de un rol :_
+_Para cambiar los permisos de una función :_
 
 1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo.
 
@@ -284,7 +284,7 @@ _Para cambiar los permisos de un rol :_
 
    ![Ficha Usuarios en la página de detalles de rol de Experience Platform con la opción Agregar usuarios seleccionada.](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
-1. En el cuadro de diálogo _[!UICONTROL Agregar usuarios]_, busque y seleccione los usuarios que desee agregar al rol.
+1. En el cuadro de diálogo _[!UICONTROL Agregar usuarios]_, busque y seleccione los usuarios que desee agregar a la función.
 
    * Puede utilizar la herramienta Buscar para filtrar la lista de usuarios.
 
@@ -294,7 +294,7 @@ _Para cambiar los permisos de un rol :_
 
 1. Haga clic en **[!UICONTROL Guardar]** cuando haya seleccionado todos los usuarios que desea agregar.
 
-### Agregar grupos de usuarios a un rol {#add-user-groups-to-a-role}
+### Agregar grupos de usuarios a una función {#add-user-groups-to-a-role}
 
 Para obtener información acerca de la administración de usuarios, consulte [_Usuarios de Adobe Admin Console_](https://helpx.adobe.com/es/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} en la documentación de Admin Console.
 
@@ -308,7 +308,7 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
    ![Pestaña Grupos de usuarios en la página de detalles de rol en Experience Platform con la opción Agregar grupos seleccionada.](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
-1. En el cuadro de diálogo _[!UICONTROL Agregar grupos]_, busque y seleccione los grupos que desee agregar al rol.
+1. En el cuadro de diálogo _[!UICONTROL Agregar grupos]_, busque y seleccione los grupos que desee agregar a la función.
 
    * Puede utilizar la herramienta Buscar para filtrar la lista de grupos de usuarios.
 
@@ -322,9 +322,9 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
 ![Icono que indica que se requiere acceso de administrador para completar este procedimiento.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrador del sistema o de Experience Platform puede realizar los siguientes pasos.
 
-1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo y seleccione **[!UICONTROL Crear rol]**.
+1. Seleccione **[!UICONTROL Funciones]** en el panel de navegación izquierdo y seleccione **[!UICONTROL Crear función]**.
 
-1. En el cuadro de diálogo _[!UICONTROL Crear nuevo rol]_, escriba un nombre para el rol, como _Especialistas en marketing B2B_, y una descripción (opcional).
+1. En el cuadro de diálogo _[!UICONTROL Crear nueva función]_, escriba un nombre para la función, como _Especialistas en marketing B2B_, y una descripción (opcional).
 
 1. Haga clic en **[!UICONTROL Confirmar]**.
 
