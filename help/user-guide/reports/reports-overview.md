@@ -23,7 +23,7 @@ Cada informe se genera en [!DNL Adobe Customer Journey Analytics] y se incrusta 
 
 >[!PREREQUISITES]
 >
->Para ver los informes en la ficha _[!UICONTROL Informes]_, debe tener el **[!UICONTROL permiso Ver informes incrustados B2B]** [5}.](../start/permissions-reference.md)
+>Para ver los informes en la ficha _[!UICONTROL Informes]_, debe tener el **[!UICONTROL permiso Ver informes incrustados B2B]** [5&rbrace;.](../start/permissions-reference.md)
 
 ## Secciones del informe {#report-sections}
 
