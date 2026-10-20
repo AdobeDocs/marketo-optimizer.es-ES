@@ -19,14 +19,20 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '955'
 ht-degree: 0%
 ---
 # Interfaz de chat
 
 El panel de chat está incrustado en [!DNL Adobe Marketo Optimizer]. Es donde interactúa con los agentes de IA utilizando un lenguaje sencillo para crear programas y recorridos, crear y comparar listas de personas, investigar posibles clientes, configurar la puntuación y mucho más.
+
+>[!PREREQUISITES]
+>
+>Para usar el panel de chat Colaborador en [!DNL Marketo Optimizer], debes tener el **[!UICONTROL permiso Administrar experiencia de conversación B2B]** [1.](../start/permissions-reference.md)
+>
+>Este permiso proporciona acceso al panel de chat, pero no concede acceso a ninguna función. El sistema compara cada habilidad o acción en el chat con el mismo permiso que necesita la función fuera del chat: _Administrar_ permisos para crear, editar o publicar, y _Ver_ permisos para habilidades de solo lectura. Si no tiene permiso de funciones, el asistente no podrá realizar esa acción por usted. Por ejemplo, para crear un recorrido se requieren **[!UICONTROL Administrar Recorridos de persona B2B]**, y para enumerar formularios se requiere **[!UICONTROL Ver Forms B2B]**.
 
 Seleccione el icono _Compañero_ en el panel de navegación izquierdo para abrir el panel. El encabezado del panel tiene cuatro controles:
 

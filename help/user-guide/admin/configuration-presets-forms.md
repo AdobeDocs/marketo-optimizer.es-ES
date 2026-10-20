@@ -4,18 +4,20 @@ description: Marcador de posición
 TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 16%
-
+source-wordcount: '591'
+ht-degree: 15%
 ---
-
 # Configuraciones de Forms
 
 Para que los especialistas en marketing puedan crear y publicar formularios para utilizarlos en sus páginas de aterrizaje, un administrador de productos debe crear uno o más ajustes preestablecidos dedicados. Cada ajuste preestablecido define el extremo de conexión utilizado para enviar los datos de envío del formulario y el conjunto de datos utilizado para almacenar los datos capturados.
@@ -24,24 +26,20 @@ Cuando los datos aterrizan en el extremo de flujo continuo, se vinculan con la i
 
 >[!BEGINSHADEBOX]
 
-## Requisitos previos
+## Prerrequisitos
 
-Para usar formularios web, debes tener una o más _&#x200B;**conexiones de streaming de API HTTP**&#x200B;_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
+Para usar formularios web, debes tener una o más _**conexiones de streaming de API HTTP**_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
 
 * El tipo de datos debe establecerse en XDM (no en datos sin procesar)
 * La autenticación debe estar deshabilitada (conexión no autenticada)
 
 Para obtener información detallada sobre cómo crear conexiones de origen de flujo continuo, consulte la [_documentación de Experience Platform_](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-<!-- 
-permissions coming in GA
+La configuración del canal de Forms en [!DNL Marketo Optimizer] requiere los siguientes [permisos](../start/permissions-reference.md):
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish Forms Presets]_ - Required to publish forms preset configurations.
--->
+* _[!UICONTROL Configuraciones de canal B2B]_ > _[!UICONTROL Ver ajuste preestablecido de Forms B2B]_: necesario para ver las configuraciones preestablecidas del formulario.
+* _[!UICONTROL Configuraciones de canal B2B]_ > _[!UICONTROL Administrar ajustes preestablecidos de Forms B2B]_: necesario para crear, editar y eliminar configuraciones preestablecidas de formulario.
+* _[!UICONTROL Configuraciones de canal B2B]_ > _[!UICONTROL Publicar ajuste preestablecido de Forms B2B]_ - Necesario para publicar configuraciones de ajustes preestablecidos de formulario.
 
 >[!ENDSHADEBOX]
 

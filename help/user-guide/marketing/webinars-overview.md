@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -51,7 +51,7 @@ Puede crear un seminario web de dos formas:
 
 ## Seminario web como recurso
 
-Un seminario web es un recurso que pertenece a un [programa](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), del mismo modo que un correo electrónico o una página de aterrizaje. Al agregar un seminario web a un programa, se registra allí y sus tokens, atributos y actividades están disponibles para todos los recorridos y recursos de ese programa.
+Un seminario web es un recurso que pertenece a un [programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), del mismo modo que un correo electrónico o una página de aterrizaje. Al agregar un seminario web a un programa, se registra allí y sus tokens, atributos y actividades están disponibles para todos los recorridos y recursos de ese programa.
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Para cualquier persona que sea miembro de un programa que contenga un seminario 
 
 | Estado | Propietario | Valores |
 |---|---|---|
-| Estado de miembro del programa | Programa | Configurable por [tipo de programa](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Estado de miembro del programa | Programa | Configurable por [tipo de programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Estado del seminario web | Recurso de seminario web | Invitado, Registrado, Asistido, No presentarse, Asistido a petición |
 | estado de recorrido | Recorrido | Estado del nodo actual, en pausa, completado y otros estados de tiempo de ejecución de recorrido |
 
@@ -143,14 +143,15 @@ Antes de empezar a crear un seminario web, asegúrese de que lo siguiente esté 
 
 ### Permisos
 
-El acceso a las funciones de los seminarios web depende de los permisos asignados para ellos.
+El acceso a las funciones de los seminarios web depende de los permisos asignados para ellos. Para obtener la lista completa de permisos y funciones recomendadas, consulte [Acceso de usuarios y permisos](../start/permissions-reference.md).
 
-| Función | Qué concede |
+| Permiso | Qué concede |
 |---|---|
 | Ver seminarios web B2B | Vea la lista de seminarios web y una configuración, detalles e informes de seminarios web. Los controles Crear, Diseñar, Editar e Introducir no están disponibles mediante este permiso y no se le puede asignar a un seminario web como copatrocinador o presentador. |
+| Gestionar seminarios web B2B | Acceso completo al ciclo vital: crear, diseñar, configurar, programar, editar, entregar, alojar y eliminar un seminario web. Los controles Crear, Diseñar, Editar y Administrar sólo están disponibles para los usuarios con este permiso. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

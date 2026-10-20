@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # Recursos
 
@@ -51,7 +51,7 @@ En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de c
 
 >[!BEGINSHADEBOX]
 
-La primera vez que accedas a la biblioteca _[!UICONTROL Assets]_, revisa las [_[!UICONTROL Condiciones de uso generativas de IA &#x200B;]_](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) y confirma tu aceptación.
+La primera vez que accedas a la biblioteca _[!UICONTROL Assets]_, revisa las [_[!UICONTROL Condiciones de uso generativas de IA ]_](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) y confirma tu aceptación.
 
 ![Cuadro de diálogo del acuerdo de condiciones de uso de inteligencia artificial generativa en la biblioteca Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
@@ -61,6 +61,13 @@ La biblioteca admite dos opciones de diseño:
 
 * **[!UICONTROL Lista]** — Haga clic en el icono _Vista de lista_ ( ![Icono de vista de lista](../assets/do-not-localize/icon-falco-list-view.svg) ) para mostrar los recursos en una tabla ordenable con columnas de metadatos.
 * **[!UICONTROL Galería]**: haga clic en el icono _Vista de galería_ ( ![icono de Vista de galería](../assets/do-not-localize/icon-falco-gallery-view.svg) ) para mostrar los recursos como una cuadrícula de miniaturas visual.
+
+>[!PREREQUISITES]
+>
+>Trabajar con recursos requiere los siguientes [permisos](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Ver Assets B2B]** - Necesario para ver los detalles del archivo de recursos y la biblioteca _[!UICONTROL Assets]_.
+>* **[!UICONTROL Administrar B2B Assets]**: necesario para crear, editar y eliminar archivos de recursos.
 
 ## Buscar recursos {#find-assets}
 
