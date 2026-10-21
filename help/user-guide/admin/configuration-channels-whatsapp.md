@@ -1,30 +1,32 @@
 ---
 title: Configuración del canal de WhatsApp
-description: Conecte su cuenta comercial de WhatsApp a través de la API de nube de Meta para habilitar la mensajería de WhatsApp en las recorridos de persona de Marketo Optimizer.
+description: Conecte su cuenta comercial de WhatsApp a través de la API de nube de Meta para habilitar la mensajería de WhatsApp en recorridos de persona de Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1510'
 ht-degree: 13%
-
 ---
-
 # Configuración del canal de WhatsApp
 
 Marketo Optimizer envía mensajes de WhatsApp a través de la API de nube de Meta. Para que los especialistas en marketing puedan crear mensajes de WhatsApp para los recorridos de persona, un administrador de productos debe configurar un canal de WhatsApp.
 
 ![Flujo de tareas de WhatsApp para Marketo Optimizer](assets/whatsapp-flow-diagram.png)
-
-## Requisitos previos {#prerequisites}
 
 Antes de configurar el canal de WhatsApp, asegúrese de que dispone de lo siguiente:
 
@@ -51,13 +53,21 @@ Las siguientes limitaciones se aplican al canal de WhatsApp:
 
 ## Completar la configuración del canal {#complete-channel-configuration}
 
-Antes de enviar el mensaje de WhatsApp, debe configurar el entorno de Marketo Optimizer y conectarlo a su cuenta de WhatsApp.
+Antes de enviar tu mensaje de WhatsApp, debes configurar tu entorno de Marketo Optimizer y conectarlo con tu cuenta de WhatsApp.
 
 Complete las siguientes tareas:
 
 1. [Cree las credenciales de la API de WhatsApp](#create-whatsapp-api-credentials)
 1. [Añadir los webhooks de WhatsApp](#configure-webhooks)
 1. [Crear la configuración del canal de WhatsApp](#create-channel-configuration)
+
+>[!PREREQUISITES]
+>
+>Para completar estas tareas en [!DNL Marketo Optimizer], necesita los siguientes [permisos](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Administrar configuraciones de canales B2B]** - Necesario para acceder al menú _[!UICONTROL Canales]_.
+>* **[!UICONTROL Administrar la configuración de WhatsApp B2B]**: requerido para configurar el canal de WhatsApp.
+>* **[!UICONTROL Administrar ajustes preestablecidos de WhatsApp B2B]**: necesario para crear las credenciales de la API y los enlaces web.
 
 ### Crear credenciales de API de WhatsApp {#create-whatsapp-api-credentials}
 
@@ -117,7 +127,7 @@ Si se produce un error HTTP 500 al configurar las credenciales de la API de What
    * Token de API: debe ser un [token de acceso de Meta válido con los permisos apropiados](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * ID de cuenta empresarial: debe coincidir exactamente con su [ID de cuenta empresarial de Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-1. Probar las credenciales externamente: compruebe sus credenciales directamente con la API de Meta para confirmar si el problema es con las credenciales o con la gestión de credenciales de Marketo Optimizer.
+1. Probar las credenciales externamente: compruebe sus credenciales directamente con la API de Meta para confirmar si el problema es con las credenciales o con la administración de credenciales de Marketo Optimizer.
 
 1. Póngase en contacto con Adobe: si el entorno y los derechos se confirman como válidos, pero el error HTTP 500 persiste, póngase en contacto con el representante de Adobe.
 
@@ -224,7 +234,7 @@ Una configuración de canal define la configuración de envío utilizada al envi
 
    ![Detalles de configuración del canal WhatsApp](assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. (Actualmente no es aplicable para Marketo Optimizer) Para el **[!UICONTROL Campo de ejecución de WhatsApp]**, seleccione el atributo de perfil que se utilizará como número de teléfono prioritario cuando haya varios números de teléfono disponibles para un destinatario.
+1. (Actualmente no aplicable para Marketo Optimizer) Para el **[!UICONTROL Campo de ejecución de WhatsApp]**, seleccione el atributo de perfil que se usará como número de teléfono prioritario cuando haya varios números de teléfono disponibles para un destinatario.
 
 1. Haga clic en **[!UICONTROL Enviar]** para guardar o en **[!UICONTROL Guardar como borrador]** para completar y enviar la configuración más tarde.
 

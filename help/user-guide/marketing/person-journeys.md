@@ -1,20 +1,22 @@
 ---
 title: Recorridos de la persona
-description: 'Crear, publicar y administrar recorridos de persona en Marketo Optimizer: Examine la lista de recorrido, diseñe flujos de varios pasos y duplique o elimine recorridos.'
+description: 'Cree, publique y administre recorridos de persona en Marketo Optimizer: examine la lista de recorrido, diseñe flujos de varios pasos y duplique o elimine recorridos.'
 TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1418
-ht-degree: 19%
-
+source-wordcount: '1480'
+ht-degree: 18%
 ---
-
 # Recorridos de la persona
 
 En [!DNL Adobe Marketo Optimizer], los recorridos de personas son planes de marketing automatizados y basados en posibles clientes en varios pasos que organizan experiencias personalizadas en varios canales. Estos recorridos utilizan los datos de Marketo Engage para ejecutar estos planes de marketing en respuesta a la participación, los eventos comerciales o las campañas programadas.
@@ -22,6 +24,15 @@ En [!DNL Adobe Marketo Optimizer], los recorridos de personas son planes de mark
 >[!NOTE]
 >
 >Cada recorrido reside dentro de un [programa](./programs.md) definido. Debe tener al menos un programa para utilizarlo como elemento principal antes de crear un recorrido.
+
+>[!PREREQUISITES]
+>
+>Trabajar con recorridos de personas requiere los siguientes [permisos](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Ver Recorridos de persona B2B]** - Necesario para acceso de solo lectura a la lista de _[!UICONTROL Recorridos de persona]_ y detalles de recorrido.
+>* **[!UICONTROL Administrar Recorridos de persona B2B]** - Necesario para acceder a la lista de _[!UICONTROL Recorridos de persona]_ y realizar todas las operaciones de recorrido de persona.
+>* **[!UICONTROL Publicar Recorridos de persona B2B]** - Necesario para publicar recorridos de persona.
+>* **[!UICONTROL Ver informes de Recorrido de personas B2B]** - Necesario para ver informes de recorrido de personas.
 
 _Para generar un nuevo recorrido de persona :_
 

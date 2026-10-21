@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -143,14 +143,15 @@ Antes de empezar a crear un seminario web, asegúrese de que lo siguiente esté 
 
 ### Permisos
 
-El acceso a las funciones de los seminarios web depende de los permisos asignados para ellos.
+El acceso a las funciones de los seminarios web depende de los permisos asignados para ellos. Para obtener la lista completa de permisos y funciones recomendadas, consulte [Acceso de usuarios y permisos](../start/permissions-reference.md).
 
-| Función | Qué concede |
+| Permiso | Qué concede |
 |---|---|
 | Ver seminarios web B2B | Vea la lista de seminarios web y una configuración, detalles e informes de seminarios web. Los controles Crear, Diseñar, Editar e Introducir no están disponibles mediante este permiso y no se le puede asignar a un seminario web como copatrocinador o presentador. |
+| Gestionar seminarios web B2B | Acceso completo al ciclo vital: crear, diseñar, configurar, programar, editar, entregar, alojar y eliminar un seminario web. Los controles Crear, Diseñar, Editar y Administrar sólo están disponibles para los usuarios con este permiso. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

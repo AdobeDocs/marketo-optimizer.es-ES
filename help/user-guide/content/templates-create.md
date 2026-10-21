@@ -4,19 +4,22 @@ description: 'Obtenga información sobre cómo crear plantillas de correo electr
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '876'
 ht-degree: 1%
-
 ---
-
 
 # Crear plantillas de correo electrónico
 
@@ -71,12 +74,12 @@ El correo electrónico de recorrido original no se ve afectado. La plantilla gua
 
 >[!BEGINSHADEBOX]
 
-### Requisitos previos
+### Prerrequisitos
 
 Antes de empezar:
 
 * Su organización debe haber firmado el anexo de IA generativa con Adobe.
-* Debe tener el permiso **[!UICONTROL Generar contenido]** además de **[!UICONTROL Administrar plantillas de contenido]**.
+* Debe tener el permiso **[!UICONTROL Generar asistente de inteligencia artificial aplicada al contenido B2B]** además de **[!UICONTROL Administrar plantillas B2B]**.
 * El archivo de imagen debe cumplir estas especificaciones:
   * Formato: JPEG (.jpg, .jpeg) o PNG (.png)
   * Tamaño máximo de archivo: 10 MB

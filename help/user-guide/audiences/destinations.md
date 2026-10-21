@@ -4,17 +4,18 @@ description: Obtenga información acerca de los permisos necesarios, los destino
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '680'
 ht-degree: 7%
-
 ---
-
 # Destinos
 
 Los destinos son integraciones prediseñadas que le permiten enviar [listas de personas estáticas](./people-lists.md#static-lists) desde [!DNL Marketo Optimizer] a publicidad externa o plataformas sociales, como una audiencia de campaña de LinkedIn, una audiencia de Customer Match de Google o una audiencia personalizada de Facebook. La activación de una lista estática en un destino mantiene la pertenencia sincronizada: a medida que se añaden personas a la lista o se eliminan de ella, estas se añaden o eliminan en consecuencia de la audiencia de destino y, por extensión, de cualquier campaña a la que la audiencia alimente.
@@ -28,11 +29,14 @@ Existen dos formas de activar personas en un destino conectado:
 
 ## Permisos necesarios {#required-permissions}
 
-La funcionalidad de destino completa requiere que se habiliten los siguientes [!DNL Adobe Experience Platform] permisos.
+La funcionalidad de destino completa requiere que se habiliten los siguientes [!DNL Adobe Experience Platform] permisos. Para obtener descripciones y permisos recomendados para cada tipo de usuario, consulte la página [Permisos de productos](../start/permissions-reference.md) y [Permisos de destinos externos](../start/permissions-reference.md#external-destinations-permissions).
 
 | Categoría | Permiso | Requerido |
 |--- |--- |--- |
 | Zonas protegidas | Acceso a zona protegida _(habilitado de forma predeterminada)_ | Sí |
+| Destinos B2B | Ver destinos B2B | Sí |
+| Destinos B2B | Administrar destinos B2B | Sí |
+| Destinos B2B | Activar destinos B2B | Sí |
 | Paneles de control | Ver paneles estándar | Sí |
 | Paneles de control | Administrar paneles estándar | Sí |
 | Destinos | Ver destinos | Sí |

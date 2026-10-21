@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1554'
 ht-degree: 11%
 ---
 # Creación y publicación de páginas de destino
@@ -219,7 +219,7 @@ Cuando se definen la configuración y el contenido de la página de aterrizaje, 
 
 >[!PREREQUISITES]
 >
->Para obtener una vista previa y probar páginas de aterrizaje, debe tener el permiso **[!UICONTROL Publicar mensajes]** y un conjunto de datos definido que contenga perfiles de prueba.
+>Para obtener una vista previa y probar páginas de aterrizaje, debe tener el permiso **[!UICONTROL Publicar página de aterrizaje B2B]** y un conjunto de datos definido que contenga perfiles de prueba.
 
 1. Haga clic en **[!UICONTROL Previsualizar y probar]** para abrir la selección del perfil de prueba.
 
@@ -259,7 +259,7 @@ Cuando se definen la configuración y el contenido de la página de aterrizaje, 
 
 >[!PREREQUISITES]
 >
->Para publicar páginas de aterrizaje, debe tener el permiso **[!UICONTROL Publicar mensajes]**. Antes de publicar, [compruebe y resuelva todas las alertas](#check-alerts).
+>Para publicar páginas de aterrizaje, debe tener el permiso **[!UICONTROL Publicar página de aterrizaje B2B]**. Antes de publicar, [compruebe y resuelva todas las alertas](#check-alerts).
 
 Cuando la página de borrador cumpla tus criterios y quieras que esté disponible para vincularla en tus mensajes de recorrido, haz clic en **[!UICONTROL Publicar]** en la parte superior derecha. En el cuadro de diálogo de confirmación, haga clic de nuevo en **[!UICONTROL Publicar]** para confirmar.
 

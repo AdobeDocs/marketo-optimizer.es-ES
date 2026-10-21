@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 0%
 ---
 # Entregabilidad del correo electrónico
@@ -70,6 +70,18 @@ Antes de configurar el correo electrónico, revise estos conceptos que se aplica
 | **_Subdominio_** | Una parte delegada del dominio de envío (por ejemplo, `mail.contoso.com`) que se usa para enviar correo electrónico a través de [!DNL Marketo Optimizer]. Los subdominios aíslan su reputación de marketing B2B del correo corporativo o transaccional. |
 | **_grupo de IP_** | Grupo de direcciones IP asociadas a uno o varios subdominios. [!DNL Marketo Optimizer] admite un grupo de IP compartidas que administra Adobe en esta versión; los grupos de IP dedicados están en la hoja de ruta de GA. |
 | **_Configuración de canal_** | Un conjunto reutilizable de configuraciones de envío de correo electrónico (identidad del remitente, dirección de respuesta, subdominio, grupo de IP, tipo de correo electrónico y seguimiento) que se adjuntan a las acciones de correo electrónico en recorrido. Puede tener varias configuraciones de canal con nombre para diferentes marcas, unidades de negocio o tipos de envío. |
+
+## Permisos necesarios {#required-permissions}
+
+La capacidad de entrega y la configuración de canal son tareas de nivel de administrador. Los siguientes permisos en la categoría _Configuraciones de canal B2B_ controlan el acceso:
+
+| Permiso | Lo que permite |
+| ---------- | -------------- |
+| Ver configuración de correo electrónico B2B | Ver la configuración de correo electrónico (subdominios, registros PTR, grupos de IP, listas de supresión, listas de semilla, planes de calentamiento de IP). |
+| Administrar configuración de correo electrónico B2B | Configure las opciones de correo electrónico. Esta configuración es necesaria para que los usuarios puedan enviar correos electrónicos. |
+| Administrar configuraciones de canales B2B | Acceso al elemento de menú _Canales_ en la navegación izquierda y todas las operaciones de configuración de canal. |
+
+Para obtener descripciones de todos los permisos y permisos recomendados para cada tipo de usuario, consulte [Permisos de productos](./permissions-reference.md).
 
 <!--
 
@@ -155,7 +167,7 @@ La delegación de subdominios indica a Internet que Adobe está autorizado a env
 >* Decida una convención de nomenclatura de subdominios (por ejemplo, `mail.contoso.com` para marketing, `alerts.contoso.com` para transaccional).
 >* Confirme con su equipo de TI/DNS que puede delegar el subdominio (registros NS) a Adobe.
 >* Cree el nuevo subdominio en el proveedor DNS y espere de 24 a 48 horas para la propagación de DNS antes de delegar a Adobe.
->* Confirme que tiene la función de administrador en [!DNL Marketo Optimizer].
+>* Confirme que tiene el permiso **[!UICONTROL Administrar configuración de correo electrónico B2B]**. Para obtener más información, consulte [Permisos necesarios](#required-permissions).
 
 1. En la navegación izquierda de [!DNL Marketo Optimizer], expanda **[!UICONTROL Administración]** y seleccione **[!UICONTROL Canales]**.
 1. En el panel, expanda **[!UICONTROL Configuración de correo electrónico]** y seleccione **[!UICONTROL Subdominios]**.

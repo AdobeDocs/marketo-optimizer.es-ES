@@ -1,23 +1,27 @@
 ---
 title: Control de tráfico de recorrido
-description: Descubra cómo el control de tráfico de Recorrido en Marketo Optimizer utiliza la puntuación de IA en siete dimensiones ponderadas para inscribir a cada persona en solo su recorrido de mejor ajuste cuando las audiencias se superponen.
+description: Descubra cómo el control de tráfico de Recorrido en Marketo Optimizer utiliza la puntuación de IA en siete dimensiones ponderadas para inscribir a cada persona solo en su recorrido de mejor ajuste cuando las audiencias se superponen.
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # control de tráfico de recorrido
 
 El control de tráfico de recorrido (JTC) prioriza el mejor recorrido para una persona cuando las audiencias se superponen. Cuando una persona cumple los requisitos para varios recorridos habilitados para JTC, un modelo de IA los evalúa frente a cada candidato y los agrega al recorrido que mejor se ajuste, excluyéndolos de los demás.
@@ -52,10 +56,11 @@ Las dimensiones para las que una persona no tiene datos se omiten automáticamen
 >
 >Al menos dos recorridos deben tener JTC habilitado para poder hacer cualquier cosa significativa. No es eficaz permitirlo en un solo recorrido, ya que no existe ningún recorrido contrario de arbitraje. Solo cuando dos o más recorridos están habilitados para JTC el modelo comienza a resolver conflictos.
 
-## Requisitos previos {#prerequisites}
+## Prerrequisitos {#prerequisites}
 
 Antes de que el control de tráfico de recorrido pueda producir resultados, tenga en cuenta lo siguiente:
 
+* **Permisos.** Necesita el permiso **[!UICONTROL Ver control de tráfico de Recorrido B2B]** para ver la configuración del control de tráfico de recorrido y el permiso **[!UICONTROL Administrar control de tráfico de Recorrido B2B]** para configurar el control de tráfico de recorrido, incluida la simulación de su efecto. Para obtener más información, consulte [Recursos de permisos](../start/permissions-reference.md).
 * **Los informes requieren un recorrido publicado y habilitado para JTC.** La ficha _[!UICONTROL Informes]_ no muestra ningún dato hasta que se publique al menos un recorrido con el control de tráfico de recorrido habilitado.
 * **La simulación requiere al menos un recorrido publicado en la instancia.** La simulación evalúa [perfiles](../audiences/people-lists.md) que ya están en recorridos activos, por lo que se requiere al menos un recorrido publicado en la instancia para poder dibujar perfiles de. La simulación en sí no requiere que JTC esté habilitado (consulte [_Simular puntuación_](#simulate-scoring)).
 

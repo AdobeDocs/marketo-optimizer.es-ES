@@ -4,19 +4,22 @@ description: Marcador de posición
 TQID: 'https://experienceleague.adobe.com/wowFSf32UsmDemN6Iy5-IgGOPmuocHHLRb4vvTUDt0U'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 21%
-
+source-wordcount: '996'
+ht-degree: 20%
 ---
-
 
 # Configuración de página de aterrizaje
 
@@ -59,7 +62,7 @@ La columna **Estado** proporciona información sobre el proceso de creación y d
 
 Una configuración de subdominio de página de aterrizaje es **común a todos los entornos**. Por lo tanto:
 
-* Para acceder y editar subdominios de página de aterrizaje, debe tener el permiso **[!UICONTROL Administrar subdominios de página de aterrizaje]** en la zona protegida de producción.
+* Para acceder y editar subdominios de página de aterrizaje, debe tener el permiso **[!UICONTROL Administrar configuración de página de aterrizaje B2B]** en la zona protegida de producción. Para acceder a los _[!UICONTROL Canales]_ en el panel de navegación izquierdo, también debes tener el permiso **[!UICONTROL Administrar configuraciones de canales B2B]**. Para obtener más información, consulte [Recursos de permisos](../start/permissions-reference.md).
 
 * Cualquier modificación en un subdominio de página de aterrizaje también afecta a las zonas protegidas de producción.
 

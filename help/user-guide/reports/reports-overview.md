@@ -1,15 +1,15 @@
 ---
 title: Informes
-description: Comprenda la pestaña Informes en Adobe Marketo Optimizer, incluidas sus secciones de informes, las opciones de exportación y programación, y cómo cambiar el intervalo de fechas.
+description: Conozca la pestaña Informes de Adobe Marketo Optimizer, incluidas sus secciones de informes, las opciones de exportación y programación, y cómo cambiar el intervalo de fechas.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ La ficha [!UICONTROL Informes] le proporciona información sobre el rendimiento 
 Cada informe se genera en [!DNL Adobe Customer Journey Analytics] y se incrusta directamente en [!DNL Marketo Optimizer]. Haga clic en el icono _Lista_ ( ![Icono de lista](../assets/do-not-localize/icon-table-of-contents.svg) ) para usar el panel **[!UICONTROL Tabla de contenido]** de la izquierda para saltar entre secciones.
 
 ![La página Informes enumera las secciones Información general del Recorrido de persona, Participación, Participación por correo electrónico y Participación en la web](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>Para ver los informes en la ficha _[!UICONTROL Informes]_, debe tener el **[!UICONTROL permiso Ver informes incrustados B2B]** [5&rbrace;.](../start/permissions-reference.md)
 
 ## Secciones del informe {#report-sections}
 

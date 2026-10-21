@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
 Haga clic en **[!UICONTROL Ver informe]** para ver el recorrido de una persona activa o finalizada y ver su rendimiento, incluido el estado, la participación, las métricas de correo electrónico y el flujo de actividad.
+
+>[!PREREQUISITES]
+>
+>Para ver este informe, debe tener el **permiso de [Ver informes de Recorrido de personas B2B](../start/permissions-reference.md)**.
 
 _Para ver el informe :_
 

@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # Recursos
 
@@ -61,6 +61,13 @@ La biblioteca admite dos opciones de diseño:
 
 * **[!UICONTROL Lista]** — Haga clic en el icono _Vista de lista_ ( ![Icono de vista de lista](../assets/do-not-localize/icon-falco-list-view.svg) ) para mostrar los recursos en una tabla ordenable con columnas de metadatos.
 * **[!UICONTROL Galería]**: haga clic en el icono _Vista de galería_ ( ![icono de Vista de galería](../assets/do-not-localize/icon-falco-gallery-view.svg) ) para mostrar los recursos como una cuadrícula de miniaturas visual.
+
+>[!PREREQUISITES]
+>
+>Trabajar con recursos requiere los siguientes [permisos](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Ver Assets B2B]** - Necesario para ver los detalles del archivo de recursos y la biblioteca _[!UICONTROL Assets]_.
+>* **[!UICONTROL Administrar B2B Assets]**: necesario para crear, editar y eliminar archivos de recursos.
 
 ## Buscar recursos {#find-assets}
 

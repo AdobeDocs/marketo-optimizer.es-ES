@@ -4,15 +4,15 @@ description: 'Cree, administre y reutilice fragmentos de contenido visual para c
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2634
+source-wordcount: '2677'
 ht-degree: 3%
-
 ---
-
 # Fragmentos
 
 Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o más correos electrónicos y plantillas de correo electrónico de [!DNL Marketo Optimizer]. Normalmente es un bloque de contenido (texto, imagen o ambos) que se puede crear previamente e insertar rápidamente en un correo electrónico o plantilla de correo electrónico. Con esta funcionalidad, puede generar varios bloques de contenido personalizados para que los utilicen los integrantes del equipo de marketing a fin de combinar el contenido del correo electrónico para mejorar el proceso de diseño. Los casos de uso comunes incluyen bloques de contenido de encabezado/pie de página para correo electrónico, banners de invitación a eventos y saludos de temporada.
@@ -33,6 +33,14 @@ Para aprovechar al máximo los fragmentos de sus flujos de trabajo:
 
 * _Crear sus propios fragmentos_: cree fragmentos visuales desde cero o guarde contenido como un fragmento en el espacio de diseño de contenido visual.
 * _Reutilizar fragmentos_: utilícelos tantas veces como sea necesario en el contenido de su correo electrónico o plantilla de correo electrónico.
+
+>[!PREREQUISITES]
+>
+>Trabajar con fragmentos requiere los siguientes [permisos](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Ver fragmentos B2B]**: requerido para ver la lista y los detalles de fragmentos.
+>* **[!UICONTROL Administrar fragmentos B2B]**: requerido para crear, editar y eliminar fragmentos.
+>* **[!UICONTROL Publicar fragmentos B2B]**: requerido para publicar fragmentos para su uso en plantillas, correos electrónicos y páginas de aterrizaje.
 
 ## Acceso y administración de fragmentos {#access-manage-fragments}
 

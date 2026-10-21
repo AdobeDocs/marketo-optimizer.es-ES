@@ -4,21 +4,26 @@ description: Obtenga información sobre cómo componer y diseñar contenido de c
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 2%
-
 ---
-
 # Creación de contenido de correo electrónico
 
 En [!DNL Adobe Marketo Optimizer], el espacio de diseño de correo electrónico proporciona un lienzo visual en el que los especialistas en marketing componen el correo electrónico. Las herramientas de diseño de correo electrónico de los paneles izquierdo y superior (estructuras, componentes de contenido, plantillas, fragmentos y mucho más) admiten la creación desde cero con la función de arrastrar y soltar. También puede elegir comenzar desde una plantilla, pegar HTML sin procesar o ensamblar mensajes a partir de fragmentos visuales reutilizables.
@@ -26,6 +31,14 @@ En [!DNL Adobe Marketo Optimizer], el espacio de diseño de correo electrónico 
 >[!IMPORTANT]
 >
 >Para obtener información sobre la configuración de administrador de subdominios, autenticación, grupos de IP y configuraciones de canales de correo electrónico, consulte [Capacidad de entrega de correos electrónicos](../start/email-deliverability.md) y [Configuración de canales de correo electrónico](../admin/email-channel-configuration.md).
+
+>[!PREREQUISITES]
+>
+>La creación de correo electrónico requiere los siguientes [permisos](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Ver correos electrónicos B2B]**: necesario para ver mensajes de correo electrónico.
+>* **[!UICONTROL Administrar correos electrónicos B2B]**: necesario para crear, editar y eliminar mensajes de correo electrónico.
+>* **[!UICONTROL Administrar Recorridos de persona B2B]** - Necesario para agregar el correo electrónico a un recorrido de persona.
 
 En [!DNL Marketo Optimizer], cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro del recorrido de una persona. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/action-nodes.md#add-an-action-node) al recorrido de una persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso. En primer lugar, defina las acciones y la configuración de contenido del correo electrónico. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para iniciar el espacio de diseño del contenido del correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico con las siguientes opciones:
 

@@ -4,18 +4,20 @@ description: Obtenga información sobre cómo configurar las ponderaciones de ac
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 
 # Configuración y análisis de la intención
 
@@ -57,6 +59,10 @@ La puntuación de intención de un posible cliente tiene en cuenta tres cosas:
 Para obtener detalles sobre estas métricas, incluido el peso sugerido por IA, la relevancia del contenido y las limitaciones, consulte [Configuración por intención](../audiences/intent-configuration.md).
 
 ## Informes de intención
+
+>[!PREREQUISITES]
+>
+>Los informes de intención requieren **[!UICONTROL Ver informes de intención B2B]** [permiso](../start/permissions-reference.md).
 
 Para presentar los cuatro tipos de informes que puede generar, invoque `/analyze-intent` para solicitar a Coworker. A continuación, el compañero espera una solicitud de seguimiento que especifica un posible cliente, un producto o una comparación. Cada informe se abre como su propia ficha en el panel del espacio de trabajo y el colaborador también agrega una tarjeta de resumen en el chat con un botón _[!UICONTROL Abrir informe]_.
 

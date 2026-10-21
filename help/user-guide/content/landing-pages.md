@@ -4,16 +4,17 @@ description: 'Cree, diseñe y publique páginas de aterrizaje para recorridos de
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # Páginas de aterrizaje
 
 Una página de aterrizaje es una página web independiente en la que puede dirigir a contactos y clientes después de hacer clic en un elemento vinculado en un correo electrónico, un mensaje SMS o cualquier ubicación digital. Puede incorporar estas páginas en los recorridos para que los clientes potenciales y los clientes vean los mensajes en la web y progresen en los recorridos.
@@ -25,6 +26,14 @@ Casos de uso comunes de las páginas de aterrizaje:
 * Capture o actualice datos de perfil (perfil progresivo, preferencias, registros y escenarios similares) mediante formularios en páginas de aterrizaje.
 * Dirija a las personas a información específica de la campaña diseñada para su orquestación de recorrido.
 * Redirigir a las personas a un formulario web dedicado sin crear una página externa fuera de [!DNL Marketo Optimizer].
+
+>[!PREREQUISITES]
+>
+>Trabajar con páginas de aterrizaje requiere los siguientes [permisos](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Ver página de aterrizaje B2B]**: obligatorio para ver páginas de aterrizaje.
+>* **[!UICONTROL Administrar página de aterrizaje B2B]**: necesario para crear, editar y eliminar páginas de aterrizaje.
+>* **[!UICONTROL Publicar página de aterrizaje B2B]**: obligatorio para publicar páginas de aterrizaje.
 
 ## Flujo de trabajo de página de aterrizaje {#workflow}
 
@@ -200,7 +209,7 @@ Como experto en marketing o creativo que produce contenido de correo electrónic
 
 1. Para la opción **[!UICONTROL Página de aterrizaje]**, haga clic en el icono _Seleccionar página_ ( ![Mostrar icono de vínculos](../assets/do-not-localize/icon-landing-page-select.svg) ).
 
-1. En el cuadro de diálogo Seleccionar página de aterrizaje, establezca **[!UICONTROL Origen de la página de aterrizaje]** como **[!UICONTROL Journey Optimizer B2B edition]**, seleccione la casilla de verificación de la página de aterrizaje en la lista de páginas publicadas y haga clic en **[!UICONTROL Seleccionar]**.
+1. En el cuadro de diálogo Seleccionar página de aterrizaje, establezca el **[!UICONTROL origen de la página de aterrizaje]** como **[!UICONTROL Journey Optimizer B2B Edition]**, seleccione la casilla de verificación de la página de aterrizaje en la lista de páginas publicadas y haga clic en **[!UICONTROL Seleccionar]**.
 
    ![Opciones de vínculo para una página de aterrizaje](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 
