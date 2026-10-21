@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
+source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '921'
 ht-degree: 0%
 ---
 # Interfaz de chat
@@ -30,11 +30,9 @@ El panel de chat está incrustado en [!DNL Adobe Marketo Optimizer]. Es donde in
 
 >[!PREREQUISITES]
 >
->Para usar el panel de chat Colaborador en [!DNL Marketo Optimizer], debes tener el **[!UICONTROL permiso Administrar experiencia de conversación B2B]** [1.](../start/permissions-reference.md)
->
->Este permiso proporciona acceso al panel de chat, pero no concede acceso a ninguna función. El sistema compara cada habilidad o acción en el chat con el mismo permiso que necesita la función fuera del chat: _Administrar_ permisos para crear, editar o publicar, y _Ver_ permisos para habilidades de solo lectura. Si no tiene permiso de funciones, el asistente no podrá realizar esa acción por usted. Por ejemplo, para crear un recorrido se requieren **[!UICONTROL Administrar Recorridos de persona B2B]**, y para enumerar formularios se requiere **[!UICONTROL Ver Forms B2B]**.
+>El sistema comprueba todas las aptitudes o acciones del chat con los mismos [permisos](../start/permissions-reference.md) que necesita la característica fuera del chat: _Administrar_ permisos para crear, editar o publicar y _Ver_ permisos para aptitudes de solo lectura. Si no cuenta con el permiso de característica, [!DNL Coworker] no podrá realizar esa acción por usted. Por ejemplo, para crear un recorrido se requieren **[!UICONTROL Administrar Recorridos de persona B2B]**, y para enumerar formularios se requiere **[!UICONTROL Ver Forms B2B]**.
 
-Seleccione el icono _Compañero_ en el panel de navegación izquierdo para abrir el panel. El encabezado del panel tiene cuatro controles:
+Seleccione el icono _Chat_ en el panel de navegación izquierdo para abrir el panel. El encabezado del panel tiene cuatro controles:
 
 | Control | Descripción |
 |---------|-------------|
