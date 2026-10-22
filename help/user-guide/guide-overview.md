@@ -29,14 +29,20 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 # Documentación de Adobe Marketo Optimizer
 
 [!DNL Adobe Marketo Optimizer] es una solución de automatización de marketing con prioridad de IA que permite a los especialistas en marketing y a los representantes de desarrollo empresarial (BDR) unir sus recorridos de cliente potencial, cuenta y grupo de compra con un potente razonamiento de IA que enriquece el contexto del cliente con historias semánticas continuamente actualizadas y escala la participación con las mejores acciones de próxima generación en los canales de marketing, medios de pago y BDR.
+
+## Información general
+
+Vea esta breve descripción general para ver cómo [!DNL Adobe Marketo Optimizer] usa el razonamiento de IA para comprometer a cada posible cliente con la acción correcta de la siguiente mejor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
 
 ## Empiece con lo básico {#basics}
 

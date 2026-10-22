@@ -1,28 +1,35 @@
 ---
 title: AI Decisioning
-description: Comprenda la toma de decisiones de IA en Marketo Optimizer, la capa de inteligencia detrás del control de tráfico de recorrido, la siguiente mejor ruta, la optimización del tiempo de envío y otras funcionalidades que reemplazan las reglas estáticas con la automatización basada en resultados.
+description: Comprenda la toma de decisiones de IA en Marketo Optimizer, la capa de inteligencia detrás del control de tráfico de recorrido, la siguiente mejor ruta, la optimización del tiempo de envío y otras funciones que reemplazan las reglas estáticas con la automatización basada en resultados.
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # decisiones de IA
 
 La toma de decisiones de IA es la capa de inteligencia detrás de Adobe Marketo Optimizer. En lugar de crear previamente cada rama como regla estática, AI Decisioning evalúa continuamente el contexto de un perfil, incluida la pertenencia al recorrido, el historial de participación, las puntuaciones de intención y la conducta en tiempo real, para determinar la siguiente mejor acción o ruta para esa persona.
 
 Esta evaluación continua mueve la orquestación de las reglas estáticas a la automatización impulsada por resultados: en lugar de definir cada condición por adelantado, se describe el resultado que se desea y el sistema determina cómo llegar allí para cada persona.
+
+Vea esta breve descripción general para ver cómo el razonamiento de IA en [!DNL Adobe Marketo Optimizer] utiliza los datos de Marketo Engage para optimizar los flujos de trabajo y los resultados.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## Competencias {#capabilities}
 

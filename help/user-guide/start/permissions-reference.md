@@ -22,9 +22,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 autotag-review: '2026-10-20T17:03:48.312Z'
-source-git-commit: e80513284d179a9b27d0505463d07d5e15facabb
+source-git-commit: a33f749c32631dcd77ecf2892bdc3b1a5e06cd66
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1556'
 ht-degree: 3%
 ---
 # Permisos de productos
@@ -143,7 +143,14 @@ Para ver el procedimiento para crear estos grupos y funciones, consulte [Crear g
 
 ## Permisos de chat {#chat-permissions}
 
-Los permisos de chat siguen los permisos de nivel de funcionalidad. _Administrar experiencia de conversación B2B_ proporciona acceso al panel de chat de [!DNL CX Coworker], pero no concede acceso a ninguna función. El compañero comprueba cada habilidad o acción en el chat con el mismo permiso que necesita la función fuera del chat: _Administrar_ permisos para crear, editar o publicar y _Ver_ permisos para aptitudes de solo lectura. Si un usuario no tiene el permiso de característica, [!DNL Coworker] no podrá realizar esa acción. Por ejemplo, para crear un recorrido se requieren _Administrar Recorridos de persona B2B_, y para enumerar formularios se requiere _Ver Forms B2B_.
+Los permisos de chat siguen los permisos de nivel de funcionalidad. [!DNL Coworker for Marketo Optimizer] comprueba todas las aptitudes o acciones del chat con el mismo permiso que necesita la característica fuera del chat: _Administrar_ permisos para crear, editar o publicar y _Ver_ permisos para aptitudes de solo lectura. Si un usuario no tiene el permiso de característica, [!DNL Coworker] no podrá realizar esa acción. Por ejemplo, para crear un recorrido se requieren _Administrar Recorridos de persona B2B_, y para enumerar formularios se requiere _Ver Forms B2B_.
+
+<!--
+_Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions.
+
+Per wiki: 
+Update 10/02: We are no longer mapping b2b-conversational-experience read or write to any tools. It was decided that chat will be available for all users without permissions, but what they can do within the chat (i.e. tools they can use) will be defined by other permissions.
+-->
 
 ## Permisos de destinos externos {#external-destinations-permissions}
 
