@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Vea esta breve descripción general para ver cómo [!DNL Adobe Marketo Optimizer] usa el razonamiento de IA para comprometer a cada posible cliente con la acción correcta de la siguiente mejor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504792?captions=spa&quality=12)
 
 ## Empiece con lo básico {#basics}
 
