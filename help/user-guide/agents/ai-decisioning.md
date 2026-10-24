@@ -29,7 +29,7 @@ Esta evaluación continua mueve la orquestación de las reglas estáticas a la a
 
 Vea esta breve descripción general para ver cómo el razonamiento de IA en [!DNL Adobe Marketo Optimizer] utiliza los datos de Marketo Engage para optimizar los flujos de trabajo y los resultados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504801?captions=spa&quality=12)
 
 ## Competencias {#capabilities}
 
