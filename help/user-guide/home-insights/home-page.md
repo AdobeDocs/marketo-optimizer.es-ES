@@ -1,61 +1,103 @@
 ---
-title: Página de inicio
-description: Utilice la página de inicio en Marketo Optimizer para iniciar conversaciones sobre IA, iniciar habilidades y saltar a Marketing, Assets, Informes y Destinos.
+title: Página principal
+description: Aprenda a utilizar la página de inicio de Adobe Marketo Optimizer para iniciar conversaciones sobre IA, iniciar habilidades y navegar a espacios de trabajo de marketing, contenido e informes.
+autotag-review: '2026-10-27T19:17:10.631Z'
 TQID: 'https://experienceleague.adobe.com/QdAQalH-ETbVtJL3O4rPC8z70Yzm1gvnx9DYhJP9Bb0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+  - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Programs
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: bbaa78961556e8cb320f9e9ead2127de3ce5341c
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '556'
 ht-degree: 2%
-
 ---
-
 # Página de inicio
 
-La página _Inicio_ es su plataforma de inicio en Adobe Marketo Optimizer. Seleccione el icono _Inicio_ en la parte superior de la navegación izquierda para abrirlo. La página le saluda con **Bienvenido [nombre], ¿qué podemos construir hoy?** y está diseñado para llevarle de la idea a la acción en un solo clic.
+Use la página [!UICONTROL Inicio] en [!DNL Adobe Marketo Optimizer] para iniciar conversaciones sobre IA, iniciar habilidades y abrir espacios de trabajo de marketing. Seleccione **[!UICONTROL Inicio]** en la navegación para regresar a esta página.
 
-![Página de inicio](./assets/home-page.png){width="800" zoomable="yes"}
+El mensaje de bienvenida personalizado le pregunta por sus tareas actuales. Elija cómo comenzar con la entrada de conversación, las opciones de intención, las tarjetas de acceso rápido o las tarjetas de aptitudes.
 
-## Cuadro de entrada
+Vea el vídeo para ver una visita guiada por la página principal y el espacio de trabajo de marketing. En las secciones siguientes se proporcionan instrucciones por escrito.
 
-Una entrada de _Formular una pregunta o iniciar una tarea_ grande se encuentra en el centro de la página principal. Escriba cualquier cosa aquí para comenzar a trabajar con el panel conversacional de IA o use el icono _Adjuntar_ (**+**) para agregar un archivo (como un resumen de campaña o un CSV) antes de enviar. Este es el mismo compañero disponible durante toda la gestión de marketing, pero comenzar aquí abre una nueva conversación.
+>[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
 
-## Botones de intención
+## Iniciar una conversación de IA
 
-Debajo del cuadro de entrada, cuatro botones de inicio rápido enmarcan lo que desea lograr:
+Use la entrada [!UICONTROL Formular una pregunta o iniciar una tarea] para comenzar a trabajar con [!UICONTROL Compañero]. Escriba `/` para examinar aptitudes y comandos.
 
-| Botón | Uso |
-|--------|------------|
-| **Plan** | Estrategia de forma: Planifique campañas, programas y audiencias antes de crear. |
-| **Create** | Crear cosas: programas, recorridos, correos electrónicos, listas de personas. |
-| **Medida** | Observar el rendimiento: informes, participación, resultados de tiempo de envío. |
-| **Optimizar** | Mejore lo que está activo: control de tráfico, puntuación, personalización. |
+1. Escriba una pregunta o describa la tarea que desea completar.
+1. Para proporcionar material de apoyo, seleccione **[!UICONTROL Adjuntar]** en la entrada y adjunte un archivo.
+1. Envíe su solicitud para continuar en el panel [!UICONTROL Colaborador].
+
+La página de inicio también proporciona cuatro opciones de intención para iniciar el trabajo.
+
+| Opción | Objetivo |
+| -------- | ------ |
+| [!UICONTROL Plan] | Planifique actividades de marketing. |
+| [!UICONTROL Create] | Cree contenido o recursos de marketing. |
+| [!UICONTROL Medida] | Revisar el rendimiento de marketing. |
+| [!UICONTROL Optimizar] | Refine las actividades de marketing existentes. |
+
+Para obtener más información, lea acerca de la [interfaz de chat](/help/user-guide/agents/chat-interface.md).
 
 ## Acceso rápido
 
-Hay cuatro tarjetas de acceso directo que puede utilizar para saltar rápidamente directamente a un área de trabajo:
+Seleccione una tarjeta de [!UICONTROL acceso rápido] para abrir un área de trabajo o revisar el estado de toma de decisiones de IA.
 
 | Tarjeta | A qué puede acceder |
-|------|-----------------|
-| [estado de toma de decisiones de IA](../agents/ai-decisioning-health.md) | Volumen de la historia y cobertura de clasificación personal, con un informe de estado completo en el espacio de trabajo. |
-| **Marketing** | Programas, recorridos, audiencias (Gestión de marketing). |
-| **Recursos** | Correos electrónicos, páginas, plantillas y tokens. |
-| **Informes** | Métricas de rendimiento y participación. |
+| ------ | --------------------- |
+| [estado de toma de decisiones de IA](/help/user-guide/agents/ai-decisioning-health.md) | Volumen de la historia y el porcentaje de personas clasificadas por personalidad. |
+| [Marketing](/help/user-guide/marketing/marketing-management.md) | Programas, recorridos de personas y listas de personas en el espacio de trabajo de marketing. |
+| [!UICONTROL Recursos] | Recursos de contenido para correos electrónicos y páginas. |
+| [!UICONTROL Informes ] | Informes de rendimiento y participación. |
 
 ## Habilidades
 
-Una fila de tarjetas _Skill_ muestra flujos de trabajo de IA de alto valor que puede iniciar inmediatamente:
+Seleccione una tarjeta de [!UICONTROL Habilidades] para comenzar un flujo de trabajo de IA específico.
 
-- **Crear audiencias basadas en personas**: genere segmentos agrupados por señales de personas y ajuste firmográfico, listos para colocarlos en un programa.
-- **Generar programas omnicanal**: componga programas que abarquen destinos de correo electrónico, web y de flujo descendente desde una sola descripción.
-- **Crear correos electrónicos hiper-personalizados** — Borradores de correos electrónicos en la marca personalizados por destinatario con tokens y bloques de contenido dinámico.
-- **Control de tráfico de recorrido por intención y ajuste**: envía contactos entre recorridos según el ajuste de la cuenta y las señales de intención de comprador en directo.
+| Habilidad | Objetivo |
+| ------- | ------ |
+| [!UICONTROL Crear audiencias basadas en personas] | Generar audiencias mediante señales de personalidad y ajuste firmográfico. |
+| [!UICONTROL Generar programas omnicanal] | Componga programas en correo electrónico, web y destinos desde una breve descripción. |
+| [!UICONTROL Crear correos electrónicos hiperpersonalizados] | Borrador de correos electrónicos personalizados con tokens y bloques de contenido dinámico. |
+| [!UICONTROL Control de tráfico de recorrido por intención y ajuste] | Enrute los contactos a través de los recorridos utilizando las señales de ajuste e intención de la cuenta. |
 
-Haga clic en una tarjeta de aptitudes para iniciar una conversación preparada para ese flujo de trabajo. Las aptitudes son los mismos componentes básicos disponibles en el panel de chat: las tarjetas son un punto de entrada reconocible.
+También puede examinar las habilidades de agente de [!UICONTROL Coworker]. El vídeo muestra el cuadro de diálogo [!UICONTROL Usar una aptitud de agente], con un campo de búsqueda y filtros de categoría. Para obtener más información, lea acerca de [aptitudes de agente](/help/user-guide/agents/skills.md).
+
+## Navegar a espacios de trabajo
+
+Utilice la navegación de la aplicación para abrir las siguientes áreas de trabajo desde la página de inicio o el espacio de trabajo de marketing.
+
+| Área de trabajo | A qué puede acceder |
+| ----------- | --------------------- |
+| [!UICONTROL Administración de mercadotecnia] | Programas, recorridos de personas y listas de personas. |
+| [!UICONTROL control de tráfico de Recorrido] | [control de tráfico de Recorrido](/help/user-guide/marketing/journey-traffic-control.md). |
+| [!UICONTROL Informes ] | Informes de rendimiento de marketing. |
+| [!UICONTROL Administración de contenido] | [!UICONTROL Plantillas], [!UICONTROL Assets], [!UICONTROL Fragmentos], [!UICONTROL Forms], [!UICONTROL Páginas de aterrizaje] y [!UICONTROL Seminario web]. |
+| [!UICONTROL Conexiones] | [Destinos](/help/user-guide/audiences/destinations.md). |
+| [!UICONTROL Labs] | [Estudio de puntuación](/help/user-guide/labs/scoring-studio.md). |
+| [!UICONTROL Administración] | [!UICONTROL Canales] y [!UICONTROL Tipos de programas]. |
+
+## Explorar el espacio de trabajo de marketing
+
+Seleccione la tarjeta de acceso rápido **[!UICONTROL Marketing]** o **[!UICONTROL Marketing management]** en la navegación para abrir el área de trabajo de marketing. Trabaje con [!UICONTROL Coworker], abra los recursos de marketing y vuelva a los elementos a los que ha accedido recientemente sin volver a la página principal.
+
+1. Seleccione **[!UICONTROL Programas]**, **[!UICONTROL recorridos de persona]** o **[!UICONTROL Listas de personas]** en el panel **[!UICONTROL Marketing]** para examinar los recursos.
+1. Seleccione un recurso para abrirlo en una pestaña de Workspace. También puede seleccionar un elemento en **[!UICONTROL Acceso reciente]**.
+1. Para seguir trabajando con diferentes recursos, cambie entre pestañas abiertas.
+
+El panel [!UICONTROL Compañero de trabajo] refleja el recurso que ha abierto. Sus indicadores pueden dirigirse a un programa, una lista de personas o una persona seleccionados. Por ejemplo, al abrir un registro de persona, se proporcionan indicaciones para explorar la actividad de persona y participación de esa persona.
+
+Seleccione **[!UICONTROL Contraer]** para ocultar el panel [!UICONTROL Colaborador] o **[!UICONTROL Intercambiar paneles]** para cambiar su ubicación. Para obtener más información, lea acerca de [administración de mercadotecnia](/help/user-guide/marketing/marketing-management.md) y [detalles de la persona](/help/user-guide/audiences/person-details.md).
