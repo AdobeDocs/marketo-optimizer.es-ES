@@ -61,7 +61,7 @@ Seleccione una tarjeta de [!UICONTROL acceso rápido] para abrir un área de tra
 | [estado de toma de decisiones de IA](/help/user-guide/agents/ai-decisioning-health.md) | Volumen de la historia y el porcentaje de personas clasificadas por personalidad. |
 | [Marketing](/help/user-guide/marketing/marketing-management.md) | Programas, recorridos de personas y listas de personas en el espacio de trabajo de marketing. |
 | [!UICONTROL Recursos] | Recursos de contenido para correos electrónicos y páginas. |
-| [!UICONTROL Informes ] | Informes de rendimiento y participación. |
+| [!UICONTROL Informes &#x200B;] | Informes de rendimiento y participación. |
 
 ## Habilidades
 
@@ -84,7 +84,7 @@ Utilice la navegación de la aplicación para abrir las siguientes áreas de tra
 | ----------- | --------------------- |
 | [!UICONTROL Administración de mercadotecnia] | Programas, recorridos de personas y listas de personas. |
 | [!UICONTROL control de tráfico de Recorrido] | [control de tráfico de Recorrido](/help/user-guide/marketing/journey-traffic-control.md). |
-| [!UICONTROL Informes ] | Informes de rendimiento de marketing. |
+| [!UICONTROL Informes &#x200B;] | Informes de rendimiento de marketing. |
 | [!UICONTROL Administración de contenido] | [!UICONTROL Plantillas], [!UICONTROL Assets], [!UICONTROL Fragmentos], [!UICONTROL Forms], [!UICONTROL Páginas de aterrizaje] y [!UICONTROL Seminario web]. |
 | [!UICONTROL Conexiones] | [Destinos](/help/user-guide/audiences/destinations.md). |
 | [!UICONTROL Labs] | [Estudio de puntuación](/help/user-guide/labs/scoring-studio.md). |
