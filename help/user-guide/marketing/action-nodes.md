@@ -4,19 +4,22 @@ description: Configure un nodo Realizar una acción en Marketo Optimizer para ag
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # Realizar un nodo de acción
 
 En el recorrido de una persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo.
@@ -106,7 +109,7 @@ Utilice esta acción para agregar personas a una lista estática en Marketo Opti
 
 Elija una de las siguientes opciones:
 
-* **[!UICONTROL Crear]**: cree un nuevo recurso de lista estática y agréguele personas. La lista está disponible inmediatamente para que la utilicen otros recursos en Marketo Optimizer.
+* **[!UICONTROL Crear]**: cree un nuevo recurso de lista estática y agréguele personas. La lista está disponible inmediatamente para que otros recursos la utilicen en Marketo Optimizer.
 * **[!UICONTROL Seleccionar]**: seleccione un recurso de lista estática existente en el que desee agregar personas que lleguen al nodo.
 
 +++
@@ -183,9 +186,9 @@ Utilice esta acción para añadir personas a una campaña de solicitud en una in
 
 Utilice esta acción para enviar un correo electrónico a las personas incluidas en la opción. Las personas que han cancelado la suscripción, están en la lista de bloqueados, están suspendidas por correo electrónico o están suspendidas por marketing omiten esta acción.
 
-![Realizar una acción - Enviar correo electrónico](./assets/person-action-node-send-email.png){width="450"}
+![Realizar una acción - Enviar correo electrónico](./assets/person-action-node-email-source.png){width="450"}
 
-Puede crear un correo electrónico, editar uno existente o utilizar un correo electrónico personalizado con IA. Para obtener información sobre cómo crear y editar correos electrónicos, consulte [Canal de correo electrónico](./email-channel.md). Para generar variantes basadas en personas para un correo electrónico existente, consulte [Personalizar el contenido del correo electrónico por persona](../agents/personalize-content.md).
+Puede elegir un correo electrónico publicado en el árbol de programas, que agrega una copia del correo electrónico al recorrido, o utilizar un correo electrónico personalizado por IA. La copia es de solo lectura. Para obtener información sobre cómo crear, publicar y duplicar correos electrónicos, consulte [_Crear correos electrónicos y agregarlos a recorrido_](./email-channel.md). Para generar variantes basadas en personas para un borrador de correo electrónico, consulte [_Personalizar el contenido del correo electrónico por persona_](../agents/personalize-content.md).
 
 Puede usar [Optimización del tiempo de envío](./email-send-time-optimization.md) para personalizar el tiempo de envío del correo electrónico mediante la predicción de cuándo es más probable que se involucre cada perfil.
 

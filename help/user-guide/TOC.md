@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de Marketo Optimizer
 user-guide-description: Obtenga información sobre Adobe Marketo Optimizer y cómo puede utilizarlo para ejecutar una participación coordinada de marketing y ventas con contenido personalizado con tecnología de IA para posibles clientes y cuentas B2B.
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 42%
+source-wordcount: '263'
+ht-degree: 41%
 ---
 
 # Guía del usuario de Marketo Optimizer {#user}
@@ -49,7 +49,7 @@ ht-degree: 42%
   + Canal de correo electrónico {#email-channel}
     + [Información general](./marketing/email-channel.md)
     + [Optimización del tiempo de envío del correo electrónico](./marketing/email-send-time-optimization.md)
-    + [Creación de contenido](./content/email-authoring.md)
+    + [Creación de contenido de correo electrónico](./content/email-authoring.md)
     + [Diseño de modo oscuro](./content/email-dark-mode.md)
   + [Canal de WhatsApp](./content/whatsapp-authoring.md)
   + Canal de seminario web {#webinar-channel}

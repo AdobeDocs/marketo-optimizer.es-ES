@@ -4,15 +4,15 @@ description: Obtenga información acerca del diseño de correo electrónico en m
 TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Accessibility
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: '1476'
 ht-degree: 7%
-
 ---
-
 # Modo oscuro para el contenido de correo electrónico {#dark-mode}
 
 >[!CONTEXTUALHELP]
@@ -158,7 +158,7 @@ A medida que la adopción del modo oscuro aumenta en los principales clientes de
 
 El modo oscuro puede alterar colores, fondos e imágenes, a veces anulando las opciones de diseño. Para garantizar la coherencia visual, la accesibilidad y la integridad de la marca, siga estas prácticas recomendadas:
 
-| Práctica |            |
+| Práctica | |
 | -------- | ---------- |
 | Optimizar imágenes y logotipos | Lista de comprobación:<ul><li>Guarde los logotipos e iconos como archivos PNG con fondos transparentes para evitar cuadros blancos visibles en modo oscuro. <li>Evite imágenes con fondos blancos o claros codificados. <li>Si la transparencia no es una opción, coloque las imágenes sobre un fondo sólido en el diseño para evitar incómodas inversiones de color. |
 | Cuida tus fondos | Lista de comprobación:<ul><li>Asegúrese de que haya suficiente contraste entre los colores del texto y del fondo para facilitar la lectura tanto en los modos claro como oscuro. <li>Evite depender únicamente de los colores de fondo para el contenido crítico. Algunos clientes omiten los colores de fondo en el modo oscuro, por lo que debe asegurarse de que la información clave sigue siendo visible. |

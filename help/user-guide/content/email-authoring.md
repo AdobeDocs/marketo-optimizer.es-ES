@@ -19,18 +19,14 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2402'
 ht-degree: 2%
 ---
 # Creación de contenido de correo electrónico
 
 En [!DNL Adobe Marketo Optimizer], el espacio de diseño de correo electrónico proporciona un lienzo visual en el que los especialistas en marketing componen el correo electrónico. Las herramientas de diseño de correo electrónico de los paneles izquierdo y superior (estructuras, componentes de contenido, plantillas, fragmentos y mucho más) admiten la creación desde cero con la función de arrastrar y soltar. También puede elegir comenzar desde una plantilla, pegar HTML sin procesar o ensamblar mensajes a partir de fragmentos visuales reutilizables.
-
->[!IMPORTANT]
->
->Para obtener información sobre la configuración de administrador de subdominios, autenticación, grupos de IP y configuraciones de canales de correo electrónico, consulte [Capacidad de entrega de correos electrónicos](../start/email-deliverability.md) y [Configuración de canales de correo electrónico](../admin/email-channel-configuration.md).
 
 >[!PREREQUISITES]
 >
@@ -38,9 +34,10 @@ En [!DNL Adobe Marketo Optimizer], el espacio de diseño de correo electrónico 
 >
 >* **[!UICONTROL Ver correos electrónicos B2B]**: necesario para ver mensajes de correo electrónico.
 >* **[!UICONTROL Administrar correos electrónicos B2B]**: necesario para crear, editar y eliminar mensajes de correo electrónico.
->* **[!UICONTROL Administrar Recorridos de persona B2B]** - Necesario para agregar el correo electrónico a un recorrido de persona.
 
-En [!DNL Marketo Optimizer], cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro del recorrido de una persona. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/action-nodes.md#add-an-action-node) al recorrido de una persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso. En primer lugar, defina las acciones y la configuración de contenido del correo electrónico. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para iniciar el espacio de diseño del contenido del correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico con las siguientes opciones:
+En [!DNL Marketo Optimizer], un correo electrónico es un recurso independiente que [crea en un programa o carpeta](../marketing/email-channel.md#create-email-from-programs), y luego [publica y selecciona en un recorrido](../marketing/email-channel.md#lifecycle). Primero defina _Propiedades_ y _Acciones_. A continuación, defina el contenido.
+
+Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para iniciar el espacio de diseño del cuerpo del correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico con las siguientes opciones:
 
 * [Diseñe su correo electrónico desde cero](#design-from-scratch) con la interfaz de diseño visual. Cree el componente Diseño de correo electrónico mediante arrastrar y soltar en un lienzo en blanco. Este método es mejor para crear nuevas plantillas o correos electrónicos únicos.
 
@@ -83,15 +80,14 @@ Utilice el espacio de diseño de contenido visual para definir la estructura y e
 
 1. En la página _[!UICONTROL Diseña tu correo electrónico]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
 
-<!-- 
 
-1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+1. En el cuadro de diálogo _[!UICONTROL Crear correo electrónico]_, elija el tipo de contenido de correo electrónico que desea crear.
 
-   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+   * **[!UICONTROL Usar temas]** - Elija esta opción para crear el correo electrónico en _Modo de temas_. En este modo, puede utilizar un tema de marca definido para optimizar el proceso de creación de contenido y asegurarse de que el diseño se ajuste a los estándares definidos.
 
-   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+   * **[!UICONTROL Estilo manual]**: elija esta opción para crear el correo electrónico en _modo manual_. En este modo, se establece manualmente el estilo para todos los componentes de estructura y contenido que se añaden al lienzo en blanco.
 
--->
+   ![Crear el cuadro de diálogo de correo electrónico](./assets/email-design-create-your-email-dialog.png){width="450"}
 
 1. [Agregar componentes de estructura y contenido](#structure-content) en el lienzo.
 
@@ -102,8 +98,6 @@ Utilice el espacio de diseño de contenido visual para definir la estructura y e
 Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 
 ## Importar contenido existente de HTML {#import-html-content}
-
-<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
 
 El contenido importado puede ser:
 
@@ -140,17 +134,27 @@ Cuando abra el espacio de diseño de correo electrónico, utilice la sección **
 
 Utilice el editor visual de correo electrónico para crear el mensaje de correo electrónico. Añada un preencabezado, estructure el diseño con columnas y divisores y, a continuación, rellene esas estructuras con componentes de contenido como imágenes, botones y texto. También puede aplicar CSS personalizado para un estilo avanzado y previsualizar cómo se procesa el diseño en modo oscuro.
 
-### Establecer el encabezado previo {#preheader}
+### Definición de la configuración del cuerpo {#body-settings}
 
-El preencabezado es el fragmento de texto que se muestra después de la línea de asunto en las vistas previas de la bandeja de entrada. En [!DNL Marketo Optimizer], el preencabezado se configura en el lienzo visual en el espacio de diseño del correo electrónico, no en la pantalla de propiedades de correo electrónico junto a la línea de asunto.
+La configuración del cuerpo define el preencabezado, el título y el idioma del documento del correo electrónico. Configure estos metadatos en el espacio de diseño de correo electrónico, independientemente de la línea de asunto del correo electrónico.
 
-Con el **[!UICONTROL Cuerpo]** seleccionado en el árbol de navegación izquierdo, abre el panel **[!UICONTROL Configuración]** a la derecha.
+1. Seleccione **[!UICONTROL Cuerpo]** en el árbol de navegación izquierdo y, a continuación, seleccione la ficha **[!UICONTROL Configuración]** en el panel derecho.
 
-Haga clic en la región de texto **[!UICONTROL Preheader]** e introduzca su copia de preencabezado. Haga clic en el icono _Agregar personalización_ (![Agregar icono de personalización](../assets/do-not-localize/icon-personalization-field.svg) ) para aplicar formato y [tokens de personalización](#personalize-content) según sea necesario utilizando los controles de texto enriquecido.
+   ![Configuración del cuerpo en el panel derecho](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
->[!TIP]
->
->Mantenga el encabezado previo entre 40 y 100 caracteres. Debe complementar la línea de asunto (no repetirla) y dar al destinatario un motivo adicional para abrir el correo electrónico.
+1. Complete los campos siguientes:
+
+   * **[!UICONTROL Encabezado previo]**: escriba el fragmento de texto que aparece después de la línea de asunto en las vistas previas de la bandeja de entrada.
+
+     >[!TIP]
+     >
+     >Mantenga el encabezado previo entre 40 y 100 caracteres. Debe complementar la línea de asunto (no repetirla) y dar al destinatario un motivo adicional para abrir el correo electrónico.
+
+   * **[!UICONTROL Título del documento]** - Escriba un título para el documento de correo electrónico de HTML. Esto es independiente de la línea de asunto del correo electrónico.
+
+   * **[!UICONTROL Idioma del documento]**: especifique el idioma del documento de correo electrónico.
+
+   Puede hacer clic en el icono _Agregar personalización_ (![Agregar icono de personalización](../assets/do-not-localize/icon-personalization-field.svg) ) junto a un campo para insertar [tokens de personalización](#personalize-content).
 
 ### Modo oscuro {#dark-mode}
 
@@ -163,6 +167,8 @@ Para obtener instrucciones detalladas sobre la vista previa, la configuración d
 Cree su diseño de correo electrónico agregando [componentes de estructura](./structure-components.md) y [componentes de contenido](./content-components.md) al lienzo.
 
 Arrastre elementos de las secciones **[!UICONTROL Structures]** y **[!UICONTROL Contents]** del panel izquierdo y, a continuación, configure cada componente en las pestañas _[!UICONTROL Settings]_ y _[!UICONTROL Styles]_ de la derecha.
+
+![Arrastre y suelte componentes estructurales y elementos de contenido en la página](./assets/content-components-add.png){width="700" zoomable="yes"}
 
 ### Añadir CSS personalizado {#custom-css}
 
@@ -252,7 +258,7 @@ Utilice el árbol de navegación para seleccionar componentes y columnas y, a co
 [!DNL Marketo Optimizer] utiliza la sintaxis de Handlebars para la personalización. Los tokens se sustituyen en el momento del envío con valores de los datos de perfil de cada destinatario. Existen varios lugares en los que puede utilizar la personalización en un correo electrónico:
 
 * **Línea de asunto**: el punto de personalización más común.
-* **Preheader**: se establece dentro del lienzo visual; admite tokens de atributos de perfil.
+* **Metadatos de cuerpo** — establecidos dentro del lienzo visual; admite tokens de atributos de perfil.
 * **Texto del cuerpo del correo electrónico**: nombres y otros atributos de perfil insertados en línea.
 * **URL de botón** — anexar parámetros por destinatario.
 
@@ -293,7 +299,7 @@ Más allá de `default`, el editor de personalización incluye controladores Han
 
 +++Expresiones asistidas por IA {#ai-personalization}
 
-El compañero del editor de personalización puede generar expresiones Handlebars a partir de una descripción en lenguaje sencillo, explicar lo que hace una expresión existente e identificar posibles problemas. Utilícelo para acelerar la creación de expresiones, especialmente para la lógica condicional o los ayudantes de formato de fecha.
+El elemento [!DNL Coworker] del editor de personalización puede generar expresiones Handlebars a partir de una descripción en lenguaje sencillo, explicar lo que hace una expresión existente e identificar posibles problemas. Utilícelo para acelerar la creación de expresiones, especialmente para la lógica condicional o los ayudantes de formato de fecha.
 
 +++
 

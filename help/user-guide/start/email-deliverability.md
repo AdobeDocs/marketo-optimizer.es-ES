@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 0%
 ---
 # Entregabilidad del correo electrónico
@@ -53,7 +53,7 @@ Utiliza los siguientes componentes básicos, configurados por un administrador, 
 > Consulte los siguientes temas para obtener información adicional sobre los canales de correo electrónico:
 >
 >* Configurando canales de correo electrónico: [Configuración de canal de correo electrónico](../admin/email-channel-configuration.md)
->* Creando correos electrónicos - [Agregar correos electrónicos a recorrido](../marketing/email-channel.md)
+>* Creando correos electrónicos - [Cree correos electrónicos y agréguelos a recorrido](../marketing/email-channel.md)
 >* Diseñando contenido de correo electrónico: [Creación de contenido de correo electrónico](../content/email-authoring.md)
 
 ## Limitaciones actuales {#limitations}
