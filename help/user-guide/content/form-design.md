@@ -1,6 +1,6 @@
 ---
 title: Diseño del formulario
-description: Diseñe formularios con tipos de campo, validación, estilo y atributos de esquema XDM para la recopilación de datos empresariales en Marketo Optimizer.
+description: Diseñar formularios con tipos de campo, validación, estilo y atributos de esquema XDM para la recopilación de datos empresariales en Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -8,20 +8,18 @@ product_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: '2175'
 ht-degree: 1%
-
 ---
-
 # Diseño de formulario
 
 Después de [crear un formulario](./forms.md#create-forms), el espacio de diseño visual abre un borrador con una definición de formulario básica predeterminada. En el panel _[!UICONTROL Resumen]_ de la derecha, haga clic en **[!UICONTROL Editar formulario]** y use el espacio de diseño visual para definir el estilo del formulario y los componentes de campo.
 
 ![Espacio de diseño de formulario](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-El botón _&#x200B;**Enviar**&#x200B;_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
+El botón _**Enviar**_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
 
 ## Campos {#fields}
 
@@ -94,7 +92,7 @@ Los campos de formulario se utilizan para recopilar datos de perfil de la person
 
    * **[!UICONTROL Valor predeterminado]**: utilice esta opción para especificar un valor predeterminado para el campo.
 
-   * **[!UICONTROL Mensaje de validación]**: utilice esta opción para especificar un mensaje de validación para el campo. Este mensaje se muestra si el visitante introduce un valor no válido para el campo. El mensaje _[!UICONTROL Standard]_ está establecido de manera predeterminada. Elige **[!UICONTROL Personalizado]** y escribe tu propio mensaje.
+   * **[!UICONTROL Mensaje de validación]**: utilice esta opción para especificar un mensaje de validación para el campo. Este mensaje se muestra si el visitante introduce un valor no válido para el campo. El sistema establece el mensaje _[!UICONTROL Standard]_ de forma predeterminada. Elige **[!UICONTROL Personalizado]** y escribe tu propio mensaje.
 
    * **[!UICONTROL Longitud máxima]**: escriba el número máximo de caracteres que se pueden introducir en el campo.
 
@@ -124,7 +122,7 @@ Seleccione la ficha **[!UICONTROL Estilos]** en el panel derecho para cambiar el
 
   ![Establecer los estilos de etiqueta para el campo de formulario](assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
-* **[!UICONTROL Borde]**: haga clic en el cuadrado **[!UICONTROL Color del borde]** para abrir el selector de color emergente y elegir un color para el borde. Puede definir un borde para el campo, incluidos el color y el ancho de línea. Desactive la casilla de verificación para quitar el borde del campo mostrado. También puede cambiar el tamaño del borde (ancho de píxel), el estilo y el radio de las esquinas.
+* **[!UICONTROL Borde]**: haga clic en el cuadrado **[!UICONTROL Color del borde]** para abrir el selector de color emergente y elegir un color para el borde. Puede definir un borde para el campo, incluidos el color y el ancho de línea. Para quitar el borde del campo mostrado, desactive la casilla de verificación. También puede cambiar el tamaño del borde (ancho de píxel), el estilo y el radio de las esquinas.
 
   ![Establecer los estilos de borde para el campo de formulario](assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
@@ -148,7 +146,7 @@ Agregue [componentes estructurales](./structure-components.md) al formulario y m
 
 Haga clic en el icono _Eliminar_ ( ![Eliminar icono](../assets/do-not-localize/icon-delete.svg) ) en la barra de herramientas o en el panel derecho para eliminar un campo seleccionado. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Eliminar]**.
 
-Haga clic en el icono _Duplicar_ ( ![Icono Duplicar](../assets/do-not-localize/icon-duplicate.svg) ) en la barra de herramientas o en el panel derecho para duplicar un campo seleccionado. El nuevo campo se muestra justo debajo del campo original. Haga clic en **[!UICONTROL Seleccionar atributo de campo]** para establecer el atributo del campo. Establezca el tipo de campo, los detalles y los estilos según sea necesario.
+Haga clic en el icono _Duplicar_ ( ![Icono Duplicar](../assets/do-not-localize/icon-duplicate.svg) ) en la barra de herramientas o en el panel derecho para duplicar un campo seleccionado. El nuevo campo se muestra debajo del campo original. Haga clic en **[!UICONTROL Seleccionar atributo de campo]** para establecer el atributo del campo. Establezca el tipo de campo, los detalles y los estilos según sea necesario.
 
 ![Iconos de eliminación y duplicado para los campos de formulario](assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
@@ -172,7 +170,7 @@ Seleccione la ficha **[!UICONTROL Estilos]** en el panel derecho para cambiar el
 
 * **[!UICONTROL Etiqueta]**: el estilo de etiqueta controla las características visuales del texto dentro del botón. Puede establecer el tamaño de fuente, el alto de línea, el estilo de texto y la alineación del texto. Haga clic en el cuadrado **[!UICONTROL Color de fuente]** para abrir el selector de color emergente y elegir un color para el texto de la etiqueta.
 
-* **[!UICONTROL Borde]**: haga clic en el cuadrado **[!UICONTROL Color del borde]** para abrir el selector de color emergente y elegir un color para el borde. Puede definir un borde para el botón, incluidos el color y el ancho de línea. Desactive la casilla de verificación para quitar el borde del botón mostrado. También puede cambiar el tamaño del borde (ancho de píxel), el estilo y el radio para las esquinas redondeadas.
+* **[!UICONTROL Borde]**: haga clic en el cuadrado **[!UICONTROL Color del borde]** para abrir el selector de color emergente y elegir un color para el borde. Puede definir un borde para el botón, incluidos el color y el ancho de línea. Para quitar el borde del botón mostrado, desactive la casilla de verificación. También puede cambiar el tamaño del borde (ancho de píxel), el estilo y el radio para las esquinas redondeadas.
 
 * **[!UICONTROL Tamaño]**: seleccione un valor de tamaño para determinar el ancho de visualización del botón. Elija _[!UICONTROL Anchura completa]_, _[!UICONTROL Anchura media]_ o _[!UICONTROL Automática]_. El relleno se ajusta según el tamaño y la configuración de alineación.
 
@@ -206,7 +204,7 @@ _Para definir un CSS personalizado para el formulario :_
 
 1. Haga clic en **[!UICONTROL Cerrar]**.
 
-1. (Opcional) Pegue el código copiado en su herramienta CSS favorita y edite el CSS para reflejar el estilo que desee.
+1. (Opcional) Pegue el código copiado en la herramienta CSS y edite el CSS para reflejar el estilo que desee.
 
 1. Haga clic en **[!UICONTROL Agregar CSS personalizado]** en el panel derecho.
 
@@ -220,7 +218,7 @@ _Para definir un CSS personalizado para el formulario :_
 
 ### Estilo manual {#manual-styling}
 
-Cambie la configuración en el panel derecho para definir la visualización de todo el formulario.
+Para definir la visualización de todo el formulario, cambie la configuración en el panel derecho.
 
 * **[!UICONTROL Color de fondo]**: seleccione la casilla de verificación para aplicar un color de fondo alrededor del área del formulario. El blanco es el color predeterminado. Haga clic en el cuadrado de color para abrir el selector de color emergente y elegir un color para el fondo del formulario.
 

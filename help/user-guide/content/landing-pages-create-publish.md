@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1571'
 ht-degree: 11%
 ---
 # Creación y publicación de páginas de destino
@@ -57,11 +57,17 @@ Para dirigir a los miembros de una audiencia de recorrido a una página web defi
 
 _Para crear una página de aterrizaje :_
 
-1. Vaya a la navegación de la izquierda y seleccione **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]**.
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de mercadotecnia]** y seleccione **[!UICONTROL Programas]**.
 
-1. En la lista de páginas de aterrizaje, haga clic en **[!UICONTROL Crear página de aterrizaje]**.
+1. En la estructura de árbol _[!UICONTROL Programas]_, busque el programa o una carpeta dentro del programa donde desee crear la página de aterrizaje.
 
-1. Escriba **[!UICONTROL Título]** (obligatorio) y **[!UICONTROL Descripción]** (opcional).
+   Si es necesario, [cree primero un programa](../marketing/programs.md#create-program).
+
+1. Haga clic en el icono _Más_ (**...**) junto al nombre del programa o la carpeta y seleccione **[!UICONTROL Crear página de aterrizaje]**.
+
+   ![Crear una nueva página de aterrizaje desde el árbol de programas](../marketing/assets/email-create-from-programs-tree.png){width="400"}
+
+1. En el cuadro de diálogo _[!UICONTROL Crear página de aterrizaje]_, escriba un **[!UICONTROL Título]** (obligatorio) y una **[!UICONTROL Descripción]** (opcional).
 
    Título y criterios de descripción:
 
@@ -70,7 +76,7 @@ _Para crear una página de aterrizaje :_
    * Se permiten caracteres Alpha, numéricos y especiales.
    * Los caracteres reservados **_no se permiten_**: `\ / : * ? " < > |`
 
-   ![Crear página de aterrizaje](assets/landing-page-create.png){width="600"}
+   ![Crear página de aterrizaje](assets/landing-page-create.png){width="425"}
 
 1. Seleccione un **[!UICONTROL ajuste preestablecido]**.
 
@@ -82,11 +88,13 @@ _Para crear una página de aterrizaje :_
 
    ![Nueva página de aterrizaje - propiedades de la página principal](assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
-1. Para agregar una subpágina (por ejemplo, una página de agradecimiento o de error), haga clic en el icono **+**.
+<!--
+1. To add a subpage (for example, a thank-you or error page), click the **+** icon.
 
-   Puede agregar hasta dos subpáginas por página de aterrizaje.
+   You can add up to two subpages per landing page.
+-->
 
-Después de configurar y diseñar la página principal y las subpáginas, [pruebe la página de aterrizaje](#test-landing-page) antes de publicarla.
+Después de configurar y diseñar la página, [pruebe la página de aterrizaje](#test-landing-page) antes de publicarla.
 
 >[!CAUTION]
 >
@@ -147,7 +155,7 @@ Después de seleccionar el método preferido para iniciar el diseño de la pági
 
 ### Diseñe desde cero {#design-from-scratch}
 
-Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido de la página de aterrizaje. Al añadir y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar el diseño y la organización del contenido de la página en cuestión de segundos.
+Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido de la página de aterrizaje. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar el diseño y la organización del contenido de la página rápidamente.
 
 1. En la página de inicio de diseño, seleccione la opción **[!UICONTROL Diseñar desde cero]**.
 
@@ -235,11 +243,11 @@ Cuando se definen la configuración y el contenido de la página de aterrizaje, 
 
    +++Añadir perfiles de prueba
 
-   Para el área de nombres de identidad **[!UICONTROL Identity]**, haga clic en el icono _Seleccionar_ ( ![Seleccionar icono](../assets/do-not-localize/icon-select-data.svg) ) y elija el área de nombres `Email` que se utilizará para probar los perfiles.
+   Para el área de nombres de identidad **[!UICONTROL Identity]**, haga clic en el icono _Seleccionar_ ( ![Seleccionar icono](../assets/do-not-localize/icon-select-data.svg) ) y elija el área de nombres `Email` para probar los perfiles.
 
    ![Administrar conjunto de perfiles de prueba Área de nombres de identidad de correo electrónico](assets/manage-test-profiles.png){width="700" zoomable="yes"}
 
-   En el campo **[!UICONTROL Valor de identidad]**, escriba la dirección de correo electrónico para identificar el perfil de prueba y haga clic en **[!UICONTROL Agregar perfil]**. Puede repetir esto para agregar varios perfiles.
+   En el campo **[!UICONTROL Valor de identidad]**, escriba la dirección de correo electrónico para identificar el perfil de prueba y haga clic en **[!UICONTROL Agregar perfil]**. Para agregar varios perfiles, puede repetir esto.
 
    ![Administrar perfiles de prueba y agregar perfiles](assets/manage-test-profiles-add.png){width="700" zoomable="yes"}
 

@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2583'
 ht-degree: 2%
 ---
 # Creación de contenido de correo electrónico
@@ -78,8 +78,7 @@ Las siguientes prácticas recomendadas de HTML y CSS ayudan a garantizar un proc
 
 Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al añadir y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar el diseño y la organización del contenido del correo electrónico en cuestión de segundos.
 
-1. En la página _[!UICONTROL Diseña tu correo electrónico]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
-
+1. En la página _[!UICONTROL Crear tu correo electrónico]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
 
 1. En el cuadro de diálogo _[!UICONTROL Crear correo electrónico]_, elija el tipo de contenido de correo electrónico que desea crear.
 
@@ -126,9 +125,40 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 
 Cuando abra el espacio de diseño de correo electrónico, utilice la sección **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar desde una plantilla de muestra integrada o una plantilla personalizada guardada. Consulte [Usar una plantilla en un correo electrónico](./templates.md#use-in-journey) para ver el flujo de trabajo completo.
 
+Puede elegir entre:
+
+* **Plantillas de ejemplo**: plantillas de correo electrónico integradas proporcionadas por Adobe.
+* **Plantillas guardadas**: plantillas personalizadas creadas desde cero o guardadas a partir del contenido de correo electrónico existente.
+
+>[!BEGINTABS]
+
+>[!TAB Plantillas guardadas]
+
+En la página _[!UICONTROL Crear su correo electrónico]_, la pestaña _[!UICONTROL Plantillas de ejemplo]_ está seleccionada de forma predeterminada. Para usar una plantilla personalizada, selecciona la pestaña **[!UICONTROL Plantillas guardadas]**.
+
 >[!NOTE]
 >
 >Las plantillas guardadas pueden tener configuraciones de gobernanza (bloqueo de contenido) aplicadas a uno o varios componentes. El espacio de diseño visual proporciona directrices sobre los componentes bloqueados cuando [crea un correo electrónico a partir de una plantilla controlada](./template-content-governance.md).
+
+La lista muestra todas las plantillas de correo electrónico creadas en la zona protegida actual. Puede ordenarlos por **[!UICONTROL Nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
+
+![Elegir una plantilla guardada](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+Seleccione la plantilla que desee en la lista para mostrar una vista previa. En el modo de vista previa, utilice las flechas derecha e izquierda para desplazarse entre las plantillas de la categoría seleccionada (de ejemplo o guardadas).
+
+![Vista previa de la plantilla guardada](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+Cuando la vista previa coincida con lo que desea usar, haga clic en **[!UICONTROL Usar esta plantilla]** en la parte superior derecha de la ventana de vista previa.
+
+Esta acción copia el contenido en el espacio de diseño del correo electrónico visual, donde puede editarlo según sea necesario.
+
+>[!TAB Plantillas de muestra]
+
+[!DNL Adobe Marketo Optimizer] proporciona una selección de plantillas integradas que puede utilizar para crear correos electrónicos y plantillas de correo electrónico.
+
+![Elija una plantilla proporcionada por Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Añadir estructura y contenido {#structure-content}
 

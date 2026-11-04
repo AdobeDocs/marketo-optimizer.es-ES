@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 3%
@@ -50,7 +50,7 @@ El estado del correo electrónico determina la disponibilidad de la acción:
 | Editar propiedades, acciones y contenido | Sí | No | No |
 | Personalizar correo electrónico | Sí | No | No |
 | Analizar correo electrónico | Sí | No | No |
-| Publicación | Sí, una vez resueltas las alertas de bloqueo | Ya publicado | Publicado automáticamente |
+| Publicación | Sí, al resolver las alertas de bloqueo | Ya publicado | Publicado automáticamente |
 | Duplicado | Sí | Sí | No |
 | Cambiar nombre | Sí | No | No. Asigne un nombre a la copia cuando la seleccione. |
 | Eliminar | Sí | No | No. Elimine el nodo _Enviar correo electrónico_ en su lugar. |
