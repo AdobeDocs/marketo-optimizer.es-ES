@@ -104,7 +104,7 @@ Hay varias cosas que hay que tener en cuenta antes de empezar a crear formulario
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selección de un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Crear un ajuste preestablecido de un formulario"
+>additional-url="https://experienceleague.adobe.com/es/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Crear un ajuste preestablecido de un formulario"
 
 Cree un formulario en un programa o una carpeta dentro de un programa desde la estructura de árbol _[!UICONTROL Programas]_.
 
