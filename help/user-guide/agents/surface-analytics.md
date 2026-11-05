@@ -17,7 +17,7 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Surface Analytics puede responder preguntas que abarcan datos de [!DNL Marketo E
 ## Limitaciones {#limitations}
 
 | Limitación | Detalles |
-|---|---|
+| --- | --- |
 | Edición o creación de registros | No compatible. Surface Analytics solo lee e informa sobre datos existentes. |
 | Nombres legibles por humanos en los resultados | No siempre disponible. Algunos informes muestran un ID interno, como un ID de recorrido o de correo electrónico, en lugar de un nombre. |
 | Duplicar tarjetas de informes | Una sola pregunta puede devolver ocasionalmente más de una tarjeta de informe para el mismo resultado. |

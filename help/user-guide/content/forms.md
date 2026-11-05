@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2528'
 ht-degree: 2%
 ---
 # Formularios
@@ -41,6 +41,8 @@ La cantidad de información que debe capturar el formulario depende del valor de
 ## Acceso y administración de formularios {#view-forms}
 
 Para acceder a los formularios de [!DNL Marketo Optimizer], ve a la barra de navegación izquierda y haz clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Forms]**. Esta acción abre una página de lista que muestra todos los formularios creados en la instancia.
+
+Utilice esta lista para acceder y administrar los formularios existentes. Para [crear un formulario](#new-form), use la estructura de árbol _[!UICONTROL Programas]_.
 
 ![Acceder a la biblioteca de formularios](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -78,7 +80,7 @@ Hay varias cosas que hay que tener en cuenta antes de empezar a crear formulario
 
 * Determine qué formularios necesita.
 
-  Es posible utilizar solo cuatro formularios estándar. Uno para acceder a contenido descargable, otro para acceder a páginas web premium, otro para ver vídeos y otro para registrarse en cosas como seminarios web. Si alguna vez necesita cambiar un campo en un formulario, es más fácil actualizar cuatro formularios estándar que se utilizan globalmente en lugar de cambiar varios formularios distribuidos en todos los programas de marketing.
+  Puede ser que solo necesite utilizar cuatro formularios estándar. Uno para acceder a contenido descargable, otro para acceder a páginas web premium, otro para ver vídeos y otro para registrarse en cosas como seminarios web. Si alguna vez necesita cambiar un campo en un formulario, es más fácil actualizar cuatro formularios estándar que se utilizan globalmente en lugar de cambiar varios formularios distribuidos en todos los programas de marketing.
 
   <!-- Global forms also make progressive profiling much easier to implement. -->
 
@@ -86,15 +88,15 @@ Hay varias cosas que hay que tener en cuenta antes de empezar a crear formulario
 
   Considere utilizar formularios más cortos, ya que se ha comprobado que son mejores para las conversiones. Cuando revise cada formulario, decida qué campos son razonables y necesarios para su propósito.
 
-  Tenga en cuenta si debe rellenar previamente los campos de formulario para que la información básica, como el nombre y el correo electrónico, esté rellenada previamente. Pero otra información, como el cargo y el tamaño de la organización, no lo es. De este modo, el visitante solo debe rellenar dos campos y enviar el formulario. También puede utilizar un formulario social para rellenarlo con datos de Facebook o Twitter.
+  Tenga en cuenta si debe rellenar previamente los campos de formulario para que la información básica, como el nombre y el correo electrónico, esté rellenada previamente. Pero otra información, como el cargo y el tamaño de la organización, no lo es. De este modo, el visitante solo debe rellenar dos campos y enviar el formulario. También puede utilizar un formulario social para rellenarlo con datos de plataformas de medios sociales.
 
 * Planifique qué página de seguimiento se mostrará después de que un visitante envíe un formulario (página _gracias_).
 
-  ¿Todos obtienen la misma página o es dinámica y se basa en sus datos? Por ejemplo, alguien en la industria de la atención médica podría ver un contenido de página diferente a alguien en la industria tecnológica.
+  ¿Todos obtienen la misma página o es dinámica y se basa en sus datos? Por ejemplo, alguien en la industria de la atención médica ve contenido de página diferente que alguien en la industria tecnológica.
 
 * Considere si desea omitir un formulario por completo si ya tiene la información que necesita.
 
-  Cuando permite que se omita un formulario para una persona conocida que visita la página de aterrizaje, simplemente puede acceder al contenido directamente. Omitir el formulario ofrece una experiencia de visitante más ágil.
+  Cuando permite que se omita un formulario para una persona conocida que visita la página de aterrizaje, puede acceder al contenido directamente. Omitir el formulario ofrece una experiencia de visitante más ágil.
 
 ### Añadir un nuevo formulario {#new-form}
 
@@ -102,9 +104,19 @@ Hay varias cosas que hay que tener en cuenta antes de empezar a crear formulario
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selección de un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Crear un ajuste preestablecido de un formulario"
+>additional-url="https://experienceleague.adobe.com/es/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Crear un ajuste preestablecido de un formulario"
 
-Puede crear un formulario en [!DNL Marketo Optimizer] haciendo clic en **[!UICONTROL Crear formulario]** en la parte superior derecha de la página de lista de _[!UICONTROL Forms]_.
+Cree un formulario en un programa o una carpeta dentro de un programa desde la estructura de árbol _[!UICONTROL Programas]_.
+
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de mercadotecnia]** y seleccione **[!UICONTROL Programas]**.
+
+1. Busque el programa o una carpeta dentro del programa donde desee crear el formulario.
+
+   Si es necesario, [cree primero un programa](../marketing/programs.md#create-program).
+
+1. Haga clic en el icono _Más_ (**...**) junto al nombre del programa o la carpeta y seleccione **[!UICONTROL Crear formulario]**.
+
+   ![Crear un formulario nuevo desde el árbol de programas](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. En el cuadro de diálogo _[!UICONTROL Crear formulario]_, escriba un **[!UICONTROL Nombre]** (obligatorio) y una **[!UICONTROL Descripción]** (opcional) útiles.
 
@@ -123,21 +135,19 @@ Puede crear un formulario en [!DNL Marketo Optimizer] haciendo clic en **[!UICON
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-   Se abrirá la página de detalles del formulario con una definición de formulario básica predeterminada.
+   Se abre la página de detalles del formulario.
 
    ![Contenido de formulario predeterminado](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Cambiar el diseño de formulario predeterminado {#design}
+1. Haga clic en **[!UICONTROL Editar formulario]** y use las herramientas de diseño visual para definir el contenido del formulario según sea necesario:
 
-Utilice las herramientas de diseño visual para cambiar el contenido del formulario según sea necesario:
+   * [Añadir campos](./form-design.md#add-field)
+   * [Cambiar estilo de campo](./form-design.md#field-styling)
+   * [Reordenar campos](./form-design.md#field-reorder)
+   * [Cambiar texto y estilo del botón de envío](./form-design.md#submit-button)
+   * [Cambio del estilo del formulario](./form-design.md#form-styling)
 
-* [Añadir campos](./form-design.md#add-field)
-* [Cambiar estilo de campo](./form-design.md#field-styling)
-* [Reordenar campos](./form-design.md#field-reorder)
-* [Cambiar texto y estilo del botón de envío](./form-design.md#submit-button)
-* [Cambio del estilo del formulario](./form-design.md#form-styling)
-
-Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar los cambios de diseño del contenido del formulario y vaya a los detalles del formulario.
+   Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar los cambios de diseño del contenido del formulario y volver a los detalles del formulario.
 
 ### Configurar la página de agradecimiento {#thank-you-page}
 
@@ -204,7 +214,7 @@ Si el formulario está en uso, la acción abre un cuadro de diálogo informativo
 
 ## Formularios duplicados {#duplicate-forms}
 
-Duplicar un formulario es una forma rápida y sencilla de crear un nuevo formulario utilizando un formulario existente como punto de partida para el diseño de formularios.
+Duplique un formulario para crear uno nuevo utilizando uno existente como punto de partida para el diseño de formulario.
 
 Puede duplicar un formulario mediante cualquiera de los siguientes métodos:
 
@@ -217,7 +227,7 @@ En el cuadro de diálogo, introduzca un nombre útil (único) y una descripción
 
 ![Nombre y descripción para el formulario duplicado](assets/form-duplicate-dialog.png){width="400"}
 
-Edite el formulario duplicado para cambiar el nombre según sea necesario y modificar el formulario para el uso previsto.
+Para cambiar el nombre según sea necesario y modificar el formulario para el uso previsto, edite el formulario duplicado.
 
 ## Editar formularios {#edit-forms}
 

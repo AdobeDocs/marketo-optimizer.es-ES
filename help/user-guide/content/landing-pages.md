@@ -10,18 +10,18 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1649'
 ht-degree: 2%
 ---
 # Páginas de aterrizaje
 
-Una página de aterrizaje es una página web independiente en la que puede dirigir a contactos y clientes después de hacer clic en un elemento vinculado en un correo electrónico, un mensaje SMS o cualquier ubicación digital. Puede incorporar estas páginas en los recorridos para que los clientes potenciales y los clientes vean los mensajes en la web y progresen en los recorridos.
+Una página de aterrizaje es una página web independiente en la que puede dirigir a contactos y clientes después de hacer clic en un elemento vinculado en un correo electrónico, un mensaje SMS o cualquier ubicación digital. Para que los posibles clientes y clientes vean los mensajes en la web y el progreso de los recorridos, puede incorporar estas páginas a los recorridos.
 
 Casos de uso comunes de las páginas de aterrizaje:
 
-* Proporcione comunicaciones de marketing de inclusión o exclusión para un servicio específico. Utilice un vínculo en un correo electrónico u otra comunicación para enviar una lista de destino.
+* Proporcionar una inclusión o exclusión de comunicaciones de marketing o un servicio específico. Utilice un vínculo en un correo electrónico u otra comunicación para enviar una lista de destino.
 * Recopile el consentimiento antes de enviar comunicaciones y envíe un correo electrónico de confirmación tras la inclusión o la exclusión.
 * Capture o actualice datos de perfil (perfil progresivo, preferencias, registros y escenarios similares) mediante formularios en páginas de aterrizaje.
 * Dirija a las personas a información específica de la campaña diseñada para su orquestación de recorrido.
@@ -39,17 +39,19 @@ Casos de uso comunes de las páginas de aterrizaje:
 
 Para dirigir a los miembros de una audiencia de recorrido a una página web definida cuando hagan clic en un vínculo específico, cree una página de aterrizaje en [!DNL Marketo Optimizer]:
 
-1. [Crear la página](./landing-pages-create-publish.md#create-landing-page): seleccione un ajuste preestablecido, configure la página principal y agregue las subpáginas necesarias.
+1. [Crear la página](./landing-pages-create-publish.md#create-landing-page): comience desde la estructura de árbol de Programas, seleccione un ajuste preestablecido y configure la página principal.
 1. [Diseño del contenido de la página de aterrizaje](./landing-page-design.md): cree el contenido de la página mediante componentes de diseño visuales de arrastrar y soltar.
 1. [Probar la página de aterrizaje](./landing-pages-create-publish.md#test-landing-page): previsualice la página y pruebe el comportamiento del formulario.
 1. [Publicar la página de aterrizaje](./landing-pages-create-publish.md#publish-landing-page): publique para que la página esté activa y disponible para la vinculación.
 1. [Vínculo a la página desde el recorrido](#link-to-landing-page): agregue la dirección URL de la página de aterrizaje a un correo electrónico, un SMS o una acción de recorrido para que los destinatarios puedan llegar a ella.
 
-Por ejemplo, puede crear y diseñar páginas de aterrizaje para dirigir a los usuarios a la información en línea. La página puede incluir un formulario en el que pueden optar por su inclusión o exclusión en la recepción de comunicaciones. O podría ser una oportunidad para suscribirse a una comunicación recurrente, como un boletín informativo.
+Por ejemplo, para dirigir a los usuarios a la información en línea, puede crear y diseñar páginas de aterrizaje. La página puede incluir un formulario en el que pueden optar por su inclusión o exclusión en la recepción de comunicaciones. O podría ser una oportunidad para suscribirse a una comunicación recurrente, como un boletín informativo.
 
 ## Acceso y administración de páginas de aterrizaje {#access-manage-landing-pages}
 
 Para acceder a las páginas de aterrizaje de [!DNL Marketo Optimizer], ve a la navegación izquierda y expande **[!UICONTROL Administración de contenido]**. A continuación, seleccione **[!UICONTROL Páginas de aterrizaje]**. Esta acción muestra una lista de todas las páginas de aterrizaje creadas en la instancia.
+
+Utilice esta lista para acceder a las páginas de aterrizaje existentes y administrarlas. Para [crear una página de aterrizaje](./landing-pages-create-publish.md#create-landing-page), use la estructura de árbol _[!UICONTROL Programas]_.
 
 ![Acceder a la biblioteca de páginas de aterrizaje](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -197,7 +199,7 @@ Esta acción abre un cuadro de diálogo de confirmación. Puede anular el proces
 
 ## Vínculo a una página de aterrizaje {#link-to-landing-page}
 
-Como experto en marketing o creativo que produce contenido de correo electrónico, fragmentos y páginas, puede incrustar vínculos a las páginas de aterrizaje publicadas (activas) que se crean en su instancia de [!DNL Marketo Optimizer].
+Como profesional creativo o de marketing que produce contenido de páginas, fragmentos y correos electrónicos, puede incrustar vínculos a las páginas de aterrizaje publicadas (en directo) que se crean en su instancia de [!DNL Marketo Optimizer].
 
 1. Cuando trabaje en el espacio de diseño visual para un fragmento, correo electrónico, página de aterrizaje o plantilla, seleccione un extracto de texto, un componente de botón o un componente de imagen para el vínculo.
 
