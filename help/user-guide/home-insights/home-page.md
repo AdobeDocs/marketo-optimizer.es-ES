@@ -31,7 +31,7 @@ El mensaje de bienvenida personalizado le pregunta por sus tareas actuales. Elij
 
 Vea el vídeo para ver una visita guiada por la página principal y el espacio de trabajo de marketing. En las secciones siguientes se proporcionan instrucciones por escrito.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505364/?captions=spa&quality=12&learn=on)
 
 ## Iniciar una conversación de IA
 
