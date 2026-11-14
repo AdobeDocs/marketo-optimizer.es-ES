@@ -21,7 +21,7 @@ Haga clic en **[!UICONTROL Ver informe]** para ver el recorrido de una persona a
 
 >[!PREREQUISITES]
 >
->Para ver este informe, debe tener el **[!UICONTROL permiso de [Ver informes de Recorrido de personas B2B](../start/permissions-reference.md)]**.
+>Para ver este informe, debe tener el **permiso de [Ver informes de Recorrido de personas B2B](../start/permissions-reference.md)**.
 
 _Para ver el informe :_
 
