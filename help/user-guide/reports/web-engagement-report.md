@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 64d70f192f1ef972590aef2811e2e91908691196
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '281'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-Use el informe [!UICONTROL Participación en la web] para revisar la participación en los mejores seminarios web interactivos de toda la instancia.
+Use el informe [!UICONTROL Participación en la web] para revisar la participación de los seminarios web interactivos más populares en toda la instancia.
 
 _Para ver el informe :_
 
@@ -44,9 +44,13 @@ El informe [!UICONTROL Participación en la web] muestra las 10 páginas más vi
 
 ## Filtros {#filters}
 
-Utilice el siguiente filtro para reducir el informe a un perfil específico.
+Use el filtro **[!UICONTROL Persona (evento)]** en la parte superior del informe para reducir los datos de vista de página. Abra la lista de filtros y seleccione los valores que desea incluir.
 
-* **[!UICONTROL Persona]** - Filtra por el personaje asociado con las vistas de la página.
+* **[!UICONTROL Persona (evento)]** - Filtrado por el [personaje derivado](../audiences/personas.md#filter-by-derived-persona) asociado con las vistas de página. El valor predeterminado es [!UICONTROL Sin filtro].
+
+![Informe de participación web con la lista de filtros Persona (evento) abierta, que muestra las personalidades disponibles y el control Restablecer todo.](./assets/reports-web-engagement-filters.png){width="500" zoomable="yes"}
+
+Seleccione **[!UICONTROL Restablecer todo]** para borrar el filtro y volver a la vista predeterminada.
 
 >[!NOTE]
 >

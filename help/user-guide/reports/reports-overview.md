@@ -7,17 +7,17 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 
 # Informes
 
-La ficha [!UICONTROL Informes] le proporciona información sobre el rendimiento de [!DNL Adobe Marketo Optimizer], incluido el compromiso del recorrido, el rendimiento del correo electrónico y la actividad web. En el panel de navegación izquierdo, seleccione **[!UICONTROL Informes]** para abrirlo.
+La página _[!UICONTROL Informes]_ le ofrece información sobre el rendimiento de [!DNL Adobe Marketo Optimizer], incluido el compromiso del recorrido, el rendimiento del correo electrónico y la actividad web. En el panel de navegación izquierdo, seleccione **[!UICONTROL Informes]** para abrirlo.
 
-Cada informe se genera en [!DNL Adobe Customer Journey Analytics] y se incrusta directamente en [!DNL Marketo Optimizer]. Haga clic en el icono _Lista_ ( ![Icono de lista](../assets/do-not-localize/icon-table-of-contents.svg) ) para usar el panel **[!UICONTROL Tabla de contenido]** de la izquierda para saltar entre secciones.
+Cada informe se genera usando las capacidades de [!DNL Adobe Customer Journey Analytics] y se incrusta directamente en [!DNL Marketo Optimizer]. Haga clic en el icono _Lista_ ( ![Icono de lista](../assets/do-not-localize/icon-table-of-contents.svg) ) para usar el panel **[!UICONTROL Tabla de contenido]** de la izquierda para saltar entre secciones.
 
 ![La página Informes enumera las secciones Información general del Recorrido de persona, Participación, Participación por correo electrónico y Participación en la web](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
@@ -41,7 +41,7 @@ La ficha [!UICONTROL Informes] organiza los informes generados previamente en cu
 Algunos informes se centran en un único registro en lugar de en una vista de toda la sección y se accede a ellos desde un área diferente de la aplicación.
 
 * Para obtener rendimiento de optimización del tiempo de envío de correo electrónico, abra el informe desde la interfaz de chat de [!UICONTROL Coworker]. Para ver los pasos, consulte [Optimización del tiempo de envío de correo electrónico](../marketing/email-send-time-optimization.md#reporting).
-* Para el progreso de una persona a través de un solo recorrido, abra el [informe individual de Recorrido de persona](./person-journey-individual-report.md) desde ese recorrido.
+* Para el rendimiento del recorrido de personas, abra el [informe individual del Recorrido de personas](./person-journey-individual-report.md) desde un recorrido activo o finalizado. Después de abrir el informe, puede seleccionar varios recorridos para incluirlos.
 
 ## Exportación de informes {#export-a-report}
 
