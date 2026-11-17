@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
-ht-degree: 3%
+ht-degree: 4%
 ---
 # Creación de correos electrónicos y adición a recorrido
 
@@ -198,7 +198,7 @@ Un correo electrónico de borrador tiene tres fichas: **[!UICONTROL Propiedades]
 
 1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Optimizar tamaño de HTML]** para reducir el tamaño de su HTML de correo electrónico durante el proceso de publicación.
 
-   Esto ayuda a evitar el recorte de correos electrónicos en clientes como Gmail. Gmail trunca los mensajes que superan los 100 KB. Consulte [_Optimizar el tamaño de HTML del correo electrónico_](#optimize-html-size) para obtener más información.
+   Esto ayuda a evitar el recorte de correos electrónicos en clientes como Gmail. Gmail trunca los mensajes que superan los 100 KB. Consulte [_Optimizar el tamaño de HTML del correo electrónico_](#optimize-html-size) para obtener más información.
 
 1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder a las herramientas de diseño visual y comenzar a [crear su contenido](../content/email-authoring.md).
 
@@ -356,7 +356,7 @@ Como la copia del recorrido es de solo lectura, debe reemplazarla en lugar de ed
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="Reducir tamaño de HTML"
->abstract="Habilite esta opción para comprimir el HTML de correo electrónico durante la publicación eliminando los espacios en blanco innecesarios, la sangría y los comentarios no esenciales. Esto ayuda a evitar el recorte de correos electrónicos en clientes como Gmail. Gmail trunca los mensajes que superan los 100 KB."
+>abstract="Habilite esta opción para comprimir el HTML de correo electrónico durante la publicación eliminando los espacios en blanco innecesarios, la sangría y los comentarios no esenciales. Esto ayuda a evitar el recorte de correos electrónicos en clientes como Gmail. Gmail trunca los mensajes que superan los 100 KB."
 
 [!DNL Marketo Optimizer] le permite comprimir su versión de HTML de correo electrónico durante el proceso de publicación al eliminar espacios en blanco, sangrías y comentarios no esenciales innecesarios. Mantener el tamaño pequeño de HTML le ayuda a lo siguiente:
 
