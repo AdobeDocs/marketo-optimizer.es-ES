@@ -8,16 +8,18 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '204'
 ht-degree: 3%
-
 ---
-
 # Creación de fragmentos
 
-Después de [crear un fragmento](./fragments.md#create-fragments), use el espacio de diseño visual para crear la estructura y los componentes de contenido del fragmento.
+Después de [crear un fragmento](./fragments.md#create-fragments), usa el espacio de diseño visual para definir el diseño y el contenido del fragmento.
+
+## Añadir módulos
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Añadir estructura y contenido {#design-fragment}
 

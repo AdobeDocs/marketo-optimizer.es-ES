@@ -10,19 +10,21 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 2%
 ---
 
 # Plantillas de correo electrónico
 
-Las plantillas de correo electrónico de [!DNL Adobe Marketo Optimizer] permiten a los especialistas en contenido crear diseños de correo electrónico reutilizables de forma independiente, de modo que los equipos de marketing puedan aplicarlos en todos los recorridos de la cuenta sin reconstruir los diseños una y otra vez.
+Las plantillas de correo electrónico de [!DNL Adobe Marketo Optimizer] permiten a los especialistas en contenido crear diseños de correo electrónico reutilizables de forma independiente, de modo que los equipos de marketing puedan reutilizar diseños sin volver a crearlos cada vez.
 
 >[!NOTE]
 >
->En esta versión de Beta, solo se admiten plantillas de correo electrónico.
+>Actualmente solo se admiten plantillas de correo electrónico. Las plantillas de página de aterrizaje no están disponibles en este momento.
+
+Use [módulos de contenido](./content-modules.md) al [crear plantillas de correo electrónico](./templates-create.md) para combinar diseños de secciones preparadas.
 
 Cuando se aplica una plantilla a un correo electrónico nuevo, el contenido se copia en ese momento. Las ediciones en la plantilla no afectan a los correos electrónicos creados anteriormente a partir de ella.
 
@@ -57,7 +59,7 @@ Cree carpetas para agrupar las plantillas por equipo, campaña, marca o cualquie
 **Para mover una plantilla a una carpeta:**
 
 1. Haga clic en el icono **[!UICONTROL Más]** ( ... ) junto a la plantilla.
-1. Seleccione **[!UICONTROL Mover a la carpeta]**.
+1. Seleccione **[!UICONTROL Mover a la carpeta]**.
 1. Seleccione la carpeta de destino y haga clic en **[!UICONTROL Mover]**.
 
 ## Ver detalles de la plantilla {#view-details}

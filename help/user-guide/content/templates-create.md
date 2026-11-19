@@ -1,6 +1,6 @@
 ---
 title: Crear plantillas de correo electrónico
-description: 'Obtenga información sobre cómo crear plantillas de correo electrónico en Marketo Optimizer: crear nuevas plantillas, guardar un correo electrónico de un recorrido como plantilla o convertir una imagen de diseño en una plantilla de correo electrónico.'
+description: Obtenga información sobre cómo crear plantillas de correo electrónico en Marketo Optimizer, personalizar módulos de contenido, guardar un correo electrónico como plantilla o convertir una imagen de diseño en una plantilla de correo electrónico.
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '937'
 ht-degree: 1%
 ---
 
 # Crear plantillas de correo electrónico
 
-Puede crear una plantilla de correo electrónico en [!DNL Adobe Marketo Optimizer] de tres maneras:
+Crear plantillas de correo electrónico en [!DNL Adobe Marketo Optimizer] mediante el espacio de diseño visual. Las plantillas de correo electrónico admiten módulos de contenido preparados y componentes de estructura y contenido individuales.
+
+>[!NOTE]
+>
+>Actualmente solo se admiten plantillas de correo electrónico. Las plantillas de página de aterrizaje no están disponibles en este momento.
+
+Para las plantillas de correo electrónico, puede empezar de tres formas:
 
 * **Crear una nueva plantilla**: cree una plantilla en la biblioteca de plantillas con el espacio de diseño de correo electrónico visual.
 * **Guardar desde un correo electrónico de recorrido**: guarde un correo electrónico que haya creado en un recorrido como una plantilla reutilizable.
 * **Convertir una imagen**: cargue una imagen de diseño y use IA generativa para convertirla en una plantilla de correo electrónico editable.
 
-## Crear una plantilla nueva {#build-new}
+## Crear una nueva plantilla de correo electrónico {#build-new}
 
 1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de contenido]** y seleccione **[!UICONTROL Plantillas]**.
 1. Haga clic en **[!UICONTROL Crear plantilla]**.
 1. Escriba un **[!UICONTROL nombre de plantilla]** y una **[!UICONTROL descripción]** opcional.
-1. Establezca el **[!UICONTROL canal]** (tipo) para la plantilla.
-
-   >[!NOTE]
-   >
-   >En esta versión de Beta, solo se admiten plantillas de correo electrónico.
+1. Establece el **[!UICONTROL canal]** en correo electrónico.
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,11 +48,23 @@ Puede crear una plantilla de correo electrónico en [!DNL Adobe Marketo Optimize
 
 1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al espacio de diseño de contenido.
 
-   Consulte [Creación de correo electrónico](email-authoring.md) para obtener información detallada sobre el diseño de contenido.
+   [Agregue módulos](#add-modules) o use [Creación de correo electrónico](email-authoring.md) para obtener información detallada sobre el diseño de contenido.
 
 1. De forma opcional, habilite **[!UICONTROL Governance]** y configure [el bloqueo de contenido](template-content-governance.md) para restringir qué partes de los autores de plantillas pueden editar al aplicar la plantilla.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Añadir módulos {#add-modules}
+
+En una plantilla de correo electrónico, utilice módulos para empezar desde secciones preparadas y personalizar su contenido y estilo.
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### Añadir estructura y contenido
+
+Para crear secciones desde cero o ampliar un módulo, agregue componentes de estructura y contenido.
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## Guardar un correo electrónico como plantilla {#save-as-template}
 
