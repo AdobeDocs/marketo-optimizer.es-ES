@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 2%
 ---
 # Creación de contenido de correo electrónico
@@ -52,7 +52,7 @@ Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para iniciar
 ## Herramientas de diseño de correo electrónico {#email-design-tools}
 
 * **Barra de herramientas superior:** Guardar, Atrás, Cambiar al editor de código, controles de vista previa.
-* **Panel izquierdo:** estructuras (diseños de columna), contenido (texto, botón, imagen, divisor, social, HTML), fragmentos, plantillas, árbol de navegación (jerarquía de estilo DOM del correo electrónico).
+* **Panel izquierdo:** Módulos (secciones preparadas), Estructuras (diseños de columna), Contenido (texto, botón, imagen, divisor, social, HTML), Fragmentos, Plantillas, Árbol de navegación (jerarquía de estilo DOM del correo electrónico).
 * **Lienzo central:** editor de WYSIWYG con vista previa para escritorio y móvil.
 * **Panel derecho:** Configuración y estilos para el componente seleccionado actualmente, incluidas las propiedades de contenido, el fondo, el borde, el relleno y la personalización.
 
@@ -88,7 +88,7 @@ Utilice el espacio de diseño de contenido visual para definir la estructura y e
 
    ![Crear el cuadro de diálogo de correo electrónico](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [Agregar componentes de estructura y contenido](#structure-content) en el lienzo.
+1. [Agregar módulos](#add-modules) o [componentes de estructura y contenido](#structure-content) en el lienzo.
 
 1. [Revisar y actualizar vínculos](#preview-and-edit-linked-urls).
 
@@ -159,6 +159,10 @@ Esta acción copia el contenido en el espacio de diseño del correo electrónico
 ![Elija una plantilla proporcionada por Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
+
+## Añadir módulos {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Añadir estructura y contenido {#structure-content}
 
