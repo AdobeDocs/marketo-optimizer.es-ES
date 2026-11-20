@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: b41193169434abe23589cde8e73bf6c9016ec04d
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1404'
 ht-degree: 1%
 ---
 
@@ -141,7 +141,9 @@ La columna **[!UICONTROL Ponderación]** muestra el número usado en la puntuaci
 
 1. **Frecuencia**: la cantidad de veces que un posible cliente ha interactuado con ese contenido, teniendo en cuenta el promedio de los compromisos de una persona.
 
-Formalmente, por participación: `activity weight × content relevance`, se promedia en una **puntuación diaria** con un declive exponencial de **7 días** aplicado de modo que la actividad reciente domina, luego el mínimo-máximo se normaliza en 0 a 1 en la población actual y se agrupa:
+Para [!DNL Marketo Optimizer], el arranque inicial de las puntuaciones por intención se remonta a dos años de actividad de posible cliente.
+
+Formalmente, por participación: el peso de la actividad × la relevancia del contenido, se promedian en una puntuación diaria con una caída exponencial de siete días aplicada de modo que predomina la actividad reciente. El mecanismo de deterioro se ejecuta cada siete días: si un posible cliente no participa en nuevas actividades, su puntuación de intención decae. El resultado es entonces el mínimo-máximo normalizado en 0 a 1 en la población actual y agrupado:
 
 | Puntuación final | Nivel de intención |
 | --- | --- |
