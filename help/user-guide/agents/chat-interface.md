@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
+source-git-commit: 418b81a0a39eca0ca7b537c76da972df7eefd09f
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 0%
 ---
 # Interfaz de chat
@@ -35,7 +35,7 @@ El panel de chat está incrustado en [!DNL Adobe Marketo Optimizer]. Es donde in
 Seleccione el icono _Chat_ en el panel de navegación izquierdo para abrir el panel. El encabezado del panel tiene cuatro controles:
 
 | Control | Descripción |
-|---------|-------------|
+| --------- | ------------- |
 | **Nueva conversación** | Iniciar un nuevo chat (borra el hilo actual). |
 | **Historial de conversaciones** | Abra las conversaciones anteriores para poder volver a abrir una. |
 | **Intercambiar paneles** | Mueva el panel de chat al otro lado del espacio de trabajo. |
@@ -53,7 +53,7 @@ Existen dos formas igualmente válidas de realizar el trabajo: nunca es necesari
 **Lenguaje natural** — Escriba su solicitud de la forma en que se lo diría a un compañero:
 
 * _&quot;Crear un recorrido de bienvenida para nuevos registros de prueba.&quot;_
-* _&quot;¿Por qué john@acme.com no entró en este recorrido?&quot;_
+* _&quot;¿Por qué `john@acme.com` no entró a este recorrido?&quot;_
 * _&quot;Comparar mis listas &#39;Asistentes al seminario web del tercer trimestre&#39; y &#39;Cuentas empresariales&#39;.&quot;_
 
 El agente adapta la redacción a la aptitud correcta entre bastidores y ejecuta el flujo de trabajo adecuado.
@@ -69,7 +69,7 @@ Use **/** para desplazarse por las entradas, **Escriba** o **Tabulación** para 
 Las entradas de menú se agrupan en secciones etiquetadas:
 
 | Sección | Contiene |
-|---------|----------|
+| --------- | ---------- |
 | **Investigar** | Búsquedas de diagnóstico y solo lectura (por ejemplo, investigación de posibles clientes, consultas por intención). |
 | **Validar** | Flujos de trabajo de control de calidad y auditoría. |
 | **Compilación** | Flujos de trabajo de creación (programas, recorridos, listas, puntuación). |
