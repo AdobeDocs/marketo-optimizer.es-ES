@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de Marketo Optimizer
 user-guide-description: Obtenga información sobre Adobe Marketo Optimizer y cómo puede utilizarlo para ejecutar una participación coordinada de marketing y ventas con contenido personalizado con tecnología de IA para posibles clientes y cuentas B2B.
-source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
+source-git-commit: 418b81a0a39eca0ca7b537c76da972df7eefd09f
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 41%
+source-wordcount: '271'
+ht-degree: 40%
 ---
 
 # Guía del usuario de Marketo Optimizer {#user}
@@ -19,8 +19,9 @@ ht-degree: 41%
   + [Administración de usuarios](./start/user-management.md)
   + [Entregabilidad del correo electrónico](./start/email-deliverability.md)
 + [Página de inicio](./home-insights/home-page.md)
-+ Funcionalidades del compañero {#coworker}
-  + [Interfaz de chat](./agents/chat-interface.md)
++ CX Coworker en Marketo Optimizer {#coworker}
+  + [Información general](./agents/coworker-overview.md)
+  + [Panel de chat](./agents/chat-interface.md)
   + [Habilidades](./agents/skills.md)
   + [Crear programa a partir de información breve](./agents/program-from-brief.md)
   + [Creación de audiencias para programas](./agents/audience-creation.md)
